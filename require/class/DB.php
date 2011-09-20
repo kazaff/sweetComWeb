@@ -17,7 +17,7 @@ class DB{
 			$this->handle=$handle;
 		}
 	}
-	
+
 	//数据库连接
 	public function connect($dbhost, $dbuser, $dbpw, $dbname, $pconnect = 0,$charset='utf8') {
 		if( $pconnect == 0 ) {
