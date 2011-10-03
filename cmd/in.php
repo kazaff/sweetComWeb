@@ -26,13 +26,12 @@ if (!empty($_POST)){
 			//验证登录信息
 			require_once Root_Path.'/require/class/DB.php';
 			$db = new DB();
-			$uinfoArr = $db->get_one("select sid,name,type from staff where account='$_POST[username]' and password='$_POST[psw]' and isAllow=1 limit 1");
+			$uinfoArr = $db->get_one("select uid,name from user where account='$_POST[username]' and password='$_POST[psw]' and isAllow=1 limit 1");
 			if(empty($uinfoArr)){
 				$message = '您的账号或密码有误，也可能账号已被禁用！';
 			}else{
-				$_SESSION['userid'] = $uinfoArr['sid'];
+				$_SESSION['userid'] = $uinfoArr['uid'];
 				$_SESSION['username'] = $uinfoArr['name'];
-				$_SESSION['usertype'] = $uinfoArr['type'];
 				header('Location: homepage.php');
 			}
 		}

@@ -6,7 +6,7 @@
 require_once Root_Path.'/../../dbInfo.php';
 
 //请替换成自己的数据库名称
-$_db['dbName']	= 'clientManager';
+$_db['dbName']	= 'sweetComWeb';
 
 //下面的参数如不设置，一律采用默认值
 //$_db['host']		= 'localhost';
