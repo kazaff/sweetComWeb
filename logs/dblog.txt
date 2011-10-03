@@ -1,0 +1,490 @@
+2011-10-03 17:32:20 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-03 17:32:20 Query Error: select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+Table 'clientmanager.user' doesn't exist
+2011-10-03 17:32:20 释放结果集
+2011-10-03 17:32:20 完成整个查询任务,所用时间为0.00782799720764
+2011-10-03 17:32:57 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-03 17:32:57 获取一条记录 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-03 17:32:57 释放结果集
+2011-10-03 17:32:57 完成整个查询任务,所用时间为0.0048680305481
+2011-10-03 17:38:49 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-03 17:38:49 获取一条记录 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-03 17:38:49 释放结果集
+2011-10-03 17:38:49 完成整个查询任务,所用时间为0.0174798965454
+2011-10-03 17:39:40 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-03 17:39:40 获取一条记录 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-03 17:39:40 释放结果集
+2011-10-03 17:39:40 完成整个查询任务,所用时间为0.00530791282654
+2011-10-03 17:42:51 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-03 17:42:51 获取一条记录 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-03 17:42:51 释放结果集
+2011-10-03 17:42:51 完成整个查询任务,所用时间为0.0451099872589
+2011-10-03 18:03:40 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:03:40 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:03:40 释放结果集
+2011-10-03 18:03:40 完成整个查询任务,所用时间为0.0159900188446
+2011-10-03 18:12:11 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:12:11 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:12:11 释放结果集
+2011-10-03 18:12:11 完成整个查询任务,所用时间为0.00166010856628
+2011-10-03 18:15:37 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:15:37 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:15:37 释放结果集
+2011-10-03 18:15:37 完成整个查询任务,所用时间为0.00160598754883
+2011-10-03 18:15:53 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:15:53 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:15:53 释放结果集
+2011-10-03 18:15:53 完成整个查询任务,所用时间为0.00164103507996
+2011-10-03 18:16:06 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:16:06 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:16:06 释放结果集
+2011-10-03 18:16:06 完成整个查询任务,所用时间为0.00152111053467
+2011-10-03 18:17:51 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:17:51 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:17:51 释放结果集
+2011-10-03 18:17:51 完成整个查询任务,所用时间为0.0863690376282
+2011-10-03 18:18:27 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:18:27 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:18:27 释放结果集
+2011-10-03 18:18:27 完成整个查询任务,所用时间为0.00186014175415
+2011-10-03 18:18:59 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:18:59 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:18:59 释放结果集
+2011-10-03 18:18:59 完成整个查询任务,所用时间为0.00553703308105
+2011-10-03 18:20:34 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:20:34 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:20:34 释放结果集
+2011-10-03 18:20:34 完成整个查询任务,所用时间为0.00166511535645
+2011-10-03 18:20:38 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:20:38 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:20:38 释放结果集
+2011-10-03 18:20:38 完成整个查询任务,所用时间为0.00341510772705
+2011-10-03 18:21:10 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:10 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:10 释放结果集
+2011-10-03 18:21:10 完成整个查询任务,所用时间为0.00158190727234
+2011-10-03 18:21:16 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:16 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:16 释放结果集
+2011-10-03 18:21:16 完成整个查询任务,所用时间为0.00225186347961
+2011-10-03 18:21:16 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:16 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:16 释放结果集
+2011-10-03 18:21:16 完成整个查询任务,所用时间为0.00272512435913
+2011-10-03 18:21:24 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:24 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:24 释放结果集
+2011-10-03 18:21:24 完成整个查询任务,所用时间为0.00167012214661
+2011-10-03 18:21:25 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:25 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:25 释放结果集
+2011-10-03 18:21:25 完成整个查询任务,所用时间为0.0043158531189
+2011-10-03 18:21:25 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:25 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:21:25 释放结果集
+2011-10-03 18:21:25 完成整个查询任务,所用时间为0.00214719772339
+2011-10-03 18:23:44 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:23:44 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:23:44 释放结果集
+2011-10-03 18:23:44 完成整个查询任务,所用时间为0.00168299674988
+2011-10-03 18:24:06 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:24:06 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:24:06 释放结果集
+2011-10-03 18:24:06 完成整个查询任务,所用时间为0.00161099433899
+2011-10-03 18:36:52 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:52 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:52 释放结果集
+2011-10-03 18:36:52 完成整个查询任务,所用时间为0.00197219848633
+2011-10-03 18:36:53 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:53 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:53 释放结果集
+2011-10-03 18:36:53 完成整个查询任务,所用时间为0.0015721321106
+2011-10-03 18:36:55 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:55 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:55 释放结果集
+2011-10-03 18:36:55 完成整个查询任务,所用时间为0.0133140087128
+2011-10-03 18:36:55 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:55 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:55 释放结果集
+2011-10-03 18:36:55 完成整个查询任务,所用时间为0.00172305107117
+2011-10-03 18:36:57 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:57 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:57 释放结果集
+2011-10-03 18:36:57 完成整个查询任务,所用时间为0.0017261505127
+2011-10-03 18:36:58 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:58 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:36:58 释放结果集
+2011-10-03 18:36:58 完成整个查询任务,所用时间为0.0025041103363
+2011-10-03 18:37:45 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:37:45 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:37:45 释放结果集
+2011-10-03 18:37:45 完成整个查询任务,所用时间为0.00168991088867
+2011-10-03 18:38:00 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:00 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:00 释放结果集
+2011-10-03 18:38:00 完成整个查询任务,所用时间为0.0023558139801
+2011-10-03 18:38:03 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:03 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:03 释放结果集
+2011-10-03 18:38:03 完成整个查询任务,所用时间为0.00237607955933
+2011-10-03 18:38:05 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:05 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:05 释放结果集
+2011-10-03 18:38:05 完成整个查询任务,所用时间为0.00192213058472
+2011-10-03 18:38:05 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:05 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:05 释放结果集
+2011-10-03 18:38:05 完成整个查询任务,所用时间为0.00193095207214
+2011-10-03 18:38:06 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:06 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:06 释放结果集
+2011-10-03 18:38:06 完成整个查询任务,所用时间为0.00433492660522
+2011-10-03 18:38:06 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:06 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:06 释放结果集
+2011-10-03 18:38:06 完成整个查询任务,所用时间为0.00207614898682
+2011-10-03 18:38:06 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:06 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:06 释放结果集
+2011-10-03 18:38:06 完成整个查询任务,所用时间为0.00213193893433
+2011-10-03 18:38:12 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:12 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:38:12 释放结果集
+2011-10-03 18:38:12 完成整个查询任务,所用时间为0.0026159286499
+2011-10-03 18:44:47 查询 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-03 18:44:47 获取一条记录 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-03 18:44:47 插入 insert into category(`pid`,`path`,`name`) values('1','0,1,','国际')
+2011-10-03 18:44:47 查询 insert into category(`pid`,`path`,`name`) values('1','0,1,','国际')
+2011-10-03 18:44:47 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:44:47 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:44:47 释放结果集
+2011-10-03 18:44:47 完成整个查询任务,所用时间为0.0302021503448
+2011-10-03 18:50:42 查询 SELECT *,CONCAT(path,'-',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:50:42 获取全部记录 SELECT *,CONCAT(path,'-',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:50:42 释放结果集
+2011-10-03 18:50:42 完成整个查询任务,所用时间为0.101796865463
+2011-10-03 18:50:47 查询 SELECT *,CONCAT(path,'-',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:50:47 获取全部记录 SELECT *,CONCAT(path,'-',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:50:47 释放结果集
+2011-10-03 18:50:47 完成整个查询任务,所用时间为0.00235104560852
+2011-10-03 18:53:00 查询 SELECT *,CONCAT(path,'-',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:53:00 获取全部记录 SELECT *,CONCAT(path,'-',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:53:00 释放结果集
+2011-10-03 18:53:00 完成整个查询任务,所用时间为0.00246000289917
+2011-10-03 18:53:32 查询 SELECT *,CONCAT(path,',',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:53:32 获取全部记录 SELECT *,CONCAT(path,',',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:53:32 释放结果集
+2011-10-03 18:53:32 完成整个查询任务,所用时间为0.00217008590698
+2011-10-03 18:53:57 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:53:57 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:53:57 释放结果集
+2011-10-03 18:53:57 完成整个查询任务,所用时间为0.00260496139526
+2011-10-03 18:55:29 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:55:29 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:55:29 释放结果集
+2011-10-03 18:55:29 完成整个查询任务,所用时间为0.0379710197449
+2011-10-03 18:56:27 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:56:27 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:56:27 释放结果集
+2011-10-03 18:56:27 完成整个查询任务,所用时间为0.0401549339294
+2011-10-03 18:57:14 查询 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-03 18:57:14 获取一条记录 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-03 18:57:14 插入 insert into category(`pid`,`path`,`name`) values('1','0,1,','国内')
+2011-10-03 18:57:14 查询 insert into category(`pid`,`path`,`name`) values('1','0,1,','国内')
+2011-10-03 18:57:14 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:57:14 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 18:57:14 释放结果集
+2011-10-03 18:57:14 完成整个查询任务,所用时间为0.0587480068207
+2011-10-03 18:57:52 查询 SELECT * FROM category ORDER BY path
+2011-10-03 18:57:52 获取全部记录 SELECT * FROM category ORDER BY path
+2011-10-03 18:57:52 释放结果集
+2011-10-03 18:57:52 完成整个查询任务,所用时间为0.00253510475159
+2011-10-03 19:19:06 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:19:06 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:19:06 释放结果集
+2011-10-03 19:19:06 完成整个查询任务,所用时间为0.0218620300293
+2011-10-03 19:19:44 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:19:44 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:19:44 释放结果集
+2011-10-03 19:19:44 完成整个查询任务,所用时间为0.00177311897278
+2011-10-03 19:20:06 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:20:06 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:20:06 释放结果集
+2011-10-03 19:20:06 完成整个查询任务,所用时间为0.00211405754089
+2011-10-03 19:21:10 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:21:10 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:21:10 释放结果集
+2011-10-03 19:21:10 完成整个查询任务,所用时间为0.00167798995972
+2011-10-03 19:30:09 释放结果集
+2011-10-03 19:30:09 完成整个查询任务,所用时间为0.365036964417
+2011-10-03 19:30:12 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:30:12 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:30:12 释放结果集
+2011-10-03 19:30:12 完成整个查询任务,所用时间为0.00193810462952
+2011-10-03 19:32:24 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:32:24 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:32:24 释放结果集
+2011-10-03 19:32:24 完成整个查询任务,所用时间为0.00220799446106
+2011-10-03 19:32:37 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:32:37 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:32:37 释放结果集
+2011-10-03 19:32:37 完成整个查询任务,所用时间为0.0422508716583
+2011-10-03 19:32:56 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:32:56 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:32:56 释放结果集
+2011-10-03 19:32:56 完成整个查询任务,所用时间为0.029247045517
+2011-10-03 19:33:00 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:00 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:00 释放结果集
+2011-10-03 19:33:00 完成整个查询任务,所用时间为0.00186514854431
+2011-10-03 19:33:11 更新 update category set `name` = '国际1',`name` = '国际1' where 1=1 and cid='6'
+2011-10-03 19:33:11 查询 update category set `name` = '国际1',`name` = '国际1' where 1=1 and cid='6'
+2011-10-03 19:33:11 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:11 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:11 释放结果集
+2011-10-03 19:33:11 完成整个查询任务,所用时间为0.00281715393066
+2011-10-03 19:33:14 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:33:14 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:33:14 释放结果集
+2011-10-03 19:33:14 完成整个查询任务,所用时间为0.00551199913025
+2011-10-03 19:33:16 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:16 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:16 释放结果集
+2011-10-03 19:33:16 完成整个查询任务,所用时间为0.00301003456116
+2011-10-03 19:33:34 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:34 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:34 释放结果集
+2011-10-03 19:33:34 完成整个查询任务,所用时间为0.00257992744446
+2011-10-03 19:33:37 更新 update category set `name` = '国际',`name` = '国际' where 1=1 and cid='6'
+2011-10-03 19:33:37 查询 update category set `name` = '国际',`name` = '国际' where 1=1 and cid='6'
+2011-10-03 19:33:37 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:37 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:37 释放结果集
+2011-10-03 19:33:37 完成整个查询任务,所用时间为0.0082368850708
+2011-10-03 19:33:51 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:51 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:33:51 释放结果集
+2011-10-03 19:33:51 完成整个查询任务,所用时间为0.00614714622498
+2011-10-03 19:33:59 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:33:59 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:33:59 释放结果集
+2011-10-03 19:33:59 完成整个查询任务,所用时间为0.00337505340576
+2011-10-03 19:34:44 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:34:44 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:34:44 释放结果集
+2011-10-03 19:34:44 完成整个查询任务,所用时间为0.00320386886597
+2011-10-03 19:34:44 更新 update category set `name` = '国际',`name` = '国际' where 1=1 and cid='6'
+2011-10-03 19:34:44 查询 update category set `name` = '国际',`name` = '国际' where 1=1 and cid='6'
+2011-10-03 19:34:44 查询 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:34:44 获取一条记录 SELECT name FROM category WHERE cid='6' LIMIT 1
+2011-10-03 19:34:44 释放结果集
+2011-10-03 19:34:44 完成整个查询任务,所用时间为0.00231003761292
+2011-10-03 19:34:44 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:34:44 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath
+2011-10-03 19:34:44 释放结果集
+2011-10-03 19:34:44 完成整个查询任务,所用时间为0.00470018386841
+2011-10-03 20:01:44 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,order
+2011-10-03 20:01:44 Query Error: SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,order
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1
+2011-10-03 20:01:44 释放结果集
+2011-10-03 20:01:44 完成整个查询任务,所用时间为0.0285260677338
+2011-10-03 20:02:01 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:02:01 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:02:01 释放结果集
+2011-10-03 20:02:01 完成整个查询任务,所用时间为0.00177502632141
+2011-10-03 20:02:21 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:02:21 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:02:21 释放结果集
+2011-10-03 20:02:21 完成整个查询任务,所用时间为0.00181794166565
+2011-10-03 20:06:20 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:06:20 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:06:20 释放结果集
+2011-10-03 20:06:20 完成整个查询任务,所用时间为0.0363039970398
+2011-10-03 20:13:26 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:13:26 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:13:26 释放结果集
+2011-10-03 20:13:26 完成整个查询任务,所用时间为0.0140960216522
+2011-10-03 20:50:12 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='7'
+2011-10-03 20:50:12 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='7'
+2011-10-03 20:50:12 查询 DELETE FROM category WHERE cid='7'
+2011-10-03 20:50:12 获取一条记录 DELETE FROM category WHERE cid='7'
+2011-10-03 20:50:12 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:50:12 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:50:12 释放结果集
+2011-10-03 20:50:12 完成整个查询任务,所用时间为0.102302074432
+2011-10-03 20:51:08 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='6'
+2011-10-03 20:51:08 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='6'
+2011-10-03 20:51:08 删除 delete from category where 1=1 and cid='6'
+2011-10-03 20:51:08 查询 delete from category where 1=1 and cid='6'
+2011-10-03 20:51:08 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:08 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:08 释放结果集
+2011-10-03 20:51:08 完成整个查询任务,所用时间为0.00232815742493
+2011-10-03 20:51:12 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:12 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:12 释放结果集
+2011-10-03 20:51:12 完成整个查询任务,所用时间为0.00397777557373
+2011-10-03 20:51:19 查询 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-03 20:51:19 获取一条记录 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-03 20:51:19 插入 insert into category(`pid`,`path`,`name`) values('1','0,1,','国内')
+2011-10-03 20:51:19 查询 insert into category(`pid`,`path`,`name`) values('1','0,1,','国内')
+2011-10-03 20:51:19 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:19 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:19 释放结果集
+2011-10-03 20:51:19 完成整个查询任务,所用时间为0.00622892379761
+2011-10-03 20:51:27 查询 SELECT cid,path FROM category WHERE cid='8' LIMIT 1
+2011-10-03 20:51:27 获取一条记录 SELECT cid,path FROM category WHERE cid='8' LIMIT 1
+2011-10-03 20:51:27 插入 insert into category(`pid`,`path`,`name`) values('8','0,1,8,','娱乐')
+2011-10-03 20:51:27 查询 insert into category(`pid`,`path`,`name`) values('8','0,1,8,','娱乐')
+2011-10-03 20:51:27 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:27 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:27 释放结果集
+2011-10-03 20:51:27 完成整个查询任务,所用时间为0.00848603248596
+2011-10-03 20:51:35 查询 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-03 20:51:35 获取一条记录 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-03 20:51:35 插入 insert into category(`pid`,`path`,`name`) values('1','0,1,','国际')
+2011-10-03 20:51:35 查询 insert into category(`pid`,`path`,`name`) values('1','0,1,','国际')
+2011-10-03 20:51:35 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:35 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:35 释放结果集
+2011-10-03 20:51:35 完成整个查询任务,所用时间为0.0047619342804
+2011-10-03 20:51:38 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:38 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:51:38 释放结果集
+2011-10-03 20:51:38 完成整个查询任务,所用时间为0.00527191162109
+2011-10-03 20:52:09 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:09 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:09 释放结果集
+2011-10-03 20:52:09 完成整个查询任务,所用时间为0.00224900245667
+2011-10-03 20:52:11 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:11 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:11 释放结果集
+2011-10-03 20:52:11 完成整个查询任务,所用时间为0.00741410255432
+2011-10-03 20:52:19 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='8'
+2011-10-03 20:52:19 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='8'
+2011-10-03 20:52:19 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:19 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:19 释放结果集
+2011-10-03 20:52:19 完成整个查询任务,所用时间为0.0152220726013
+2011-10-03 20:52:21 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='8'
+2011-10-03 20:52:21 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='8'
+2011-10-03 20:52:21 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:21 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:21 释放结果集
+2011-10-03 20:52:21 完成整个查询任务,所用时间为0.00507807731628
+2011-10-03 20:52:24 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='10'
+2011-10-03 20:52:24 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='10'
+2011-10-03 20:52:24 删除 delete from category where 1=1 and cid='10'
+2011-10-03 20:52:24 查询 delete from category where 1=1 and cid='10'
+2011-10-03 20:52:24 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:24 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:24 释放结果集
+2011-10-03 20:52:24 完成整个查询任务,所用时间为0.00874805450439
+2011-10-03 20:52:25 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='9'
+2011-10-03 20:52:25 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='9'
+2011-10-03 20:52:25 删除 delete from category where 1=1 and cid='9'
+2011-10-03 20:52:25 查询 delete from category where 1=1 and cid='9'
+2011-10-03 20:52:25 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:25 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:25 释放结果集
+2011-10-03 20:52:25 完成整个查询任务,所用时间为0.00533390045166
+2011-10-03 20:52:27 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='8'
+2011-10-03 20:52:27 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='8'
+2011-10-03 20:52:27 删除 delete from category where 1=1 and cid='8'
+2011-10-03 20:52:27 查询 delete from category where 1=1 and cid='8'
+2011-10-03 20:52:27 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:27 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:52:27 释放结果集
+2011-10-03 20:52:27 完成整个查询任务,所用时间为0.0109469890594
+2011-10-03 20:54:11 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='8'
+2011-10-03 20:54:11 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='8'
+2011-10-03 20:54:11 删除 delete from category where 1=1 and cid='8'
+2011-10-03 20:54:11 查询 delete from category where 1=1 and cid='8'
+2011-10-03 20:54:11 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:54:11 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 20:54:11 释放结果集
+2011-10-03 20:54:11 完成整个查询任务,所用时间为0.00306606292725
+2011-10-03 21:12:51 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:12:51 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:12:51 释放结果集
+2011-10-03 21:12:51 完成整个查询任务,所用时间为0.0217819213867
+2011-10-03 21:12:55 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:12:55 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:12:55 释放结果集
+2011-10-03 21:12:55 完成整个查询任务,所用时间为0.00918412208557
+2011-10-03 21:12:55 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:12:55 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:12:55 释放结果集
+2011-10-03 21:12:55 完成整个查询任务,所用时间为0.00301289558411
+2011-10-03 21:12:55 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:12:55 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:12:55 释放结果集
+2011-10-03 21:12:55 完成整个查询任务,所用时间为0.0103750228882
+2011-10-03 21:12:55 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:12:55 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:12:55 释放结果集
+2011-10-03 21:12:55 完成整个查询任务,所用时间为0.00247716903687
+2011-10-03 21:13:43 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:13:43 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:13:43 释放结果集
+2011-10-03 21:13:43 完成整个查询任务,所用时间为0.00273489952087
+2011-10-03 21:13:58 查询 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-03 21:13:58 获取一条记录 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-03 21:13:58 插入 insert into category(`pid`,`path`,`name`) values('1','0,1,','国内')
+2011-10-03 21:13:58 查询 insert into category(`pid`,`path`,`name`) values('1','0,1,','国内')
+2011-10-03 21:13:58 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:13:58 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:13:58 释放结果集
+2011-10-03 21:13:58 完成整个查询任务,所用时间为0.0263738632202
+2011-10-03 21:14:01 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:14:01 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:14:01 释放结果集
+2011-10-03 21:14:01 完成整个查询任务,所用时间为0.00215697288513
+2011-10-03 21:14:05 查询 SELECT name FROM category WHERE cid='11' LIMIT 1
+2011-10-03 21:14:05 获取一条记录 SELECT name FROM category WHERE cid='11' LIMIT 1
+2011-10-03 21:14:05 释放结果集
+2011-10-03 21:14:05 完成整个查询任务,所用时间为0.00684499740601
+2011-10-03 21:15:18 查询 SELECT name,`order` FROM category WHERE cid='11' LIMIT 1
+2011-10-03 21:15:18 获取一条记录 SELECT name,`order` FROM category WHERE cid='11' LIMIT 1
+2011-10-03 21:15:18 释放结果集
+2011-10-03 21:15:18 完成整个查询任务,所用时间为0.0356409549713
+2011-10-03 21:15:22 更新 update category set `name` = '国内',`order` = '1',`name` = '国内',`order` = '1' where 1=1 and cid='11'
+2011-10-03 21:15:22 查询 update category set `name` = '国内',`order` = '1',`name` = '国内',`order` = '1' where 1=1 and cid='11'
+2011-10-03 21:15:22 查询 SELECT name,`order` FROM category WHERE cid='11' LIMIT 1
+2011-10-03 21:15:22 获取一条记录 SELECT name,`order` FROM category WHERE cid='11' LIMIT 1
+2011-10-03 21:15:22 释放结果集
+2011-10-03 21:15:22 完成整个查询任务,所用时间为0.00223708152771
+2011-10-03 21:15:22 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:15:22 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:15:22 释放结果集
+2011-10-03 21:15:22 完成整个查询任务,所用时间为0.0258150100708
+2011-10-03 21:15:32 查询 SELECT name,`order` FROM category WHERE cid='11' LIMIT 1
+2011-10-03 21:15:32 获取一条记录 SELECT name,`order` FROM category WHERE cid='11' LIMIT 1
+2011-10-03 21:15:32 释放结果集
+2011-10-03 21:15:32 完成整个查询任务,所用时间为0.00280213356018
+2011-10-03 21:15:34 更新 update category set `name` = '国内',`order` = '2',`name` = '国内',`order` = '2' where 1=1 and cid='11'
+2011-10-03 21:15:34 查询 update category set `name` = '国内',`order` = '2',`name` = '国内',`order` = '2' where 1=1 and cid='11'
+2011-10-03 21:15:34 查询 SELECT name,`order` FROM category WHERE cid='11' LIMIT 1
+2011-10-03 21:15:34 获取一条记录 SELECT name,`order` FROM category WHERE cid='11' LIMIT 1
+2011-10-03 21:15:34 释放结果集
+2011-10-03 21:15:34 完成整个查询任务,所用时间为0.00206184387207
+2011-10-03 21:15:34 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:15:34 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:15:34 释放结果集
+2011-10-03 21:15:34 完成整个查询任务,所用时间为0.0132019519806
+2011-10-03 21:15:48 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='11'
+2011-10-03 21:15:48 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='11'
+2011-10-03 21:15:48 删除 delete from category where 1=1 and cid='11'
+2011-10-03 21:15:48 查询 delete from category where 1=1 and cid='11'
+2011-10-03 21:15:48 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:15:48 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:15:48 释放结果集
+2011-10-03 21:15:48 完成整个查询任务,所用时间为0.00692200660706
+2011-10-03 21:16:03 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:16:03 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:16:03 释放结果集
+2011-10-03 21:16:03 完成整个查询任务,所用时间为0.00267291069031
+2011-10-03 21:16:05 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:16:05 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:16:05 释放结果集
+2011-10-03 21:16:05 完成整个查询任务,所用时间为0.00357007980347
