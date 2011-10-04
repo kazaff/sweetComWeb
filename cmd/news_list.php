@@ -8,8 +8,16 @@ $db = new DB();
 $message = '';
 
 //删除类别
-if(isset($_GET['act']) && $_GET['act'] == 'del'){
-
+if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['nid'] > 0){
+	$newInfo = $db->get_one("SELECT img,file FROM news WHERE nid='$_GET[nid]' LIMIT 1");	
+	if($db->delete('news',"nid='$_GET[nid]'")){
+		//删除图片和附件资源
+		@unlink(Root_Path.'/resource/news/'.$newInfo['img']);
+		@unlink(Root_Path.'/resource/news/'.$newInfo['file']);
+		$message .= '删除成功！';
+	}else{
+		$message .= '删除失败！';
+	}
 }
 
 //获取新闻列表
