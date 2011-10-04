@@ -314,3 +314,686 @@ Query was empty
 2011-10-04 17:26:00 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
 2011-10-04 17:26:00 释放结果集
 2011-10-04 17:26:00 完成整个查询任务,所用时间为0.00702500343323
+2011-10-04 21:22:01 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:22:01 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:22:01 释放结果集
+2011-10-04 21:22:01 完成整个查询任务,所用时间为0.419209003448
+2011-10-04 21:23:18 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:18 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:18 释放结果集
+2011-10-04 21:23:18 完成整个查询任务,所用时间为0.0983369350433
+2011-10-04 21:23:19 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:19 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:19 释放结果集
+2011-10-04 21:23:19 完成整个查询任务,所用时间为0.0514328479767
+2011-10-04 21:23:21 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:21 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:21 释放结果集
+2011-10-04 21:23:21 完成整个查询任务,所用时间为0.00406312942505
+2011-10-04 21:23:23 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:23 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:23 释放结果集
+2011-10-04 21:23:23 完成整个查询任务,所用时间为0.0181570053101
+2011-10-04 21:23:24 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:24 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:24 释放结果集
+2011-10-04 21:23:24 完成整个查询任务,所用时间为0.0100109577179
+2011-10-04 21:23:25 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:25 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:25 释放结果集
+2011-10-04 21:23:25 完成整个查询任务,所用时间为0.00319504737854
+2011-10-04 21:23:25 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:25 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:25 释放结果集
+2011-10-04 21:23:25 完成整个查询任务,所用时间为0.0334160327911
+2011-10-04 21:23:26 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:26 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:26 释放结果集
+2011-10-04 21:23:26 完成整个查询任务,所用时间为0.030189037323
+2011-10-04 21:23:28 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:28 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:28 释放结果集
+2011-10-04 21:23:28 完成整个查询任务,所用时间为0.0139820575714
+2011-10-04 21:23:28 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:28 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:28 释放结果集
+2011-10-04 21:23:28 完成整个查询任务,所用时间为0.01722407341
+2011-10-04 21:23:29 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:29 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:29 释放结果集
+2011-10-04 21:23:29 完成整个查询任务,所用时间为0.0157091617584
+2011-10-04 21:23:30 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:30 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:30 释放结果集
+2011-10-04 21:23:30 完成整个查询任务,所用时间为0.0138211250305
+2011-10-04 21:23:30 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:30 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:30 释放结果集
+2011-10-04 21:23:30 完成整个查询任务,所用时间为0.0274300575256
+2011-10-04 21:23:31 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:31 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:31 释放结果集
+2011-10-04 21:23:31 完成整个查询任务,所用时间为0.00802803039551
+2011-10-04 21:23:32 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:32 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:32 释放结果集
+2011-10-04 21:23:32 完成整个查询任务,所用时间为0.00464391708374
+2011-10-04 21:23:32 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:32 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:32 释放结果集
+2011-10-04 21:23:32 完成整个查询任务,所用时间为0.00884199142456
+2011-10-04 21:23:33 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:33 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:33 释放结果集
+2011-10-04 21:23:33 完成整个查询任务,所用时间为0.00748419761658
+2011-10-04 21:23:37 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:37 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:37 释放结果集
+2011-10-04 21:23:37 完成整个查询任务,所用时间为0.0133450031281
+2011-10-04 21:23:40 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:40 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:40 释放结果集
+2011-10-04 21:23:40 完成整个查询任务,所用时间为0.0155050754547
+2011-10-04 21:23:41 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:41 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:41 释放结果集
+2011-10-04 21:23:41 完成整个查询任务,所用时间为0.00392079353333
+2011-10-04 21:23:42 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:42 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:42 释放结果集
+2011-10-04 21:23:42 完成整个查询任务,所用时间为0.010066986084
+2011-10-04 21:23:42 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:42 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:42 释放结果集
+2011-10-04 21:23:42 完成整个查询任务,所用时间为0.0069100856781
+2011-10-04 21:23:43 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:43 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:43 释放结果集
+2011-10-04 21:23:43 完成整个查询任务,所用时间为0.0189728736877
+2011-10-04 21:23:55 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:55 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:55 释放结果集
+2011-10-04 21:23:55 完成整个查询任务,所用时间为0.0386440753937
+2011-10-04 21:23:57 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:57 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:57 释放结果集
+2011-10-04 21:23:57 完成整个查询任务,所用时间为0.00756597518921
+2011-10-04 21:23:58 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:58 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:23:58 释放结果集
+2011-10-04 21:23:58 完成整个查询任务,所用时间为0.00986099243164
+2011-10-04 21:24:00 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:00 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:00 释放结果集
+2011-10-04 21:24:00 完成整个查询任务,所用时间为0.01185297966
+2011-10-04 21:24:03 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:03 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:03 释放结果集
+2011-10-04 21:24:03 完成整个查询任务,所用时间为0.00545692443848
+2011-10-04 21:24:05 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:05 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:05 释放结果集
+2011-10-04 21:24:05 完成整个查询任务,所用时间为0.0196671485901
+2011-10-04 21:24:12 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:12 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:12 释放结果集
+2011-10-04 21:24:12 完成整个查询任务,所用时间为0.00422787666321
+2011-10-04 21:24:13 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:13 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:13 释放结果集
+2011-10-04 21:24:13 完成整个查询任务,所用时间为0.0107989311218
+2011-10-04 21:24:14 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:14 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 21:24:14 释放结果集
+2011-10-04 21:24:14 完成整个查询任务,所用时间为0.0237538814545
+2011-10-04 21:25:18 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,15
+
+2011-10-04 21:25:18 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,15
+
+2011-10-04 21:25:18 释放结果集
+2011-10-04 21:25:18 完成整个查询任务,所用时间为0.129888057709
+2011-10-04 21:25:19 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 15,15
+
+2011-10-04 21:25:19 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 15,15
+
+2011-10-04 21:25:19 释放结果集
+2011-10-04 21:25:19 完成整个查询任务,所用时间为0.00443291664124
+2011-10-04 21:25:20 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 30,15
+
+2011-10-04 21:25:20 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 30,15
+
+2011-10-04 21:25:20 释放结果集
+2011-10-04 21:25:20 完成整个查询任务,所用时间为0.00499510765076
+2011-10-04 21:25:21 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 45,15
+
+2011-10-04 21:25:21 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 45,15
+
+2011-10-04 21:25:21 释放结果集
+2011-10-04 21:25:21 完成整个查询任务,所用时间为0.00625419616699
+2011-10-04 21:27:58 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,15
+
+2011-10-04 21:27:58 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,15
+
+2011-10-04 21:27:58 释放结果集
+2011-10-04 21:27:58 完成整个查询任务,所用时间为0.0362019538879
+2011-10-04 21:27:59 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 15,15
+
+2011-10-04 21:27:59 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 15,15
+
+2011-10-04 21:27:59 释放结果集
+2011-10-04 21:27:59 完成整个查询任务,所用时间为0.00737380981445
+2011-10-04 21:28:00 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 30,15
+
+2011-10-04 21:28:00 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 30,15
+
+2011-10-04 21:28:00 释放结果集
+2011-10-04 21:28:00 完成整个查询任务,所用时间为0.00514698028564
+2011-10-04 21:28:15 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 15,15
+
+2011-10-04 21:28:15 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 15,15
+
+2011-10-04 21:28:15 释放结果集
+2011-10-04 21:28:15 完成整个查询任务,所用时间为0.00593590736389
+2011-10-04 21:28:16 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 30,15
+
+2011-10-04 21:28:16 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 30,15
+
+2011-10-04 21:28:16 释放结果集
+2011-10-04 21:28:16 完成整个查询任务,所用时间为0.0144071578979
+2011-10-04 21:28:17 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 45,15
+
+2011-10-04 21:28:17 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 45,15
+
+2011-10-04 21:28:17 释放结果集
+2011-10-04 21:28:17 完成整个查询任务,所用时间为0.00498414039612
+2011-10-04 21:28:34 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 15,15
+
+2011-10-04 21:28:34 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 15,15
+
+2011-10-04 21:28:34 释放结果集
+2011-10-04 21:28:34 完成整个查询任务,所用时间为0.00711894035339
+2011-10-04 21:28:36 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 30,15
+
+2011-10-04 21:28:36 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 30,15
+
+2011-10-04 21:28:36 释放结果集
+2011-10-04 21:28:36 完成整个查询任务,所用时间为0.0156099796295
+2011-10-04 21:28:38 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 15,15
+
+2011-10-04 21:28:38 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 15,15
+
+2011-10-04 21:28:38 释放结果集
+2011-10-04 21:28:38 完成整个查询任务,所用时间为0.0187900066376
+2011-10-04 21:30:48 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:30:48 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:30:48 释放结果集
+2011-10-04 21:30:48 完成整个查询任务,所用时间为0.0471851825714
+2011-10-04 21:30:50 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:30:50 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:30:50 释放结果集
+2011-10-04 21:30:50 完成整个查询任务,所用时间为0.0153789520264
+2011-10-04 21:30:53 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:30:53 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:30:53 释放结果集
+2011-10-04 21:30:53 完成整个查询任务,所用时间为0.0124230384827
+2011-10-04 21:30:56 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:30:56 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:30:56 释放结果集
+2011-10-04 21:30:56 完成整个查询任务,所用时间为0.0077748298645
+2011-10-04 21:30:57 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 6,2
+
+2011-10-04 21:30:57 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 6,2
+
+2011-10-04 21:30:57 释放结果集
+2011-10-04 21:30:57 完成整个查询任务,所用时间为0.0117790699005
+2011-10-04 21:31:00 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:31:00 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:31:00 释放结果集
+2011-10-04 21:31:00 完成整个查询任务,所用时间为0.0172560214996
+2011-10-04 21:31:03 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:31:03 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:31:03 释放结果集
+2011-10-04 21:31:03 完成整个查询任务,所用时间为0.0096800327301
+2011-10-04 21:32:35 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:35 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:35 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:32:35 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:32:35 释放结果集
+2011-10-04 21:32:35 完成整个查询任务,所用时间为0.0982148647308
+2011-10-04 21:32:37 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:37 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:37 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:32:37 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:32:37 释放结果集
+2011-10-04 21:32:37 完成整个查询任务,所用时间为0.012717962265
+2011-10-04 21:32:39 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:39 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:39 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:32:39 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:32:39 释放结果集
+2011-10-04 21:32:39 完成整个查询任务,所用时间为0.010890007019
+2011-10-04 21:32:40 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:40 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:40 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:32:40 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:32:40 释放结果集
+2011-10-04 21:32:40 完成整个查询任务,所用时间为0.00879502296448
+2011-10-04 21:32:52 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:52 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:52 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:32:52 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:32:52 释放结果集
+2011-10-04 21:32:52 完成整个查询任务,所用时间为0.0130248069763
+2011-10-04 21:32:56 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:56 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:32:56 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:32:56 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:32:56 释放结果集
+2011-10-04 21:32:56 完成整个查询任务,所用时间为0.00903797149658
+2011-10-04 21:33:00 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:33:00 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:33:00 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:33:00 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:33:00 释放结果集
+2011-10-04 21:33:00 完成整个查询任务,所用时间为0.0227789878845
+2011-10-04 21:33:06 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:33:06 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:33:06 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:33:06 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:33:06 释放结果集
+2011-10-04 21:33:06 完成整个查询任务,所用时间为0.0090799331665
+2011-10-04 21:33:34 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:33:34 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:33:34 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:33:34 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:33:34 释放结果集
+2011-10-04 21:33:34 完成整个查询任务,所用时间为0.0866429805756
+2011-10-04 21:33:44 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-04 21:33:44 获取一条记录 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-04 21:33:44 释放结果集
+2011-10-04 21:33:44 完成整个查询任务,所用时间为0.0775229930878
+2011-10-04 21:33:48 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:33:48 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:33:48 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:33:48 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:33:48 释放结果集
+2011-10-04 21:33:48 完成整个查询任务,所用时间为0.594671010971
+2011-10-04 21:34:32 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:34:32 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:34:32 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:34:32 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:34:32 释放结果集
+2011-10-04 21:34:32 完成整个查询任务,所用时间为0.382261991501
+2011-10-04 21:35:13 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:35:13 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:35:13 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:35:13 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:35:13 释放结果集
+2011-10-04 21:35:13 完成整个查询任务,所用时间为0.014111995697
+2011-10-04 21:38:29 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:29 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:29 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:38:29 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:38:29 释放结果集
+2011-10-04 21:38:29 完成整个查询任务,所用时间为0.0692110061646
+2011-10-04 21:38:31 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:31 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:31 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:38:31 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:38:31 释放结果集
+2011-10-04 21:38:31 完成整个查询任务,所用时间为0.0282669067383
+2011-10-04 21:38:35 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:35 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:35 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:38:35 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+
+2011-10-04 21:38:35 释放结果集
+2011-10-04 21:38:35 完成整个查询任务,所用时间为0.0221071243286
+2011-10-04 21:38:36 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:36 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:36 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:38:36 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:38:36 释放结果集
+2011-10-04 21:38:36 完成整个查询任务,所用时间为0.00533699989319
+2011-10-04 21:38:38 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:38 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:38 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:38:38 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+
+2011-10-04 21:38:38 释放结果集
+2011-10-04 21:38:38 完成整个查询任务,所用时间为0.00447297096252
+2011-10-04 21:38:41 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:41 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:38:41 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:38:41 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+
+2011-10-04 21:38:41 释放结果集
+2011-10-04 21:38:41 完成整个查询任务,所用时间为0.00569605827332
+2011-10-04 21:39:30 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:39:30 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:39:30 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:39:30 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:39:30 释放结果集
+2011-10-04 21:39:30 完成整个查询任务,所用时间为0.0662961006165
+2011-10-04 21:39:33 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:39:33 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:39:33 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+2011-10-04 21:39:33 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+2011-10-04 21:39:33 释放结果集
+2011-10-04 21:39:33 完成整个查询任务,所用时间为0.00500392913818
+2011-10-04 21:39:36 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:39:36 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:39:36 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:39:36 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:39:36 释放结果集
+2011-10-04 21:39:36 完成整个查询任务,所用时间为0.059671163559
+2011-10-04 21:40:17 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:40:17 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:40:17 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:40:17 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:40:17 释放结果集
+2011-10-04 21:40:17 完成整个查询任务,所用时间为0.103867053986
+2011-10-04 21:40:20 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:40:20 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:40:20 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+2011-10-04 21:40:20 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+2011-10-04 21:40:20 释放结果集
+2011-10-04 21:40:20 完成整个查询任务,所用时间为0.00484800338745
+2011-10-04 21:40:22 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:40:22 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:40:22 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:40:22 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:40:22 释放结果集
+2011-10-04 21:40:22 完成整个查询任务,所用时间为0.00588703155518
+2011-10-04 21:40:23 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:40:23 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:40:23 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+2011-10-04 21:40:23 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+2011-10-04 21:40:23 释放结果集
+2011-10-04 21:40:23 完成整个查询任务,所用时间为0.00572800636292
+2011-10-04 21:41:12 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:12 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:12 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+2011-10-04 21:41:12 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+2011-10-04 21:41:12 释放结果集
+2011-10-04 21:41:12 完成整个查询任务,所用时间为0.10905790329
+2011-10-04 21:41:14 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:14 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:14 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:41:14 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:41:14 释放结果集
+2011-10-04 21:41:14 完成整个查询任务,所用时间为0.00663805007935
+2011-10-04 21:41:16 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:16 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:16 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+2011-10-04 21:41:16 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 4,2
+2011-10-04 21:41:16 释放结果集
+2011-10-04 21:41:16 完成整个查询任务,所用时间为0.00497508049011
+2011-10-04 21:41:17 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:17 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:17 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:41:17 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 2,2
+2011-10-04 21:41:17 释放结果集
+2011-10-04 21:41:17 完成整个查询任务,所用时间为0.00812101364136
+2011-10-04 21:41:18 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:18 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:18 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+2011-10-04 21:41:18 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,2
+2011-10-04 21:41:18 释放结果集
+2011-10-04 21:41:18 完成整个查询任务,所用时间为0.00542521476746
+2011-10-04 21:41:32 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:32 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:41:32 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:41:32 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:41:32 释放结果集
+2011-10-04 21:41:32 完成整个查询任务,所用时间为0.0108110904694
+2011-10-04 21:51:45 查询 SELECT img,file FROM news WHERE nid='5' LIMIT 1
+2011-10-04 21:51:45 获取一条记录 SELECT img,file FROM news WHERE nid='5' LIMIT 1
+2011-10-04 21:51:45 删除 delete from news where 1=1 and nid='5'
+2011-10-04 21:51:45 查询 delete from news where 1=1 and nid='5'
+2011-10-04 21:51:45 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:51:45 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:51:45 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:51:45 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:51:45 释放结果集
+2011-10-04 21:51:45 完成整个查询任务,所用时间为0.180418014526
+2011-10-04 21:51:47 查询 SELECT img,file FROM news WHERE nid='4' LIMIT 1
+2011-10-04 21:51:47 获取一条记录 SELECT img,file FROM news WHERE nid='4' LIMIT 1
+2011-10-04 21:51:47 删除 delete from news where 1=1 and nid='4'
+2011-10-04 21:51:47 查询 delete from news where 1=1 and nid='4'
+2011-10-04 21:51:47 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:51:47 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:51:47 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:51:47 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:51:47 释放结果集
+2011-10-04 21:51:47 完成整个查询任务,所用时间为0.0177471637726
+2011-10-04 21:51:48 查询 SELECT img,file FROM news WHERE nid='3' LIMIT 1
+2011-10-04 21:51:48 获取一条记录 SELECT img,file FROM news WHERE nid='3' LIMIT 1
+2011-10-04 21:51:48 删除 delete from news where 1=1 and nid='3'
+2011-10-04 21:51:48 查询 delete from news where 1=1 and nid='3'
+2011-10-04 21:51:48 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:51:48 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:51:48 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:51:48 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:51:48 释放结果集
+2011-10-04 21:51:48 完成整个查询任务,所用时间为0.0410580635071
+2011-10-04 21:51:51 查询 SELECT img,file FROM news WHERE nid='2' LIMIT 1
+2011-10-04 21:51:51 获取一条记录 SELECT img,file FROM news WHERE nid='2' LIMIT 1
+2011-10-04 21:51:51 删除 delete from news where 1=1 and nid='2'
+2011-10-04 21:51:51 查询 delete from news where 1=1 and nid='2'
+2011-10-04 21:51:51 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:51:51 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:51:51 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:51:51 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:51:51 释放结果集
+2011-10-04 21:51:51 完成整个查询任务,所用时间为0.0717821121216
+2011-10-04 21:51:52 查询 SELECT img,file FROM news WHERE nid='1' LIMIT 1
+2011-10-04 21:51:52 获取一条记录 SELECT img,file FROM news WHERE nid='1' LIMIT 1
+2011-10-04 21:51:52 删除 delete from news where 1=1 and nid='1'
+2011-10-04 21:51:52 查询 delete from news where 1=1 and nid='1'
+2011-10-04 21:51:52 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:51:52 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:51:52 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:51:52 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:51:52 释放结果集
+2011-10-04 21:51:52 完成整个查询任务,所用时间为0.00736117362976
+2011-10-04 21:52:22 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:52:22 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:52:22 释放结果集
+2011-10-04 21:52:22 完成整个查询任务,所用时间为0.00372695922852
+2011-10-04 21:53:17 查询 INSERT INTO news VALUES(NULL,'14','测试图片','s','','','s<br />','s','s','0','2011-10-04 21:53:17')
+2011-10-04 21:53:17 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:53:17 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:53:17 释放结果集
+2011-10-04 21:53:17 完成整个查询任务,所用时间为0.124694824219
+2011-10-04 21:53:17 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:53:17 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:53:17 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:53:17 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:53:17 释放结果集
+2011-10-04 21:53:17 完成整个查询任务,所用时间为0.00716996192932
+2011-10-04 21:53:38 查询 SELECT img,file FROM news WHERE nid='6' LIMIT 1
+2011-10-04 21:53:38 获取一条记录 SELECT img,file FROM news WHERE nid='6' LIMIT 1
+2011-10-04 21:53:38 删除 delete from news where 1=1 and nid='6'
+2011-10-04 21:53:38 查询 delete from news where 1=1 and nid='6'
+2011-10-04 21:53:38 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:53:38 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:53:38 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:53:38 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:53:38 释放结果集
+2011-10-04 21:53:38 完成整个查询任务,所用时间为0.0624661445618
+2011-10-04 21:55:03 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:55:03 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:55:03 释放结果集
+2011-10-04 21:55:03 完成整个查询任务,所用时间为0.00231003761292
+2011-10-04 21:55:19 释放结果集
+2011-10-04 21:55:19 完成整个查询任务,所用时间为0.0577139854431
+2011-10-04 21:55:29 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:55:29 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:55:29 释放结果集
+2011-10-04 21:55:29 完成整个查询任务,所用时间为0.00788903236389
+2011-10-04 21:56:32 释放结果集
+2011-10-04 21:56:32 完成整个查询任务,所用时间为0.0627899169922
+2011-10-04 21:56:35 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:56:35 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:56:35 释放结果集
+2011-10-04 21:56:35 完成整个查询任务,所用时间为0.0103068351746
+2011-10-04 21:56:55 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:56:55 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:56:55 释放结果集
+2011-10-04 21:56:55 完成整个查询任务,所用时间为0.0541648864746
+2011-10-04 21:57:06 查询 INSERT INTO news VALUES(NULL,'0','测试图片','sdf','20111004/kaXhHCmI3wDQw-20111004215706.jpg','','','','','','2011-10-04 21:57:06')
+2011-10-04 21:57:06 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:57:06 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:57:06 释放结果集
+2011-10-04 21:57:06 完成整个查询任务,所用时间为0.129755973816
+2011-10-04 21:57:07 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:57:07 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:57:07 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:57:07 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:57:07 释放结果集
+2011-10-04 21:57:07 完成整个查询任务,所用时间为0.00859498977661
+2011-10-04 21:57:18 查询 SELECT img,file FROM news WHERE nid='7' LIMIT 1
+2011-10-04 21:57:18 获取一条记录 SELECT img,file FROM news WHERE nid='7' LIMIT 1
+2011-10-04 21:57:18 删除 delete from news where 1=1 and nid='7'
+2011-10-04 21:57:18 查询 delete from news where 1=1 and nid='7'
+2011-10-04 21:57:18 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:57:18 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:57:18 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:57:18 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:57:18 释放结果集
+2011-10-04 21:57:18 完成整个查询任务,所用时间为0.0284950733185
+2011-10-04 21:57:55 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:57:55 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:57:55 释放结果集
+2011-10-04 21:57:55 完成整个查询任务,所用时间为0.00476503372192
+2011-10-04 21:58:23 查询 INSERT INTO news VALUES(NULL,'14','测试编辑','kz','20111004/kaXhHCmI3wDQw-20111004215823.jpg','','<strong>test</strong><br />','noting','nothing','0','2011-10-04 21:58:23')
+2011-10-04 21:58:23 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:58:23 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 21:58:23 释放结果集
+2011-10-04 21:58:23 完成整个查询任务,所用时间为0.0548348426819
+2011-10-04 21:58:23 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:58:23 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 21:58:23 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:58:23 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 21:58:23 释放结果集
+2011-10-04 21:58:23 完成整个查询任务,所用时间为0.0122909545898
+2011-10-04 22:47:13 查询 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 22:47:13 获取一条记录 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 22:47:13 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 22:47:13 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 22:47:13 释放结果集
+2011-10-04 22:47:13 完成整个查询任务,所用时间为0.181365966797
+2011-10-04 22:48:34 查询 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 22:48:34 获取一条记录 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 22:48:34 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 22:48:34 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 22:48:34 释放结果集
+2011-10-04 22:48:34 完成整个查询任务,所用时间为0.0251069068909
+2011-10-04 22:49:49 查询 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 22:49:49 获取一条记录 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 22:49:49 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 22:49:49 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 22:49:49 释放结果集
+2011-10-04 22:49:49 完成整个查询任务,所用时间为0.00442504882812
+2011-10-04 22:49:52 查询 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 22:49:52 获取一条记录 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 22:49:52 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 22:49:52 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 22:49:52 释放结果集
+2011-10-04 22:49:52 完成整个查询任务,所用时间为0.0248899459839
+2011-10-04 23:00:54 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 23:00:54 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 23:00:54 释放结果集
+2011-10-04 23:00:54 完成整个查询任务,所用时间为0.00614619255066
+2011-10-04 23:00:56 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 23:00:56 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 23:00:56 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 23:00:56 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 23:00:56 释放结果集
+2011-10-04 23:00:56 完成整个查询任务,所用时间为0.00701212882996
+2011-10-04 23:00:58 查询 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 23:00:58 获取一条记录 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 23:00:58 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 23:00:58 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 23:00:58 释放结果集
+2011-10-04 23:00:58 完成整个查询任务,所用时间为0.0064799785614
+2011-10-04 23:01:14 查询 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 23:01:14 获取一条记录 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 23:01:14 更新 update news set `title` = '测试编辑',`author` = 'kz1',`img` = '20111004/kaXhHCmI3wDQw-20111004215823.jpg',`file` = '',`content` = '<strong><span style=\"color:#E53333;\">test</span></strong><br />',`keyword` = 'fuck',`description` = 'fuck',`order` = '1',`updateTime` = '2011-10-04 23:01:14',`title` = '测试编辑',`author` = 'kz1',`img` = '20111004/kaXhHCmI3wDQw-20111004215823.jpg',`file` = '',`content` = '<strong><span style=\"color:#E53333;\">test</span></strong><br />',`keyword` = 'fuck',`description` = 'fuck',`order` = '1',`updateTime` = '2011-10-04 23:01:14' where 1=1 and nid='8'
+2011-10-04 23:01:14 查询 update news set `title` = '测试编辑',`author` = 'kz1',`img` = '20111004/kaXhHCmI3wDQw-20111004215823.jpg',`file` = '',`content` = '<strong><span style=\"color:#E53333;\">test</span></strong><br />',`keyword` = 'fuck',`description` = 'fuck',`order` = '1',`updateTime` = '2011-10-04 23:01:14',`title` = '测试编辑',`author` = 'kz1',`img` = '20111004/kaXhHCmI3wDQw-20111004215823.jpg',`file` = '',`content` = '<strong><span style=\"color:#E53333;\">test</span></strong><br />',`keyword` = 'fuck',`description` = 'fuck',`order` = '1',`updateTime` = '2011-10-04 23:01:14' where 1=1 and nid='8'
+2011-10-04 23:01:14 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 23:01:14 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 23:01:14 释放结果集
+2011-10-04 23:01:14 完成整个查询任务,所用时间为0.157136917114
+2011-10-04 23:01:14 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 23:01:14 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 23:01:14 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 23:01:14 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 23:01:14 释放结果集
+2011-10-04 23:01:14 完成整个查询任务,所用时间为0.00792193412781
+2011-10-04 23:01:16 查询 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 23:01:16 获取一条记录 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 23:01:16 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 23:01:16 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 23:01:16 释放结果集
+2011-10-04 23:01:16 完成整个查询任务,所用时间为0.00344705581665
+2011-10-04 23:01:32 查询 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 23:01:32 获取一条记录 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-04 23:01:32 更新 update news set `title` = '测试编辑',`author` = 'kz1',`img` = '20111004/kaXhHCmI3wDQw-20111004230132.jpg',`file` = '',`content` = '<strong><span style=\"color:#E53333;\">test</span></strong><br />',`keyword` = 'fuck',`description` = 'fuck',`order` = '1',`updateTime` = '2011-10-04 23:01:32',`title` = '测试编辑',`author` = 'kz1',`img` = '20111004/kaXhHCmI3wDQw-20111004230132.jpg',`file` = '',`content` = '<strong><span style=\"color:#E53333;\">test</span></strong><br />',`keyword` = 'fuck',`description` = 'fuck',`order` = '1',`updateTime` = '2011-10-04 23:01:32' where 1=1 and nid='8'
+2011-10-04 23:01:32 查询 update news set `title` = '测试编辑',`author` = 'kz1',`img` = '20111004/kaXhHCmI3wDQw-20111004230132.jpg',`file` = '',`content` = '<strong><span style=\"color:#E53333;\">test</span></strong><br />',`keyword` = 'fuck',`description` = 'fuck',`order` = '1',`updateTime` = '2011-10-04 23:01:32',`title` = '测试编辑',`author` = 'kz1',`img` = '20111004/kaXhHCmI3wDQw-20111004230132.jpg',`file` = '',`content` = '<strong><span style=\"color:#E53333;\">test</span></strong><br />',`keyword` = 'fuck',`description` = 'fuck',`order` = '1',`updateTime` = '2011-10-04 23:01:32' where 1=1 and nid='8'
+2011-10-04 23:01:32 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 23:01:32 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 23:01:32 释放结果集
+2011-10-04 23:01:32 完成整个查询任务,所用时间为0.0399758815765
+2011-10-04 23:01:32 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-04 23:01:32 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-04 23:01:32 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 23:01:32 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-04 23:01:32 释放结果集
+2011-10-04 23:01:32 完成整个查询任务,所用时间为0.0250761508942
