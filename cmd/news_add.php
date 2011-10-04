@@ -11,41 +11,53 @@ $db = new DB();
 if(isset($_POST['submit'])){
 	
 	//验证必填项
-	
-	
-	//查看是否有图片上传
-	$img = '';
-	if(!empty($_FILES['img']['name'])){
-		require_once Root_Path.'/require/class/upload.php';
-		$uploadImg = new Upload(array('uploadPath'=>Root_Path.'/resource/news/'.date('Ymd')));
-		$uploadImg->fileUpload($_FILES['img']);
-		$result = $uploadImg->getStatus();
-		if(0 == $result['error']){
-			$img = $uploadImg->fileName;
-		}else{
-			$message .= '图片文件失败原因：'.$result['message'];
+	$warning = '请填写：';
+	$isOK = TRUE;
+	$MapArr = array('title'=>'标题','author'=>'作者',);
+	foreach ($MapArr as $index => $val){		
+		if (empty(trim($_POST[$index]))){
+			$isOK = FALSE;
+			$warning .= $val.'，';
 		}
 	}
 	
-	$file = '';
-	if(!empty($_FILES['file']['name'])){
-		require_once Root_Path.'/require/class/upload.php';
-		$uploadFile = new Upload(array('uploadPath'=>Root_Path.'/resource/news/'.date('Ymd'),'allowTypes'=>array('xls','rar','zip','doc','docx','txt','pdf')));
-		$uploadFile->fileUpload($_FILES['file']);
-		$result = $uploadFile->getStatus();
-		if(0 == $result['error']){
-			$file = $uploadFile->fileName;
-		}else{
-			$message .= '附件文件失败原因：'.$result['message'].'！';
-		}
-	}
-	
-	$updateTime = date('Y-m-d H:i:s');
-	$sql = "INSERT INTO news VALUES(NULL,'$_POST[cid]','$_POST[title]','$_POST[author]','$img','$file','$_POST[content]','$_POST[keyword]','$_POST[description]','$_POST[order]','$updateTime')";
-	if($db->query($sql)){
-		header('Location: news_list.php');
+	//验证不通过
+	if(!$isOK){
+		$message = mb_substr($warning, 0, -1,'utf-8') . '！';
 	}else{
-		$message .= '数据库插入失败！';
+		//查看是否有图片上传
+		$img = '';
+		if(!empty($_FILES['img']['name'])){
+			require_once Root_Path.'/require/class/upload.php';
+			$uploadImg = new Upload(array('uploadPath'=>Root_Path.'/resource/news/'.date('Ymd')));
+			$uploadImg->fileUpload($_FILES['img']);
+			$result = $uploadImg->getStatus();
+			if(0 == $result['error']){
+				$img = $uploadImg->fileName;
+			}else{
+				$message .= '图片文件失败原因：'.$result['message'];
+			}
+		}
+		$file = '';
+		if(!empty($_FILES['file']['name'])){
+			require_once Root_Path.'/require/class/upload.php';
+			$uploadFile = new Upload(array('uploadPath'=>Root_Path.'/resource/news/'.date('Ymd'),'allowTypes'=>array('xls','rar','zip','doc','docx','txt','pdf')));
+			$uploadFile->fileUpload($_FILES['file']);
+			$result = $uploadFile->getStatus();
+			if(0 == $result['error']){
+				$file = date('Ymd').'/'.$uploadFile->fileName;
+			}else{
+				$message .= '附件文件失败原因：'.$result['message'].'！';
+			}
+		}
+		
+		$updateTime = date('Y-m-d H:i:s');
+		$sql = "INSERT INTO news VALUES(NULL,'$_POST[cid]','$_POST[title]','$_POST[author]','$img','$file','$_POST[content]','$_POST[keyword]','$_POST[description]','$_POST[order]','$updateTime')";
+		if($db->query($sql)){
+			header('Location: news_list.php');
+		}else{
+			$message .= '数据库插入失败！';
+		}
 	}
 }
 

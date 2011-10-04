@@ -12,13 +12,29 @@ if(isset($_GET['act']) && $_GET['act'] == 'del'){
 
 }
 
-//获取类别列表
-$newsArr = $db->get_all("SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid");
+//获取新闻列表
+require_once Root_Path.'/require/class/page.php';
+$total = $db->get_one("SELECT COUNT(nid) AS total FROM news");
+$options = array(
+	'total_rows' => $total['total'], //总行数
+	'list_rows'  => '20',  //每页显示量
+	'page_name'	 => 'page',
+);
+$page = new page($options);
+
+$newsArr = $db->get_all("SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT $page->first_row,$page->list_rows");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	#page{font:12px/16px arial}
+	#page span{float:left;margin:0px 3px;}
+	#page a{float:left;margin:0 3px;border:1px solid #ddd;padding:3px 7px; text-decoration:none;color:#666}
+	#page a.now_page,#page a:hover{color:#fff;background:#05c}
+	#footerBox{clear:both}
+</style>
 <title>新闻管理-后台</title>
 </head>
 <body>
@@ -71,6 +87,9 @@ $newsArr = $db->get_all("SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`ord
 							?>
 						</table>
 					</form>
+					<div id="page">
+						<?=$page->show(1)?>
+					</div>
 				</div>
 			</div>
 		</div>
