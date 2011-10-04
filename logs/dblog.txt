@@ -2,3 +2,315 @@
 2011-10-03 21:30:12 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
 2011-10-03 21:30:12 释放结果集
 2011-10-03 21:30:12 完成整个查询任务,所用时间为0.0106918811798
+2011-10-03 21:30:41 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:30:41 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-03 21:30:41 释放结果集
+2011-10-03 21:30:41 完成整个查询任务,所用时间为0.00299501419067
+2011-10-04 14:20:46 查询 select uid,name from user where account='kazaff' and password='123123' and isAllow=1 limit 1
+2011-10-04 14:20:46 获取一条记录 select uid,name from user where account='kazaff' and password='123123' and isAllow=1 limit 1
+2011-10-04 14:20:46 释放结果集
+2011-10-04 14:20:46 完成整个查询任务,所用时间为0.288263082504
+2011-10-04 14:20:57 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-04 14:20:57 获取一条记录 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-04 14:20:57 释放结果集
+2011-10-04 14:20:57 完成整个查询任务,所用时间为0.00224685668945
+2011-10-04 14:20:59 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 14:20:59 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 14:20:59 释放结果集
+2011-10-04 14:20:59 完成整个查询任务,所用时间为0.0514068603516
+2011-10-04 14:52:14 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 14:52:14 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 14:52:14 释放结果集
+2011-10-04 14:52:14 完成整个查询任务,所用时间为0.0417628288269
+2011-10-04 14:52:44 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 14:52:44 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 14:52:44 释放结果集
+2011-10-04 14:52:44 完成整个查询任务,所用时间为0.0170891284943
+2011-10-04 14:53:00 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 14:53:00 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 14:53:00 释放结果集
+2011-10-04 14:53:00 完成整个查询任务,所用时间为0.0106389522552
+2011-10-04 14:58:14 查询 
+2011-10-04 14:58:14 Query Error: 
+Query was empty
+2011-10-04 14:58:14 释放结果集
+2011-10-04 14:58:14 完成整个查询任务,所用时间为0.00868606567383
+2011-10-04 15:01:10 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:01:10 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:01:10 释放结果集
+2011-10-04 15:01:10 完成整个查询任务,所用时间为0.00586700439453
+2011-10-04 15:03:07 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:03:07 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:03:07 释放结果集
+2011-10-04 15:03:07 完成整个查询任务,所用时间为0.00174498558044
+2011-10-04 15:22:16 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,{NEWS},%' ORDER BY abspath,`order`
+2011-10-04 15:22:16 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,{NEWS},%' ORDER BY abspath,`order`
+2011-10-04 15:22:16 释放结果集
+2011-10-04 15:22:16 完成整个查询任务,所用时间为0.0502710342407
+2011-10-04 15:22:22 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:22:22 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:22:22 释放结果集
+2011-10-04 15:22:22 完成整个查询任务,所用时间为0.00543999671936
+2011-10-04 15:22:24 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:22:24 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:22:24 释放结果集
+2011-10-04 15:22:24 完成整个查询任务,所用时间为0.00235605239868
+2011-10-04 15:22:30 查询 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-04 15:22:30 获取一条记录 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-04 15:22:30 插入 insert into category(`pid`,`path`,`name`) values('1','0,1,','国内')
+2011-10-04 15:22:30 查询 insert into category(`pid`,`path`,`name`) values('1','0,1,','国内')
+2011-10-04 15:22:30 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:22:30 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:22:30 释放结果集
+2011-10-04 15:22:30 完成整个查询任务,所用时间为0.121246099472
+2011-10-04 15:22:36 查询 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-04 15:22:36 获取一条记录 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-04 15:22:36 插入 insert into category(`pid`,`path`,`name`) values('1','0,1,','国际')
+2011-10-04 15:22:36 查询 insert into category(`pid`,`path`,`name`) values('1','0,1,','国际')
+2011-10-04 15:22:36 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:22:36 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:22:36 释放结果集
+2011-10-04 15:22:36 完成整个查询任务,所用时间为0.00465393066406
+2011-10-04 15:22:38 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:22:38 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:22:38 释放结果集
+2011-10-04 15:22:38 完成整个查询任务,所用时间为0.0033540725708
+2011-10-04 15:22:40 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:22:40 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:22:40 释放结果集
+2011-10-04 15:22:40 完成整个查询任务,所用时间为0.00706100463867
+2011-10-04 15:22:41 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:22:41 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:22:41 释放结果集
+2011-10-04 15:22:41 完成整个查询任务,所用时间为0.00777506828308
+2011-10-04 15:22:42 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,{NEWS},%' ORDER BY abspath,`order`
+2011-10-04 15:22:42 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,{NEWS},%' ORDER BY abspath,`order`
+2011-10-04 15:22:42 释放结果集
+2011-10-04 15:22:42 完成整个查询任务,所用时间为0.0047619342804
+2011-10-04 15:23:32 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:23:32 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:23:32 释放结果集
+2011-10-04 15:23:32 完成整个查询任务,所用时间为0.0305068492889
+2011-10-04 15:24:44 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,NEWS,%' ORDER BY abspath
+2011-10-04 15:24:44 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,NEWS,%' ORDER BY abspath
+2011-10-04 15:24:44 释放结果集
+2011-10-04 15:24:44 完成整个查询任务,所用时间为0.00198793411255
+2011-10-04 15:27:04 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:27:04 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:27:04 释放结果集
+2011-10-04 15:27:04 完成整个查询任务,所用时间为0.00204420089722
+2011-10-04 15:27:26 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,{NEWS},%' ORDER BY abspath
+2011-10-04 15:27:26 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,{NEWS},%' ORDER BY abspath
+2011-10-04 15:27:26 释放结果集
+2011-10-04 15:27:26 完成整个查询任务,所用时间为0.0386388301849
+2011-10-04 15:27:36 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:27:36 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:27:36 释放结果集
+2011-10-04 15:27:36 完成整个查询任务,所用时间为0.00196003913879
+2011-10-04 15:27:39 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:27:39 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:27:39 释放结果集
+2011-10-04 15:27:39 完成整个查询任务,所用时间为0.00529599189758
+2011-10-04 15:27:41 查询 SELECT name,`order` FROM category WHERE cid='12' LIMIT 1
+2011-10-04 15:27:41 获取一条记录 SELECT name,`order` FROM category WHERE cid='12' LIMIT 1
+2011-10-04 15:27:41 释放结果集
+2011-10-04 15:27:41 完成整个查询任务,所用时间为0.00570702552795
+2011-10-04 15:27:45 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:27:45 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:27:45 释放结果集
+2011-10-04 15:27:45 完成整个查询任务,所用时间为0.00842094421387
+2011-10-04 15:27:52 查询 SELECT cid,path FROM category WHERE cid='12' LIMIT 1
+2011-10-04 15:27:52 获取一条记录 SELECT cid,path FROM category WHERE cid='12' LIMIT 1
+2011-10-04 15:27:52 插入 insert into category(`pid`,`path`,`name`) values('12','0,1,12,','娱乐')
+2011-10-04 15:27:52 查询 insert into category(`pid`,`path`,`name`) values('12','0,1,12,','娱乐')
+2011-10-04 15:27:52 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:27:52 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:27:52 释放结果集
+2011-10-04 15:27:52 完成整个查询任务,所用时间为0.00415301322937
+2011-10-04 15:27:54 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:27:54 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:27:54 释放结果集
+2011-10-04 15:27:54 完成整个查询任务,所用时间为0.00566911697388
+2011-10-04 15:28:01 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:28:02 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:28:02 释放结果集
+2011-10-04 15:28:02 完成整个查询任务,所用时间为0.00365710258484
+2011-10-04 15:28:03 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:28:03 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-04 15:28:03 释放结果集
+2011-10-04 15:28:03 完成整个查询任务,所用时间为0.00380992889404
+2011-10-04 15:28:03 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:28:03 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 15:28:03 释放结果集
+2011-10-04 15:28:03 完成整个查询任务,所用时间为0.0109260082245
+2011-10-04 15:28:04 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:28:04 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:28:04 释放结果集
+2011-10-04 15:28:04 完成整个查询任务,所用时间为0.00400710105896
+2011-10-04 15:28:47 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:28:47 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:28:47 释放结果集
+2011-10-04 15:28:47 完成整个查询任务,所用时间为0.0056529045105
+2011-10-04 15:29:25 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:29:25 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:29:25 释放结果集
+2011-10-04 15:29:25 完成整个查询任务,所用时间为0.00265407562256
+2011-10-04 15:29:35 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:29:35 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:29:35 释放结果集
+2011-10-04 15:29:35 完成整个查询任务,所用时间为0.00185704231262
+2011-10-04 15:58:20 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:58:20 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:58:20 释放结果集
+2011-10-04 15:58:20 完成整个查询任务,所用时间为0.0540988445282
+2011-10-04 15:59:41 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:59:41 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 15:59:41 释放结果集
+2011-10-04 15:59:41 完成整个查询任务,所用时间为0.132694005966
+2011-10-04 16:05:59 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:05:59 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:05:59 释放结果集
+2011-10-04 16:05:59 完成整个查询任务,所用时间为0.0912489891052
+2011-10-04 16:06:44 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:06:44 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:06:44 释放结果集
+2011-10-04 16:06:44 完成整个查询任务,所用时间为0.00848507881165
+2011-10-04 16:11:30 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:11:30 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:11:30 释放结果集
+2011-10-04 16:11:30 完成整个查询任务,所用时间为0.0538070201874
+2011-10-04 16:11:59 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:11:59 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:11:59 释放结果集
+2011-10-04 16:11:59 完成整个查询任务,所用时间为0.00476717948914
+2011-10-04 16:13:28 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:13:28 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:13:28 释放结果集
+2011-10-04 16:13:28 完成整个查询任务,所用时间为0.0077919960022
+2011-10-04 16:13:33 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:13:33 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:13:33 释放结果集
+2011-10-04 16:13:33 完成整个查询任务,所用时间为0.00611400604248
+2011-10-04 16:21:25 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:21:25 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:21:25 释放结果集
+2011-10-04 16:21:25 完成整个查询任务,所用时间为0.0309789180756
+2011-10-04 16:21:35 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:21:35 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:21:35 释放结果集
+2011-10-04 16:21:35 完成整个查询任务,所用时间为0.00311088562012
+2011-10-04 16:21:37 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:21:37 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:21:37 释放结果集
+2011-10-04 16:21:37 完成整个查询任务,所用时间为0.00633406639099
+2011-10-04 16:22:10 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:22:10 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:22:10 释放结果集
+2011-10-04 16:22:10 完成整个查询任务,所用时间为0.0060670375824
+2011-10-04 16:57:50 查询 INSERT INTO news VALUES(NULL,'12','测试','kz','','','测试测试','test','测试用','0','2011-10-04 16:57:50')
+2011-10-04 16:57:50 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:57:50 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 16:57:50 释放结果集
+2011-10-04 16:57:50 完成整个查询任务,所用时间为0.0955572128296
+2011-10-04 16:57:50 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 16:57:50 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 16:57:50 释放结果集
+2011-10-04 16:57:50 完成整个查询任务,所用时间为0.0043089389801
+2011-10-04 16:58:19 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 16:58:19 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 16:58:19 释放结果集
+2011-10-04 16:58:19 完成整个查询任务,所用时间为0.0321760177612
+2011-10-04 17:09:45 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:09:45 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:09:45 释放结果集
+2011-10-04 17:09:45 完成整个查询任务,所用时间为0.0635950565338
+2011-10-04 17:10:11 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:10:11 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:10:11 释放结果集
+2011-10-04 17:10:11 完成整个查询任务,所用时间为0.0029821395874
+2011-10-04 17:12:08 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:12:08 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:12:08 释放结果集
+2011-10-04 17:12:08 完成整个查询任务,所用时间为0.0143189430237
+2011-10-04 17:23:26 查询 INSERT INTO news VALUES(NULL,'12','htmleditor','kz','kaXhHCmI3wDQw-20111004172326.jpg','','<pre class=\"prettyprint lang-php\"></pre>
+<br />
+<br />','html','nothing','0','2011-10-04 17:23:26')
+2011-10-04 17:23:26 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:23:26 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:23:26 释放结果集
+2011-10-04 17:23:26 完成整个查询任务,所用时间为0.157700061798
+2011-10-04 17:23:26 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 17:23:26 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 17:23:26 释放结果集
+2011-10-04 17:23:26 完成整个查询任务,所用时间为0.00299096107483
+2011-10-04 17:24:18 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:24:18 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:24:18 释放结果集
+2011-10-04 17:24:18 完成整个查询任务,所用时间为0.00392293930054
+2011-10-04 17:24:35 查询 INSERT INTO news VALUES(NULL,'0','html2','dsf','','','<p>
+	<span style=\"background-color:#E53333;\">asdfasdfas</span>
+</p>
+<p>
+	sdf
+</p>
+<p>
+	asdf
+</p>
+<p>
+	asdf
+</p>
+<p>
+	sa
+</p>
+<p>
+	df
+</p>
+<p>
+	sadf
+</p>
+<p>
+	asdffsadfsdf
+</p>','sdf','sdf','0','2011-10-04 17:24:35')
+2011-10-04 17:24:35 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:24:35 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:24:35 释放结果集
+2011-10-04 17:24:35 完成整个查询任务,所用时间为0.0483260154724
+2011-10-04 17:24:35 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 17:24:35 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 17:24:35 释放结果集
+2011-10-04 17:24:35 完成整个查询任务,所用时间为0.00443506240845
+2011-10-04 17:25:21 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:25:21 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:25:21 释放结果集
+2011-10-04 17:25:21 完成整个查询任务,所用时间为0.0066180229187
+2011-10-04 17:25:24 查询 INSERT INTO news VALUES(NULL,'0','html3','','','','','','','','2011-10-04 17:25:24')
+2011-10-04 17:25:24 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:25:24 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:25:24 释放结果集
+2011-10-04 17:25:24 完成整个查询任务,所用时间为0.00612998008728
+2011-10-04 17:25:24 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 17:25:24 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 17:25:24 释放结果集
+2011-10-04 17:25:24 完成整个查询任务,所用时间为0.00269293785095
+2011-10-04 17:25:28 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 17:25:28 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 17:25:28 释放结果集
+2011-10-04 17:25:28 完成整个查询任务,所用时间为0.0021710395813
+2011-10-04 17:25:30 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:25:30 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:25:30 释放结果集
+2011-10-04 17:25:30 完成整个查询任务,所用时间为0.0081570148468
+2011-10-04 17:26:00 查询 INSERT INTO news VALUES(NULL,'0','hmlt5','sdf','','','<p>
+	asdf中文测<span style=\"background-color:#E53333;\">试中文测试</span>ce\'shizhong\'wenzhong\'wezhongzhoce\'shizhong\'wenzhong\'wezhongzh
+</p>
+<p>
+	<img src=\"/sweetComWeb/require/library/kindeditor/attached/image/20111004/20111004171330_35084.jpg\" alt=\"\" />
+</p>','asdf','sdf','0','2011-10-04 17:26:00')
+2011-10-04 17:26:00 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:26:00 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-04 17:26:00 释放结果集
+2011-10-04 17:26:00 完成整个查询任务,所用时间为0.00586414337158
+2011-10-04 17:26:00 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 17:26:00 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid
+2011-10-04 17:26:00 释放结果集
+2011-10-04 17:26:00 完成整个查询任务,所用时间为0.00702500343323

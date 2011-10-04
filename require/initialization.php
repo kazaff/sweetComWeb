@@ -6,6 +6,7 @@ header("Content-type: text/html; charset=utf-8");
 session_start();
 
 define('Root_Path', dirname(dirname(__FILE__)));	//项目根目录
+require Root_Path.'/configs/const.php';
 
 //安全处理POST,GET数组
 require_once Root_Path.'/require/function/dataSafe.php';
