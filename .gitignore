@@ -1,2 +1,4 @@
 .*
 logs/dblog.txt
+
+resource/*
