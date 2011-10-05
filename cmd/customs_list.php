@@ -8,11 +8,12 @@ $db = new DB();
 $message = '';
 
 //删除
-if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['hid'] > 0){
-	$honorInfo = $db->get_one("SELECT img FROM honor WHERE hid='$_GET[hid]' LIMIT 1");	
-	if($db->delete('honor',"hid='$_GET[hid]'")){
+if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['id'] > 0){
+	$customInfo = $db->get_one("SELECT img,file FROM custom WHERE id='$_GET[id]' LIMIT 1");	
+	if($db->delete('custom',"id='$_GET[id]'")){
 		//删除图片和附件资源
-		@unlink(Root_Path.'/resource/honor/'.$honorInfo['img']);
+		@unlink(Root_Path.'/resource/custom/'.$customInfo['img']);
+		@unlink(Root_Path.'/resource/custom/'.$customInfo['file']);
 		$message .= '删除成功！';
 	}else{
 		$message .= '删除失败！';
@@ -21,7 +22,7 @@ if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['hid'] > 0){
 
 //获取列表
 require_once Root_Path.'/require/class/page.php';
-$total = $db->get_one("SELECT COUNT(hid) AS total FROM honor");
+$total = $db->get_one("SELECT COUNT(id) AS total FROM custom");
 $options = array(
 	'total_rows' => $total['total'], //总行数
 	'list_rows'  => '20',  //每页显示量
@@ -29,7 +30,7 @@ $options = array(
 );
 $page = new page($options);
 
-$honorArr = $db->get_all("SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT $page->first_row,$page->list_rows");
+$customArr = $db->get_all("SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT $page->first_row,$page->list_rows");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -42,7 +43,7 @@ $honorArr = $db->get_all("SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.nam
 	#page a.now_page,#page a:hover{color:#fff;background:#05c}
 	#footerBox{clear:both}
 </style>
-<title>荣誉管理-后台</title>
+<title>自助管理-后台</title>
 </head>
 <body>
 	<div id="bigBox">
@@ -55,7 +56,7 @@ $honorArr = $db->get_all("SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.nam
 			</div>
 			<div id="dataBox">
 				<div id="toolBar">
-					<a href="honors_add.php" title="新增荣誉">新增</a>
+					<a href="customs_add.php" title="新增自助">新增</a>
 				</div>
 				<div id="list">
 					<div id="message">
@@ -65,26 +66,28 @@ $honorArr = $db->get_all("SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.nam
 						<table>
 							<tr>
 								<td>编号</td>
-								<td>荣誉</td>
+								<td>标题</td>
 								<td>类别</td>
 								<td>图片</td>
+								<td>作者</td>
 								<td>更新时间</td>
 								<td>顺序</td>
 								<td>操作</td>
 							</tr>
 							<?php 
-								foreach ($honorArr as $one){
+								foreach ($customArr as $one){
 							?>
 							<tr>
-								<td><?=$one['hid']?></td>
-								<td><?=$one['name']?></td>
+								<td><?=$one['id']?></td>
+								<td><?=$one['title']?></td>
 								<td><?=$one['className']?></td>
 								<td><?=$one['img']?></td>
+								<td><?=$one['author']?></td>
 								<td><?=$one['updateTime']?></td>
 								<td><?=$one['order']?></td>
 								<td>
-									<a href="honors_edit.php?hid=<?=$one['hid']?>">编辑</a>
-									<a href="?act=del&hid=<?=$one['hid']?>">删除</a>
+									<a href="customs_edit.php?id=<?=$one['id']?>">编辑</a>
+									<a href="?act=del&id=<?=$one['id']?>">删除</a>
 								</td>
 							</tr>
 							<?php

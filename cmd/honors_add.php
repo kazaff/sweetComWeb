@@ -7,13 +7,13 @@ $message = '';
 require_once Root_Path.'/require/class/DB.php';
 $db = new DB();
 
-//新增新闻
+//新增
 if(isset($_POST['submit'])){
 	
 	//验证必填项
 	$warning = '请填写：';
 	$isOK = TRUE;
-	$MapArr = array('name'=>'标题',);
+	$MapArr = array('name'=>'荣誉名称',);
 	foreach ($MapArr as $index => $val){		
 		if (empty($_POST[$index])){
 			$isOK = FALSE;
@@ -50,7 +50,7 @@ if(isset($_POST['submit'])){
 	}
 }
 
-//获取产品类别
+//获取类别
 $cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,".HONOR.",%' ORDER BY abspath");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -67,7 +67,7 @@ $cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category W
 		});			
 	});
 </script>
-<title>新闻管理-后台</title>
+<title>荣誉管理-后台</title>
 </head>
 <body>
 	<div id="bigBox">
@@ -89,7 +89,7 @@ $cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category W
 					<form action="" method="POST" enctype="multipart/form-data">
 						<table>
 							<tr>
-								<td>荣誉名</td>
+								<td>荣誉名称</td>
 								<td><input type="text" name="name" /></td>
 							</tr>
 							<tr>	

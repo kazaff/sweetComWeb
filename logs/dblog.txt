@@ -1367,3 +1367,90 @@ Unknown column 'nid' in 'where clause'
 2011-10-05 21:35:33 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
 2011-10-05 21:35:33 释放结果集
 2011-10-05 21:35:33 完成整个查询任务,所用时间为0.0147590637207
+2011-10-05 21:47:08 查询 SELECT img FROM honor WHERE hid='1' LIMIT 1
+2011-10-05 21:47:08 获取一条记录 SELECT img FROM honor WHERE hid='1' LIMIT 1
+2011-10-05 21:47:08 删除 delete from honor where 1=1 and hid='1'
+2011-10-05 21:47:08 查询 delete from honor where 1=1 and hid='1'
+2011-10-05 21:47:08 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:47:08 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:47:08 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:47:08 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:47:08 释放结果集
+2011-10-05 21:47:08 完成整个查询任务,所用时间为0.0115959644318
+2011-10-05 21:47:11 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-05 21:47:11 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-05 21:47:11 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-05 21:47:11 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-05 21:47:11 释放结果集
+2011-10-05 21:47:11 完成整个查询任务,所用时间为0.00801801681519
+2011-10-05 21:49:20 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-05 21:49:20 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-05 21:49:20 释放结果集
+2011-10-05 21:49:20 完成整个查询任务,所用时间为0.0155310630798
+2011-10-05 21:49:25 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:49:25 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:49:25 释放结果集
+2011-10-05 21:49:25 完成整个查询任务,所用时间为0.0077919960022
+2011-10-05 21:49:28 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:49:28 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:49:28 释放结果集
+2011-10-05 21:49:28 完成整个查询任务,所用时间为0.00233507156372
+2011-10-05 21:49:38 查询 SELECT cid,path FROM category WHERE cid='5' LIMIT 1
+2011-10-05 21:49:38 获取一条记录 SELECT cid,path FROM category WHERE cid='5' LIMIT 1
+2011-10-05 21:49:38 插入 insert into category(`pid`,`path`,`name`) values('5','0,5,','自卫')
+2011-10-05 21:49:38 查询 insert into category(`pid`,`path`,`name`) values('5','0,5,','自卫')
+2011-10-05 21:49:38 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:49:38 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:49:38 释放结果集
+2011-10-05 21:49:38 完成整个查询任务,所用时间为0.00291991233826
+2011-10-05 21:49:39 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-05 21:49:39 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-05 21:49:39 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-05 21:49:39 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-05 21:49:39 释放结果集
+2011-10-05 21:49:39 完成整个查询任务,所用时间为0.0525708198547
+2011-10-05 21:49:41 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-05 21:49:41 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-05 21:49:41 释放结果集
+2011-10-05 21:49:41 完成整个查询任务,所用时间为0.00287508964539
+2011-10-05 21:49:49 查询 INSERT INTO custom VALUES(NULL,'17','偶哈哟','','','','斯蒂芬','','','','2011-10-05 21:49:49')
+2011-10-05 21:49:49 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-05 21:49:49 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-05 21:49:49 释放结果集
+2011-10-05 21:49:49 完成整个查询任务,所用时间为0.00371408462524
+2011-10-05 21:49:49 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-05 21:49:49 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-05 21:49:49 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-05 21:49:49 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-05 21:49:49 释放结果集
+2011-10-05 21:49:49 完成整个查询任务,所用时间为0.00439310073853
+2011-10-05 21:52:46 查询 SELECT * FROM custom WHERE id='1' LIMIT 1
+2011-10-05 21:52:46 获取一条记录 SELECT * FROM custom WHERE id='1' LIMIT 1
+2011-10-05 21:52:46 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-05 21:52:46 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-05 21:52:46 释放结果集
+2011-10-05 21:52:46 完成整个查询任务,所用时间为0.0316998958588
+2011-10-05 21:52:50 查询 SELECT * FROM custom WHERE id='1' LIMIT 1
+2011-10-05 21:52:50 获取一条记录 SELECT * FROM custom WHERE id='1' LIMIT 1
+2011-10-05 21:52:50 更新 update custom set `title` = '偶哈哟!',`author` = '',`img` = '',`file` = '',`content` = '斯蒂芬',`keyword` = '',`description` = '',`order` = '0',`updateTime` = '2011-10-05 21:52:50',`title` = '偶哈哟!',`author` = '',`img` = '',`file` = '',`content` = '斯蒂芬',`keyword` = '',`description` = '',`order` = '0',`updateTime` = '2011-10-05 21:52:50' where 1=1 and id='1'
+2011-10-05 21:52:50 查询 update custom set `title` = '偶哈哟!',`author` = '',`img` = '',`file` = '',`content` = '斯蒂芬',`keyword` = '',`description` = '',`order` = '0',`updateTime` = '2011-10-05 21:52:50',`title` = '偶哈哟!',`author` = '',`img` = '',`file` = '',`content` = '斯蒂芬',`keyword` = '',`description` = '',`order` = '0',`updateTime` = '2011-10-05 21:52:50' where 1=1 and id='1'
+2011-10-05 21:52:50 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-05 21:52:50 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-05 21:52:50 释放结果集
+2011-10-05 21:52:50 完成整个查询任务,所用时间为0.00521802902222
+2011-10-05 21:52:50 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-05 21:52:50 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-05 21:52:50 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-05 21:52:50 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-05 21:52:50 释放结果集
+2011-10-05 21:52:50 完成整个查询任务,所用时间为0.00450086593628
+2011-10-05 21:52:54 查询 SELECT img,file FROM custom WHERE id='1' LIMIT 1
+2011-10-05 21:52:54 获取一条记录 SELECT img,file FROM custom WHERE id='1' LIMIT 1
+2011-10-05 21:52:54 删除 delete from custom where 1=1 and id='1'
+2011-10-05 21:52:54 查询 delete from custom where 1=1 and id='1'
+2011-10-05 21:52:54 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-05 21:52:54 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-05 21:52:54 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-05 21:52:54 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-05 21:52:54 释放结果集
+2011-10-05 21:52:54 完成整个查询任务,所用时间为0.0108189582825

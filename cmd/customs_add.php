@@ -7,16 +7,13 @@ $message = '';
 require_once Root_Path.'/require/class/DB.php';
 $db = new DB();
 
-//获取内容
-$proInfo = $db->get_one("SELECT * FROM product WHERE pid='$_GET[pid]' LIMIT 1");
-
-//编辑
+//新增
 if(isset($_POST['submit'])){
 	
 	//验证必填项
 	$warning = '请填写：';
 	$isOK = TRUE;
-	$MapArr = array('name'=>'产品名',);
+	$MapArr = array('title'=>'标题',);
 	foreach ($MapArr as $index => $val){		
 		if (empty($_POST[$index])){
 			$isOK = FALSE;
@@ -24,25 +21,18 @@ if(isset($_POST['submit'])){
 		}
 	}
 	
-	if($_POST['safeCode'] != md5($_POST['pid'].Security_Code)){
-		$isOK = FALSE;
-		$warning .= '表单数据被篡改，';
-	}
-	
 	//验证不通过
 	if(!$isOK){
 		$message = mb_substr($warning, 0, -1,'utf-8') . '！';
 	}else{
-		
 		//查看是否有图片上传
-		$img = $proInfo['img'];
+		$img = '';
 		if(!empty($_FILES['img']['name'])){
 			require_once Root_Path.'/require/class/upload.php';
-			$uploadImg = new Upload(array('uploadPath'=>Root_Path.'/resource/product/'.date('Ymd')));
+			$uploadImg = new Upload(array('uploadPath'=>Root_Path.'/resource/custom/'.date('Ymd')));
 			$uploadImg->fileUpload($_FILES['img']);
 			$result = $uploadImg->getStatus();
 			if(0 == $result['error']){
-				@unlink(Root_Path.'/resource/news/'.$img);
 				$img = date('Ymd').'/'.$uploadImg->fileName;
 			}else{
 				echo $message .= '图片文件失败原因：'.$result['message'];
@@ -50,45 +40,32 @@ if(isset($_POST['submit'])){
 			}
 		}
 		
-		$file = $proInfo['file'];
+		$file = '';
 		if(!empty($_FILES['file']['name'])){
 			require_once Root_Path.'/require/class/upload.php';
-			$uploadFile = new Upload(array('uploadPath'=>Root_Path.'/resource/product/'.date('Ymd'),'allowTypes'=>array('xls','rar','zip','doc','docx','txt','pdf')));
+			$uploadFile = new Upload(array('uploadPath'=>Root_Path.'/resource/custom/'.date('Ymd'),'allowTypes'=>array('xls','rar','zip','doc','docx','txt','pdf')));
 			$uploadFile->fileUpload($_FILES['file']);
 			$result = $uploadFile->getStatus();
 			if(0 == $result['error']){
-				@unlink(Root_Path.'/resource/news/'.$file);
 				$file = date('Ymd').'/'.$uploadFile->fileName;
 			}else{
 				echo $message .= '附件文件失败原因：'.$result['message'].'！';
 				die();
 			}
 		}
+		
 		$updateTime = date('Y-m-d H:i:s');
-				
-		$dataArr = array(
-			'name'			=> $_POST['name'],
-			'img'			=> $img,
-			'file'			=> $file,
-			'content'		=> $_POST['content'],
-			'keyword'		=> $_POST['keyword'],
-			'description'	=> $_POST['description'],
-			'order'			=> $_POST['order'],
-			'updateTime'	=> $updateTime
-		);
-		
-		$result = $db->update('product', $dataArr,"pid='$_POST[pid]'");
-		
-		if($result){
-			header('Location: products_list.php');
+		$sql = "INSERT INTO custom VALUES(NULL,'$_POST[cid]','$_POST[title]','$_POST[author]','$img','$file','$_POST[content]','$_POST[keyword]','$_POST[description]','$_POST[order]','$updateTime')";
+		if($db->query($sql)){
+			header('Location: customs_list.php');
 		}else{
 			$message .= '数据库插入失败！';
 		}
 	}
 }
 
-//获取产品类别
-$cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,".PRODUCT.",%' ORDER BY abspath");
+//获取新闻类别
+$cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,".CUSTOM.",%' ORDER BY abspath");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -104,7 +81,7 @@ $cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category W
 		});			
 	});
 </script>
-<title>产品管理-后台</title>
+<title>自助管理-后台</title>
 </head>
 <body>
 	<div id="bigBox">
@@ -117,7 +94,7 @@ $cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category W
 			</div>
 			<div id="dataBox">
 				<div id="toolBar">
-					<a href="products_add.php" title="新增产品">新增</a>
+					<a href="news_add.php" title="新增新闻">新增</a>
 				</div>
 				<div id="list">
 					<div id="message">
@@ -126,8 +103,8 @@ $cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category W
 					<form action="" method="POST" enctype="multipart/form-data">
 						<table>
 							<tr>
-								<td>产品名</td>
-								<td><input type="text" name="name" value="<?=$proInfo['name']?>" /></td>
+								<td>标题</td>
+								<td><input type="text" name="title" /></td>
 							</tr>
 							<tr>	
 								<td>类别</td>
@@ -138,7 +115,7 @@ $cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category W
 										foreach ($cateArr as $one){
 											$space = str_repeat('&nbsp;&nbsp;&nbsp;&nbsp;',count(explode(',',$one['abspath']))-3);
 									?>
-										<option value="<?=$one['cid']?>" <?=($proInfo['cid']==$one['cid'])?"selected='selected'":''?> ><?=$space.$one['name']?></option>
+										<option value="<?=$one['cid']?>"><?=$space.$one['name']?></option>
 									<?php
 										}
 									?>
@@ -154,32 +131,30 @@ $cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category W
 								<td><input type="file" name="file" /></td>
 							</tr>
 							<tr>
+								<td>作者</td>
+								<td><input type="text" name="author" /></td>
+							</tr>
+							<tr>
 								<td>关键词</td>
-								<td><input type="text" name="keyword" value="<?=$proInfo['keyword']?>" /></td>
+								<td><input type="text" name="keyword" /></td>
 							</tr>
 							<tr>
 								<td>说明</td>
-								<td><input type="text" name="description" value="<?=$proInfo['description']?>" /></td>
+								<td><input type="text" name="description" /></td>
 							</tr>
 							<tr>
 								<td>内容</td>
 								<td>
-									<textarea name="content" style="width:800px;height:400px;visibility:hidden;">
-									<?=$proInfo['content']?>
-									</textarea>
+									<textarea name="content" style="width:800px;height:400px;visibility:hidden;"></textarea>
 								</td>
 							</tr>
 							<tr>
 								<td>顺序</td>
-								<td><input type="text" name="order" value="<?=$proInfo['order']?>" /></td>
+								<td><input type="text" name="order" /></td>
 							</tr>
 							<tr>
 								<td></td>
-								<td>
-									<input type="hidden" name="pid" value="<?=$proInfo['pid']?>" />
-									<input type="hidden" name=safeCode value="<?=md5($proInfo['pid'].Security_Code)?>" />
-									<input type="submit" name="submit" value="保存" />
-								</td>
+								<td><input type="submit" name="submit" value="发布" /></td>
 							</tr>
 						</table>
 					</form>

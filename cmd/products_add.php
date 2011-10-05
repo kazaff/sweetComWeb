@@ -7,13 +7,13 @@ $message = '';
 require_once Root_Path.'/require/class/DB.php';
 $db = new DB();
 
-//新增新闻
+//新增
 if(isset($_POST['submit'])){
 	
 	//验证必填项
 	$warning = '请填写：';
 	$isOK = TRUE;
-	$MapArr = array('name'=>'标题',);
+	$MapArr = array('name'=>'产品名',);
 	foreach ($MapArr as $index => $val){		
 		if (empty($_POST[$index])){
 			$isOK = FALSE;
@@ -81,7 +81,7 @@ $cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category W
 		});			
 	});
 </script>
-<title>新闻管理-后台</title>
+<title>产品管理-后台</title>
 </head>
 <body>
 	<div id="bigBox">
@@ -94,7 +94,7 @@ $cateArr = $db->get_all("SELECT *,CONCAT(path,'',cid) AS abspath FROM category W
 			</div>
 			<div id="dataBox">
 				<div id="toolBar">
-					<a href="news_add.php" title="新增新闻">新增</a>
+					<a href="products_add.php" title="新增产品">新增</a>
 				</div>
 				<div id="list">
 					<div id="message">

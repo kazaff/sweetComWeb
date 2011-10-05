@@ -7,7 +7,7 @@ require_once Root_Path.'/require/class/DB.php';
 $db = new DB();
 $message = '';
 
-//删除类别
+//删除
 if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['pid'] > 0){
 	$proInfo = $db->get_one("SELECT img,file FROM product WHERE pid='$_GET[pid]' LIMIT 1");	
 	if($db->delete('product',"pid='$_GET[pid]'")){
@@ -20,7 +20,7 @@ if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['pid'] > 0){
 	}
 }
 
-//获取新闻列表
+//获取列表
 require_once Root_Path.'/require/class/page.php';
 $total = $db->get_one("SELECT COUNT(pid) AS total FROM product");
 $options = array(
@@ -43,7 +43,7 @@ $proArr = $db->get_all("SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name 
 	#page a.now_page,#page a:hover{color:#fff;background:#05c}
 	#footerBox{clear:both}
 </style>
-<title>新闻管理-后台</title>
+<title>产品管理-后台</title>
 </head>
 <body>
 	<div id="bigBox">
