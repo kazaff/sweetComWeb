@@ -997,3 +997,268 @@ Query was empty
 2011-10-04 23:01:32 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
 2011-10-04 23:01:32 释放结果集
 2011-10-04 23:01:32 完成整个查询任务,所用时间为0.0250761508942
+2011-10-05 20:09:45 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-05 20:09:45 获取一条记录 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-05 20:09:45 释放结果集
+2011-10-05 20:09:45 完成整个查询任务,所用时间为0.174885988235
+2011-10-05 20:09:47 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:09:47 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:09:47 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:09:47 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:09:47 释放结果集
+2011-10-05 20:09:47 完成整个查询任务,所用时间为0.0274319648743
+2011-10-05 20:09:49 查询 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-05 20:09:49 获取一条记录 SELECT * FROM news WHERE nid='8' LIMIT 1
+2011-10-05 20:09:49 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-05 20:09:49 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-05 20:09:49 释放结果集
+2011-10-05 20:09:49 完成整个查询任务,所用时间为0.00439190864563
+2011-10-05 20:09:52 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:09:52 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:09:52 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:09:52 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:09:52 释放结果集
+2011-10-05 20:09:52 完成整个查询任务,所用时间为0.00428199768066
+2011-10-05 20:11:48 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:11:48 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:11:48 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:11:48 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:11:48 释放结果集
+2011-10-05 20:11:48 完成整个查询任务,所用时间为0.00788283348083
+2011-10-05 20:16:37 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:16:37 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:16:37 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:16:37 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:16:37 释放结果集
+2011-10-05 20:16:37 完成整个查询任务,所用时间为0.0350661277771
+2011-10-05 20:26:26 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:26:26 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:26:26 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:26:26 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:26:26 释放结果集
+2011-10-05 20:26:26 完成整个查询任务,所用时间为0.045590877533
+2011-10-05 20:26:30 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:26:30 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:26:30 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:26:30 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:26:30 释放结果集
+2011-10-05 20:26:30 完成整个查询任务,所用时间为0.00281882286072
+2011-10-05 20:26:32 查询 SELECT img,file FROM news WHERE nid='8' LIMIT 1
+2011-10-05 20:26:32 获取一条记录 SELECT img,file FROM news WHERE nid='8' LIMIT 1
+2011-10-05 20:26:32 删除 delete from news where 1=1 and nid='8'
+2011-10-05 20:26:32 查询 delete from news where 1=1 and nid='8'
+2011-10-05 20:26:32 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:26:32 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:26:32 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:26:32 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:26:32 释放结果集
+2011-10-05 20:26:32 完成整个查询任务,所用时间为0.107930898666
+2011-10-05 20:46:34 查询 SELECT img,file FROM news WHERE nid='8' LIMIT 1
+2011-10-05 20:46:34 获取一条记录 SELECT img,file FROM news WHERE nid='8' LIMIT 1
+2011-10-05 20:46:34 删除 delete from news where 1=1 and nid='8'
+2011-10-05 20:46:34 查询 delete from news where 1=1 and nid='8'
+2011-10-05 20:46:34 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:46:34 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:46:34 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:46:34 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:46:34 释放结果集
+2011-10-05 20:46:34 完成整个查询任务,所用时间为0.0388729572296
+2011-10-05 20:46:37 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:46:37 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:46:37 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:46:37 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:46:37 释放结果集
+2011-10-05 20:46:37 完成整个查询任务,所用时间为0.00816702842712
+2011-10-05 20:46:39 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:46:39 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:46:39 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:46:39 Query Error: SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+Unknown column 'p.order' in 'field list'
+2011-10-05 20:46:39 释放结果集
+2011-10-05 20:46:39 完成整个查询任务,所用时间为0.0031418800354
+2011-10-05 20:46:40 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:46:40 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-05 20:46:40 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:46:40 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-05 20:46:40 释放结果集
+2011-10-05 20:46:40 完成整个查询任务,所用时间为0.0119948387146
+2011-10-05 20:46:41 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:46:41 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:46:41 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:46:41 Query Error: SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+Unknown column 'p.order' in 'field list'
+2011-10-05 20:46:41 释放结果集
+2011-10-05 20:46:41 完成整个查询任务,所用时间为0.00361204147339
+2011-10-05 20:47:18 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:47:18 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:47:18 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:47:18 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:47:18 释放结果集
+2011-10-05 20:47:18 完成整个查询任务,所用时间为0.0337829589844
+2011-10-05 20:55:52 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 20:55:52 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 20:55:52 释放结果集
+2011-10-05 20:55:52 完成整个查询任务,所用时间为0.0249419212341
+2011-10-05 20:55:58 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 20:55:58 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 20:55:58 释放结果集
+2011-10-05 20:55:58 完成整个查询任务,所用时间为0.00228095054626
+2011-10-05 20:57:52 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 20:57:52 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 20:57:52 释放结果集
+2011-10-05 20:57:52 完成整个查询任务,所用时间为0.00723910331726
+2011-10-05 20:58:01 查询 SELECT cid,path FROM category WHERE cid='2' LIMIT 1
+2011-10-05 20:58:01 获取一条记录 SELECT cid,path FROM category WHERE cid='2' LIMIT 1
+2011-10-05 20:58:01 插入 insert into category(`pid`,`path`,`name`) values('2','0,2,','苹果')
+2011-10-05 20:58:01 查询 insert into category(`pid`,`path`,`name`) values('2','0,2,','苹果')
+2011-10-05 20:58:01 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 20:58:01 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 20:58:01 释放结果集
+2011-10-05 20:58:01 完成整个查询任务,所用时间为0.033891916275
+2011-10-05 20:58:03 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:58:03 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:58:03 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:58:03 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:58:03 释放结果集
+2011-10-05 20:58:03 完成整个查询任务,所用时间为0.00287103652954
+2011-10-05 20:58:04 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 20:58:04 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 20:58:04 释放结果集
+2011-10-05 20:58:04 完成整个查询任务,所用时间为0.00666308403015
+2011-10-05 20:58:30 查询 INSERT INTO product VALUES(NULL,'15','macbook pro ','sdf','','','niubi','niubi','0','2011-10-05 20:58:30')
+2011-10-05 20:58:30 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 20:58:30 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 20:58:30 释放结果集
+2011-10-05 20:58:30 完成整个查询任务,所用时间为0.0280549526215
+2011-10-05 20:58:30 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:58:30 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:58:30 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:58:30 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:58:30 释放结果集
+2011-10-05 20:58:30 完成整个查询任务,所用时间为0.00312685966492
+2011-10-05 20:58:39 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:58:39 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:58:39 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:58:39 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:58:39 释放结果集
+2011-10-05 20:58:39 完成整个查询任务,所用时间为0.00548481941223
+2011-10-05 20:58:54 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:58:54 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:58:54 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:58:54 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:58:54 释放结果集
+2011-10-05 20:58:54 完成整个查询任务,所用时间为0.00436282157898
+2011-10-05 20:59:20 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:20 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:20 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:20 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:20 释放结果集
+2011-10-05 20:59:20 完成整个查询任务,所用时间为0.004634141922
+2011-10-05 20:59:23 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:23 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:23 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:23 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:23 释放结果集
+2011-10-05 20:59:23 完成整个查询任务,所用时间为0.002601146698
+2011-10-05 20:59:26 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:26 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:26 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:26 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:26 释放结果集
+2011-10-05 20:59:26 完成整个查询任务,所用时间为0.0042188167572
+2011-10-05 20:59:30 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 20:59:30 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 20:59:30 释放结果集
+2011-10-05 20:59:30 完成整个查询任务,所用时间为0.0028088092804
+2011-10-05 20:59:31 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:31 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:31 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:31 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:31 释放结果集
+2011-10-05 20:59:31 完成整个查询任务,所用时间为0.00385808944702
+2011-10-05 20:59:32 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:33 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:33 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:33 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:33 释放结果集
+2011-10-05 20:59:33 完成整个查询任务,所用时间为0.00551199913025
+2011-10-05 20:59:47 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:47 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:47 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:47 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:47 释放结果集
+2011-10-05 20:59:47 完成整个查询任务,所用时间为0.00441908836365
+2011-10-05 20:59:49 查询 SELECT img,file FROM product WHERE nid='1' LIMIT 1
+2011-10-05 20:59:49 Query Error: SELECT img,file FROM product WHERE nid='1' LIMIT 1
+Unknown column 'nid' in 'where clause'
+2011-10-05 20:59:49 释放结果集
+2011-10-05 20:59:49 完成整个查询任务,所用时间为0.00165700912476
+2011-10-05 20:59:57 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:57 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 20:59:57 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:57 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 20:59:57 释放结果集
+2011-10-05 20:59:57 完成整个查询任务,所用时间为0.00438094139099
+2011-10-05 21:00:06 查询 SELECT img,file FROM product WHERE pid='1' LIMIT 1
+2011-10-05 21:00:06 获取一条记录 SELECT img,file FROM product WHERE pid='1' LIMIT 1
+2011-10-05 21:00:06 删除 delete from product where 1=1 and pid='1'
+2011-10-05 21:00:06 查询 delete from product where 1=1 and pid='1'
+2011-10-05 21:00:06 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:00:06 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:00:06 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:00:06 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:00:06 释放结果集
+2011-10-05 21:00:06 完成整个查询任务,所用时间为0.0568389892578
+2011-10-05 21:00:08 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 21:00:08 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 21:00:08 释放结果集
+2011-10-05 21:00:08 完成整个查询任务,所用时间为0.00238490104675
+2011-10-05 21:00:18 查询 INSERT INTO product VALUES(NULL,'15','index','sdf','','','','','','2011-10-05 21:00:18')
+2011-10-05 21:00:18 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 21:00:18 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 21:00:18 释放结果集
+2011-10-05 21:00:18 完成整个查询任务,所用时间为0.0352230072021
+2011-10-05 21:00:18 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:00:18 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:00:18 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:00:18 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:00:18 释放结果集
+2011-10-05 21:00:18 完成整个查询任务,所用时间为0.0035138130188
+2011-10-05 21:08:00 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:08:00 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:08:00 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:08:00 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:08:00 释放结果集
+2011-10-05 21:08:00 完成整个查询任务,所用时间为0.0271990299225
+2011-10-05 21:08:02 查询 SELECT * FROM product WHERE pid='2' LIMIT 1
+2011-10-05 21:08:02 获取一条记录 SELECT * FROM product WHERE pid='2' LIMIT 1
+2011-10-05 21:08:02 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 21:08:02 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 21:08:02 释放结果集
+2011-10-05 21:08:02 完成整个查询任务,所用时间为0.00315499305725
+2011-10-05 21:08:39 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:08:39 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:08:39 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:08:39 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:08:39 释放结果集
+2011-10-05 21:08:39 完成整个查询任务,所用时间为0.032233953476
+2011-10-05 21:08:41 查询 SELECT * FROM product WHERE pid='2' LIMIT 1
+2011-10-05 21:08:41 获取一条记录 SELECT * FROM product WHERE pid='2' LIMIT 1
+2011-10-05 21:08:41 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 21:08:41 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 21:08:41 释放结果集
+2011-10-05 21:08:41 完成整个查询任务,所用时间为0.00385308265686
+2011-10-05 21:08:46 查询 SELECT * FROM product WHERE pid='2' LIMIT 1
+2011-10-05 21:08:46 获取一条记录 SELECT * FROM product WHERE pid='2' LIMIT 1
+2011-10-05 21:08:46 更新 update product set `name` = 'index',`img` = '',`file` = '',`content` = 'sdf',`keyword` = '',`description` = '',`order` = '1',`updateTime` = '2011-10-05 21:08:46',`name` = 'index',`img` = '',`file` = '',`content` = 'sdf',`keyword` = '',`description` = '',`order` = '1',`updateTime` = '2011-10-05 21:08:46' where 1=1 and pid='2'
+2011-10-05 21:08:46 查询 update product set `name` = 'index',`img` = '',`file` = '',`content` = 'sdf',`keyword` = '',`description` = '',`order` = '1',`updateTime` = '2011-10-05 21:08:46',`name` = 'index',`img` = '',`file` = '',`content` = 'sdf',`keyword` = '',`description` = '',`order` = '1',`updateTime` = '2011-10-05 21:08:46' where 1=1 and pid='2'
+2011-10-05 21:08:46 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 21:08:46 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-05 21:08:46 释放结果集
+2011-10-05 21:08:46 完成整个查询任务,所用时间为0.00358295440674
+2011-10-05 21:08:46 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:08:46 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:08:46 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:08:46 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:08:46 释放结果集
+2011-10-05 21:08:46 完成整个查询任务,所用时间为0.00393986701965
