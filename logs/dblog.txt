@@ -1262,3 +1262,108 @@ Unknown column 'nid' in 'where clause'
 2011-10-05 21:08:46 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
 2011-10-05 21:08:46 释放结果集
 2011-10-05 21:08:46 完成整个查询任务,所用时间为0.00393986701965
+2011-10-05 21:20:08 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:20:08 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-05 21:20:08 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:20:08 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-05 21:20:08 释放结果集
+2011-10-05 21:20:08 完成整个查询任务,所用时间为0.0106139183044
+2011-10-05 21:26:56 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:26:56 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:26:56 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:26:56 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:26:56 释放结果集
+2011-10-05 21:26:56 完成整个查询任务,所用时间为0.0151808261871
+2011-10-05 21:30:42 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:30:42 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:30:42 释放结果集
+2011-10-05 21:30:42 完成整个查询任务,所用时间为0.00323104858398
+2011-10-05 21:30:53 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:30:53 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:30:53 释放结果集
+2011-10-05 21:30:53 完成整个查询任务,所用时间为0.00154304504395
+2011-10-05 21:31:01 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:31:01 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:31:01 释放结果集
+2011-10-05 21:31:01 完成整个查询任务,所用时间为0.00283598899841
+2011-10-05 21:31:04 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:31:04 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:31:04 释放结果集
+2011-10-05 21:31:04 完成整个查询任务,所用时间为0.00274801254272
+2011-10-05 21:31:11 查询 SELECT cid,path FROM category WHERE cid='3' LIMIT 1
+2011-10-05 21:31:11 获取一条记录 SELECT cid,path FROM category WHERE cid='3' LIMIT 1
+2011-10-05 21:31:11 插入 insert into category(`pid`,`path`,`name`) values('3','0,3,','无敌')
+2011-10-05 21:31:11 查询 insert into category(`pid`,`path`,`name`) values('3','0,3,','无敌')
+2011-10-05 21:31:11 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:31:11 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-05 21:31:11 释放结果集
+2011-10-05 21:31:11 完成整个查询任务,所用时间为0.0324778556824
+2011-10-05 21:31:15 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:31:15 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:31:15 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:31:15 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:31:15 释放结果集
+2011-10-05 21:31:15 完成整个查询任务,所用时间为0.00395393371582
+2011-10-05 21:31:16 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:31:16 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:31:16 释放结果集
+2011-10-05 21:31:16 完成整个查询任务,所用时间为0.00224208831787
+2011-10-05 21:31:26 查询 INSERT INTO honor VALUES(NULL,'16','金钟奖','','sadf','sdf','','','2011-10-05 21:31:26')
+2011-10-05 21:31:26 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:31:26 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:31:26 释放结果集
+2011-10-05 21:31:26 完成整个查询任务,所用时间为0.0144550800323
+2011-10-05 21:31:26 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:31:26 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:31:26 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:31:26 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:31:26 释放结果集
+2011-10-05 21:31:26 完成整个查询任务,所用时间为0.00509309768677
+2011-10-05 21:31:31 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:31:31 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:31:31 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:31:31 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:31:31 释放结果集
+2011-10-05 21:31:31 完成整个查询任务,所用时间为0.0038480758667
+2011-10-05 21:35:16 查询 SELECT * FROM honor WHERE hid='1' LIMIT 1
+2011-10-05 21:35:16 获取一条记录 SELECT * FROM honor WHERE hid='1' LIMIT 1
+2011-10-05 21:35:16 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:35:16 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:35:16 释放结果集
+2011-10-05 21:35:16 完成整个查询任务,所用时间为0.0290429592133
+2011-10-05 21:35:21 查询 SELECT * FROM honor WHERE hid='1' LIMIT 1
+2011-10-05 21:35:21 获取一条记录 SELECT * FROM honor WHERE hid='1' LIMIT 1
+2011-10-05 21:35:21 更新 update honor set `name` = '金钟奖',`img` = '',`content` = 'sadfasdf',`keyword` = 'sdf',`description` = '',`order` = '1',`updateTime` = '2011-10-05 21:35:21',`name` = '金钟奖',`img` = '',`content` = 'sadfasdf',`keyword` = 'sdf',`description` = '',`order` = '1',`updateTime` = '2011-10-05 21:35:21' where 1=1 and hid='1'
+2011-10-05 21:35:21 查询 update honor set `name` = '金钟奖',`img` = '',`content` = 'sadfasdf',`keyword` = 'sdf',`description` = '',`order` = '1',`updateTime` = '2011-10-05 21:35:21',`name` = '金钟奖',`img` = '',`content` = 'sadfasdf',`keyword` = 'sdf',`description` = '',`order` = '1',`updateTime` = '2011-10-05 21:35:21' where 1=1 and hid='1'
+2011-10-05 21:35:21 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:35:21 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:35:21 释放结果集
+2011-10-05 21:35:21 完成整个查询任务,所用时间为0.0312600135803
+2011-10-05 21:35:21 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:35:21 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:35:21 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:35:21 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:35:21 释放结果集
+2011-10-05 21:35:21 完成整个查询任务,所用时间为0.00456595420837
+2011-10-05 21:35:24 查询 SELECT * FROM honor WHERE hid='1' LIMIT 1
+2011-10-05 21:35:24 获取一条记录 SELECT * FROM honor WHERE hid='1' LIMIT 1
+2011-10-05 21:35:24 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:35:24 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-05 21:35:24 释放结果集
+2011-10-05 21:35:24 完成整个查询任务,所用时间为0.00846910476685
+2011-10-05 21:35:31 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:35:31 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:35:31 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:35:31 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:35:31 释放结果集
+2011-10-05 21:35:31 完成整个查询任务,所用时间为0.00402212142944
+2011-10-05 21:35:33 查询 SELECT img FROM honor WHERE hid='1' LIMIT 1
+2011-10-05 21:35:33 获取一条记录 SELECT img FROM honor WHERE hid='1' LIMIT 1
+2011-10-05 21:35:33 删除 delete from honor where 1=1 and hid='1'
+2011-10-05 21:35:33 查询 delete from honor where 1=1 and hid='1'
+2011-10-05 21:35:33 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:35:33 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-05 21:35:33 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:35:33 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-05 21:35:33 释放结果集
+2011-10-05 21:35:33 完成整个查询任务,所用时间为0.0147590637207
