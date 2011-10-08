@@ -8,8 +8,8 @@ $db = new DB();
 $message = '';
 
 //删除
-if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['hid'] > 0){	
-	if($db->delete('hunter',"hid='$_GET[hid]'")){
+if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['rid'] > 0){	
+	if($db->delete('resume',"rid='$_GET[rid]'")){
 		$message .= '删除成功！';
 	}else{
 		$message .= '删除失败！';
@@ -18,7 +18,7 @@ if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['hid'] > 0){
 
 //获取列表
 require_once Root_Path.'/require/class/page.php';
-$total = $db->get_one("SELECT COUNT(hid) AS total FROM hunter");
+$total = $db->get_one("SELECT COUNT(rid) AS total FROM resume WHERE hid='$_GET[hid]'");
 $options = array(
 	'total_rows' => $total['total'], //总行数
 	'list_rows'  => '20',  //每页显示量
@@ -26,7 +26,7 @@ $options = array(
 );
 $page = new page($options);
 
-$hunterArr = $db->get_all("SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT $page->first_row,$page->list_rows");
+$resumeArr = $db->get_all("SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='$_GET[hid]' LIMIT $page->first_row,$page->list_rows");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -62,25 +62,26 @@ $hunterArr = $db->get_all("SELECT hid,office,beginTime,endTime,num FROM hunter L
 						<table>
 							<tr>
 								<td>编号</td>
-								<td>职位</td>
-								<td>开始时间</td>
-								<td>结束时间</td>
-								<td>人数</td>
+								<td>姓名</td>
+								<td>年龄</td>
+								<td>性别</td>
+								<td>联系方式</td>
+								<td>投递时间</td>
 								<td>操作</td>
 							</tr>
 							<?php 
-								foreach ($hunterArr as $one){
+								foreach ($resumeArr as $one){
 							?>
 							<tr>
-								<td><?=$one['hid']?></td>
-								<td><?=$one['office']?></td>
-								<td><?=$one['beginTime']?></td>
-								<td><?=$one['endTime']?></td>
-								<td><?=$one['num']?></td>
+								<td><?=$one['rid']?></td>
+								<td><?=$one['name']?></td>
+								<td><?=$one['age']?></td>
+								<td><?=$one['sex']?></td>
+								<td><?=$one['phone']?></td>
+								<td><?=$one['updateTime']?></td>
 								<td>
-									<a href="hunter_edit.php?hid=<?=$one['hid']?>">编辑</a>
-									<a href="?act=del&hid=<?=$one['hid']?>">删除</a>
-									<a href="resume_list.php?hid=<?=$one['hid']?>">查看简历</a>
+									<a href="resume_view.php?rid=<?=$one['rid']?>">查看</a>
+									<a href="?act=del&rid=<?=$one['rid']?>&hid=<?=$_GET['hid']?>">删除</a>
 								</td>
 							</tr>
 							<?php

@@ -1634,3 +1634,276 @@ Unknown column 'isAllow' in 'field list'
 2011-10-07 23:05:23 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
 2011-10-07 23:05:23 释放结果集
 2011-10-07 23:05:23 完成整个查询任务,所用时间为0.00739598274231
+2011-10-08 20:22:11 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-08 20:22:11 获取一条记录 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-08 20:22:11 释放结果集
+2011-10-08 20:22:11 完成整个查询任务,所用时间为0.134682893753
+2011-10-08 20:23:52 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:23:52 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:23:52 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:23:52 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:23:52 释放结果集
+2011-10-08 20:23:52 完成整个查询任务,所用时间为0.0838930606842
+2011-10-08 20:36:05 释放结果集
+2011-10-08 20:36:05 完成整个查询任务,所用时间为0.0433449745178
+2011-10-08 20:37:32 查询 INSERT INTO hunter VALUES(NULL,'测试','','','10','&nbsp;&nbsp;&nbsp;&nbsp;<br />')
+2011-10-08 20:37:32 释放结果集
+2011-10-08 20:37:32 完成整个查询任务,所用时间为0.0944879055023
+2011-10-08 20:37:32 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:37:32 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:37:32 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:37:32 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:37:32 释放结果集
+2011-10-08 20:37:32 完成整个查询任务,所用时间为0.0049409866333
+2011-10-08 20:37:38 删除 delete from hunter where 1=1 and hid='1'
+2011-10-08 20:37:38 查询 delete from hunter where 1=1 and hid='1'
+2011-10-08 20:37:38 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:37:38 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:37:38 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:37:38 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:37:38 释放结果集
+2011-10-08 20:37:38 完成整个查询任务,所用时间为0.0763649940491
+2011-10-08 20:37:43 释放结果集
+2011-10-08 20:37:43 完成整个查询任务,所用时间为0.00229787826538
+2011-10-08 20:37:49 释放结果集
+2011-10-08 20:37:49 完成整个查询任务,所用时间为0.0422050952911
+2011-10-08 20:37:55 查询 INSERT INTO hunter VALUES(NULL,'sdf','','','12','')
+2011-10-08 20:37:55 释放结果集
+2011-10-08 20:37:55 完成整个查询任务,所用时间为0.0153470039368
+2011-10-08 20:37:55 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:37:55 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:37:55 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:37:55 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:37:55 释放结果集
+2011-10-08 20:37:55 完成整个查询任务,所用时间为0.00326991081238
+2011-10-08 20:45:09 查询 SELECT * FROM hunter WHERE hid='2' LIMIT 1
+2011-10-08 20:45:09 获取一条记录 SELECT * FROM hunter WHERE hid='2' LIMIT 1
+2011-10-08 20:45:09 释放结果集
+2011-10-08 20:45:09 完成整个查询任务,所用时间为0.0635659694672
+2011-10-08 20:45:18 查询 SELECT * FROM hunter WHERE hid='2' LIMIT 1
+2011-10-08 20:45:18 获取一条记录 SELECT * FROM hunter WHERE hid='2' LIMIT 1
+2011-10-08 20:45:18 更新 update hunter set `office` = 'sdf',`num` = '120',`beginTime` = '0000-00-00 00:00:00',`endTime` = '0000-00-00 00:00:00',`content` = '是否<br />',`office` = 'sdf',`num` = '120',`beginTime` = '0000-00-00 00:00:00',`endTime` = '0000-00-00 00:00:00',`content` = '是否<br />' where 1=1 and hid='2'
+2011-10-08 20:45:18 查询 update hunter set `office` = 'sdf',`num` = '120',`beginTime` = '0000-00-00 00:00:00',`endTime` = '0000-00-00 00:00:00',`content` = '是否<br />',`office` = 'sdf',`num` = '120',`beginTime` = '0000-00-00 00:00:00',`endTime` = '0000-00-00 00:00:00',`content` = '是否<br />' where 1=1 and hid='2'
+2011-10-08 20:45:18 释放结果集
+2011-10-08 20:45:18 完成整个查询任务,所用时间为0.0423889160156
+2011-10-08 20:45:18 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:45:18 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:45:18 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:45:18 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:45:18 释放结果集
+2011-10-08 20:45:18 完成整个查询任务,所用时间为0.00483298301697
+2011-10-08 20:45:20 查询 SELECT * FROM hunter WHERE hid='2' LIMIT 1
+2011-10-08 20:45:20 获取一条记录 SELECT * FROM hunter WHERE hid='2' LIMIT 1
+2011-10-08 20:45:20 释放结果集
+2011-10-08 20:45:20 完成整个查询任务,所用时间为0.00302886962891
+2011-10-08 20:45:55 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:45:55 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:45:55 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:45:55 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:45:55 释放结果集
+2011-10-08 20:45:55 完成整个查询任务,所用时间为0.0123751163483
+2011-10-08 20:47:37 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:47:37 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 20:47:37 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:47:37 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 20:47:37 释放结果集
+2011-10-08 20:47:37 完成整个查询任务,所用时间为0.0425078868866
+2011-10-08 20:59:50 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 20:59:50 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 20:59:50 查询 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 20:59:50 获取全部记录 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 20:59:50 释放结果集
+2011-10-08 20:59:50 完成整个查询任务,所用时间为0.0620470046997
+2011-10-08 21:00:05 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:00:05 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:00:05 查询 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:00:05 获取全部记录 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:00:05 释放结果集
+2011-10-08 21:00:05 完成整个查询任务,所用时间为0.00449705123901
+2011-10-08 21:00:15 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:00:15 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:00:15 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:00:15 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:00:15 释放结果集
+2011-10-08 21:00:15 完成整个查询任务,所用时间为0.00435090065002
+2011-10-08 21:00:17 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:00:17 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:00:17 查询 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:00:17 获取全部记录 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:00:17 释放结果集
+2011-10-08 21:00:17 完成整个查询任务,所用时间为0.00267601013184
+2011-10-08 21:01:18 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:01:18 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:01:18 查询 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:01:18 获取全部记录 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:01:18 释放结果集
+2011-10-08 21:01:18 完成整个查询任务,所用时间为0.00468111038208
+2011-10-08 21:01:21 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:01:21 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:01:21 查询 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:01:21 获取全部记录 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:01:21 释放结果集
+2011-10-08 21:01:21 完成整个查询任务,所用时间为0.00522804260254
+2011-10-08 21:09:24 查询 SELECT * FROM resume WHERE rid='1' LIMIT 1
+2011-10-08 21:09:24 获取一条记录 SELECT * FROM resume WHERE rid='1' LIMIT 1
+2011-10-08 21:09:24 释放结果集
+2011-10-08 21:09:24 完成整个查询任务,所用时间为0.0681419372559
+2011-10-08 21:09:46 查询 SELECT * FROM resume WHERE rid='1' LIMIT 1
+2011-10-08 21:09:46 获取一条记录 SELECT * FROM resume WHERE rid='1' LIMIT 1
+2011-10-08 21:09:46 释放结果集
+2011-10-08 21:09:46 完成整个查询任务,所用时间为0.00403809547424
+2011-10-08 21:10:16 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:10:16 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:10:16 查询 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:10:16 获取全部记录 SELECT rid,name,age,sex,phone FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:10:16 释放结果集
+2011-10-08 21:10:16 完成整个查询任务,所用时间为0.00725507736206
+2011-10-08 21:10:52 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:10:52 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:10:52 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:10:52 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:10:52 释放结果集
+2011-10-08 21:10:52 完成整个查询任务,所用时间为0.0235748291016
+2011-10-08 21:10:54 查询 SELECT * FROM resume WHERE rid='1' LIMIT 1
+2011-10-08 21:10:54 获取一条记录 SELECT * FROM resume WHERE rid='1' LIMIT 1
+2011-10-08 21:10:54 释放结果集
+2011-10-08 21:10:54 完成整个查询任务,所用时间为0.00229001045227
+2011-10-08 21:10:58 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:10:58 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:10:58 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:10:58 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:10:58 释放结果集
+2011-10-08 21:10:58 完成整个查询任务,所用时间为0.00508713722229
+2011-10-08 21:11:01 删除 delete from resume where 1=1 and rid='1'
+2011-10-08 21:11:01 查询 delete from resume where 1=1 and rid='1'
+2011-10-08 21:11:01 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid=''
+2011-10-08 21:11:01 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid=''
+2011-10-08 21:11:01 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='' LIMIT 0,20
+2011-10-08 21:11:01 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='' LIMIT 0,20
+2011-10-08 21:11:01 释放结果集
+2011-10-08 21:11:01 完成整个查询任务,所用时间为0.0295050144196
+2011-10-08 21:12:16 删除 delete from resume where 1=1 and rid='1'
+2011-10-08 21:12:16 查询 delete from resume where 1=1 and rid='1'
+2011-10-08 21:12:16 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid=''
+2011-10-08 21:12:16 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid=''
+2011-10-08 21:12:16 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='' LIMIT 0,20
+2011-10-08 21:12:16 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='' LIMIT 0,20
+2011-10-08 21:12:16 释放结果集
+2011-10-08 21:12:16 完成整个查询任务,所用时间为0.0286338329315
+2011-10-08 21:12:19 删除 delete from resume where 1=1 and rid='1'
+2011-10-08 21:12:19 查询 delete from resume where 1=1 and rid='1'
+2011-10-08 21:12:19 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid=''
+2011-10-08 21:12:19 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid=''
+2011-10-08 21:12:19 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='' LIMIT 0,20
+2011-10-08 21:12:19 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='' LIMIT 0,20
+2011-10-08 21:12:19 释放结果集
+2011-10-08 21:12:19 完成整个查询任务,所用时间为0.0146589279175
+2011-10-08 21:12:22 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:12:22 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:12:22 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:12:22 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:12:22 释放结果集
+2011-10-08 21:12:22 完成整个查询任务,所用时间为0.0351250171661
+2011-10-08 21:12:23 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:12:23 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:12:23 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:12:23 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:12:23 释放结果集
+2011-10-08 21:12:23 完成整个查询任务,所用时间为0.00545716285706
+2011-10-08 21:12:25 查询 SELECT * FROM resume WHERE rid='2' LIMIT 1
+2011-10-08 21:12:25 获取一条记录 SELECT * FROM resume WHERE rid='2' LIMIT 1
+2011-10-08 21:12:25 释放结果集
+2011-10-08 21:12:25 完成整个查询任务,所用时间为0.00202989578247
+2011-10-08 21:12:28 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:12:28 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:12:28 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:12:28 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:12:28 释放结果集
+2011-10-08 21:12:28 完成整个查询任务,所用时间为0.00553488731384
+2011-10-08 21:12:30 查询 SELECT * FROM resume WHERE rid='2' LIMIT 1
+2011-10-08 21:12:30 获取一条记录 SELECT * FROM resume WHERE rid='2' LIMIT 1
+2011-10-08 21:12:30 释放结果集
+2011-10-08 21:12:30 完成整个查询任务,所用时间为0.00322484970093
+2011-10-08 21:12:32 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:12:32 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:12:32 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:12:32 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:12:32 释放结果集
+2011-10-08 21:12:32 完成整个查询任务,所用时间为0.00465703010559
+2011-10-08 21:13:04 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:13:04 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:13:04 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:13:04 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:13:04 释放结果集
+2011-10-08 21:13:04 完成整个查询任务,所用时间为0.00898599624634
+2011-10-08 21:13:08 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:13:08 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:13:08 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:13:08 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:13:08 释放结果集
+2011-10-08 21:13:08 完成整个查询任务,所用时间为0.00348591804504
+2011-10-08 21:13:09 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:13:09 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:13:09 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:13:09 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:13:09 释放结果集
+2011-10-08 21:13:09 完成整个查询任务,所用时间为0.0123109817505
+2011-10-08 21:13:34 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:13:34 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:13:34 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:13:34 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:13:34 释放结果集
+2011-10-08 21:13:34 完成整个查询任务,所用时间为0.00602602958679
+2011-10-08 21:13:37 删除 delete from resume where 1=1 and rid='2'
+2011-10-08 21:13:37 查询 delete from resume where 1=1 and rid='2'
+2011-10-08 21:13:37 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:13:37 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='2'
+2011-10-08 21:13:37 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:13:37 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='2' LIMIT 0,20
+2011-10-08 21:13:37 释放结果集
+2011-10-08 21:13:37 完成整个查询任务,所用时间为0.0361039638519
+2011-10-08 21:13:51 释放结果集
+2011-10-08 21:13:51 完成整个查询任务,所用时间为0.00215101242065
+2011-10-08 21:34:45 释放结果集
+2011-10-08 21:34:45 完成整个查询任务,所用时间为0.0352029800415
+2011-10-08 21:35:30 释放结果集
+2011-10-08 21:35:31 完成整个查询任务,所用时间为0.0507249832153
+2011-10-08 21:35:44 释放结果集
+2011-10-08 21:35:44 完成整个查询任务,所用时间为0.00214815139771
+2011-10-08 21:36:07 查询 INSERT INTO hunter VALUES(NULL,'sdf','2011-10-08','2011-12-08','123','')
+2011-10-08 21:36:07 释放结果集
+2011-10-08 21:36:07 完成整个查询任务,所用时间为0.0476689338684
+2011-10-08 21:36:07 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:36:07 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:36:07 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:36:07 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:36:07 释放结果集
+2011-10-08 21:36:07 完成整个查询任务,所用时间为0.00404906272888
+2011-10-08 21:36:16 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='3'
+2011-10-08 21:36:16 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='3'
+2011-10-08 21:36:16 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='3' LIMIT 0,20
+2011-10-08 21:36:16 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='3' LIMIT 0,20
+2011-10-08 21:36:16 释放结果集
+2011-10-08 21:36:16 完成整个查询任务,所用时间为0.00461483001709
+2011-10-08 21:36:18 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:36:18 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:36:18 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:36:18 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:36:18 释放结果集
+2011-10-08 21:36:18 完成整个查询任务,所用时间为0.00964498519897
+2011-10-08 21:36:20 删除 delete from hunter where 1=1 and hid='3'
+2011-10-08 21:36:20 查询 delete from hunter where 1=1 and hid='3'
+2011-10-08 21:36:20 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:36:20 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:36:20 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:36:20 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:36:20 释放结果集
+2011-10-08 21:36:20 完成整个查询任务,所用时间为0.00714993476868
+2011-10-08 21:36:21 删除 delete from hunter where 1=1 and hid='2'
+2011-10-08 21:36:21 查询 delete from hunter where 1=1 and hid='2'
+2011-10-08 21:36:21 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:36:21 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:36:21 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:36:21 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:36:21 释放结果集
+2011-10-08 21:36:21 完成整个查询任务,所用时间为0.00465893745422
