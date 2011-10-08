@@ -8,21 +8,17 @@ $db = new DB();
 $message = '';
 
 //删除
-if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['nid'] > 0){
-	$newInfo = $db->get_one("SELECT img,file FROM news WHERE nid='$_GET[nid]' LIMIT 1");	
-	if($db->delete('news',"nid='$_GET[nid]'")){
-		//删除图片和附件资源
-		@unlink(Root_Path.'/resource/news/'.$newInfo['img']);
-		@unlink(Root_Path.'/resource/news/'.$newInfo['file']);
+if(isset($_GET['act']) && $_GET['act'] == 'del' && $_GET['mid'] > 0){	
+	if($db->delete('message',"mid='$_GET[mid]'")){
 		$message .= '删除成功！';
 	}else{
 		$message .= '删除失败！';
 	}
 }
 
-//获取新闻列表
+//获取列表
 require_once Root_Path.'/require/class/page.php';
-$total = $db->get_one("SELECT COUNT(nid) AS total FROM news");
+$total = $db->get_one("SELECT COUNT(mid) AS total FROM message");
 $options = array(
 	'total_rows' => $total['total'], //总行数
 	'list_rows'  => '20',  //每页显示量
@@ -30,7 +26,7 @@ $options = array(
 );
 $page = new page($options);
 
-$newsArr = $db->get_all("SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT $page->first_row,$page->list_rows");
+$messageArr = $db->get_all("SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT $page->first_row,$page->list_rows");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -43,7 +39,7 @@ $newsArr = $db->get_all("SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`ord
 	#page a.now_page,#page a:hover{color:#fff;background:#05c}
 	#footerBox{clear:both}
 </style>
-<title>新闻管理-后台</title>
+<title>留言管理-后台</title>
 </head>
 <body>
 	<div id="bigBox">
@@ -56,7 +52,7 @@ $newsArr = $db->get_all("SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`ord
 			</div>
 			<div id="dataBox">
 				<div id="toolBar">
-					<a href="news_add.php" title="新增新闻">新增</a>
+					
 				</div>
 				<div id="list">
 					<div id="message">
@@ -66,28 +62,26 @@ $newsArr = $db->get_all("SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`ord
 						<table>
 							<tr>
 								<td>编号</td>
-								<td>标题</td>
-								<td>类别</td>
-								<td>图片</td>
-								<td>作者</td>
+								<td>姓名</td>
+								<td>电话</td>
+								<td>公司名称</td>
+								<td>状态</td>
 								<td>更新时间</td>
-								<td>顺序</td>
 								<td>操作</td>
 							</tr>
 							<?php 
-								foreach ($newsArr as $one){
+								foreach ($messageArr as $one){
 							?>
 							<tr>
-								<td><?=$one['nid']?></td>
-								<td><?=$one['title']?></td>
-								<td><?=$one['className']?></td>
-								<td><?=$one['img']?></td>
-								<td><?=$one['author']?></td>
+								<td><?=$one['mid']?></td>
+								<td><?=$one['name']?></td>
+								<td><?=$one['phone']?></td>
+								<td><?=$one['company']?></td>
+								<td><?=$one['isAllow']?></td>
 								<td><?=$one['updateTime']?></td>
-								<td><?=$one['order']?></td>
 								<td>
-									<a href="news_edit.php?nid=<?=$one['nid']?>">编辑</a>
-									<a href="?act=del&nid=<?=$one['nid']?>">删除</a>
+									<a href="message_edit.php?mid=<?=$one['mid']?>">编辑</a>
+									<a href="?act=del&mid=<?=$one['mid']?>">删除</a>
 								</td>
 							</tr>
 							<?php

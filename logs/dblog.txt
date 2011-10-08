@@ -1454,3 +1454,183 @@ Unknown column 'nid' in 'where clause'
 2011-10-05 21:52:54 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
 2011-10-05 21:52:54 释放结果集
 2011-10-05 21:52:54 完成整个查询任务,所用时间为0.0108189582825
+2011-10-07 20:02:04 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-07 20:02:04 获取一条记录 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-07 20:02:04 释放结果集
+2011-10-07 20:02:04 完成整个查询任务,所用时间为0.200906038284
+2011-10-07 20:02:08 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-07 20:02:08 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-07 20:02:08 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:08 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:08 释放结果集
+2011-10-07 20:02:08 完成整个查询任务,所用时间为0.071102142334
+2011-10-07 20:02:09 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-07 20:02:09 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-07 20:02:09 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:09 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:09 释放结果集
+2011-10-07 20:02:09 完成整个查询任务,所用时间为0.019268989563
+2011-10-07 20:02:11 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-07 20:02:11 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-07 20:02:11 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:11 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:11 释放结果集
+2011-10-07 20:02:11 完成整个查询任务,所用时间为0.0060601234436
+2011-10-07 20:02:12 查询 SELECT img,file FROM product WHERE pid='2' LIMIT 1
+2011-10-07 20:02:12 获取一条记录 SELECT img,file FROM product WHERE pid='2' LIMIT 1
+2011-10-07 20:02:12 删除 delete from product where 1=1 and pid='2'
+2011-10-07 20:02:12 查询 delete from product where 1=1 and pid='2'
+2011-10-07 20:02:12 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-07 20:02:12 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-07 20:02:12 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:12 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:12 释放结果集
+2011-10-07 20:02:12 完成整个查询任务,所用时间为0.00639700889587
+2011-10-07 20:02:14 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-07 20:02:14 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-07 20:02:14 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:14 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:14 释放结果集
+2011-10-07 20:02:14 完成整个查询任务,所用时间为0.0171029567719
+2011-10-07 20:02:16 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-07 20:02:16 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-07 20:02:16 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:16 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-07 20:02:16 释放结果集
+2011-10-07 20:02:16 完成整个查询任务,所用时间为0.00434303283691
+2011-10-07 20:04:03 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-07 20:04:03 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-07 20:04:03 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-07 20:04:03 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-07 20:04:03 释放结果集
+2011-10-07 20:04:03 完成整个查询任务,所用时间为0.0367360115051
+2011-10-07 21:33:36 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:33:36 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:33:36 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 21:33:36 Query Error: SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+Unknown column 'isAllow' in 'field list'
+2011-10-07 21:33:36 释放结果集
+2011-10-07 21:33:36 完成整个查询任务,所用时间为0.0941228866577
+2011-10-07 21:33:50 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:33:50 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:33:50 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 21:33:50 Query Error: SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+Unknown column 'isAllow' in 'field list'
+2011-10-07 21:33:50 释放结果集
+2011-10-07 21:33:50 完成整个查询任务,所用时间为0.00450897216797
+2011-10-07 21:33:52 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:33:52 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:33:52 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 21:33:52 Query Error: SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+Unknown column 'isAllow' in 'field list'
+2011-10-07 21:33:52 释放结果集
+2011-10-07 21:33:52 完成整个查询任务,所用时间为0.0529050827026
+2011-10-07 21:34:52 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:34:52 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:34:52 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 21:34:52 Query Error: SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+Unknown column 'isAllow' in 'field list'
+2011-10-07 21:34:52 释放结果集
+2011-10-07 21:34:52 完成整个查询任务,所用时间为0.0297720432281
+2011-10-07 21:35:24 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:35:24 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:35:24 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 21:35:24 Query Error: SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+Unknown column 'isAllow' in 'field list'
+2011-10-07 21:35:24 释放结果集
+2011-10-07 21:35:24 完成整个查询任务,所用时间为0.0283479690552
+2011-10-07 21:35:25 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-07 21:35:25 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-07 21:35:25 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-07 21:35:25 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-07 21:35:25 释放结果集
+2011-10-07 21:35:25 完成整个查询任务,所用时间为0.0100710391998
+2011-10-07 21:35:27 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:35:27 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:35:27 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 21:35:27 Query Error: SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+Unknown column 'isAllow' in 'field list'
+2011-10-07 21:35:27 释放结果集
+2011-10-07 21:35:27 完成整个查询任务,所用时间为0.0043671131134
+2011-10-07 21:37:14 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:37:14 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:37:14 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 21:37:14 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 21:37:14 释放结果集
+2011-10-07 21:37:14 完成整个查询任务,所用时间为0.0288209915161
+2011-10-07 21:52:55 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:52:55 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 21:52:55 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 21:52:55 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 21:52:55 释放结果集
+2011-10-07 21:52:55 完成整个查询任务,所用时间为0.057333946228
+2011-10-07 22:08:30 查询 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:08:30 获取一条记录 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:08:30 释放结果集
+2011-10-07 22:08:30 完成整个查询任务,所用时间为0.0516610145569
+2011-10-07 22:08:56 查询 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:08:56 获取一条记录 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:08:56 释放结果集
+2011-10-07 22:08:56 完成整个查询任务,所用时间为0.00341296195984
+2011-10-07 22:09:12 查询 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:09:12 获取一条记录 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:09:12 释放结果集
+2011-10-07 22:09:12 完成整个查询任务,所用时间为0.00331497192383
+2011-10-07 22:25:22 查询 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:25:22 获取一条记录 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:25:22 释放结果集
+2011-10-07 22:25:22 完成整个查询任务,所用时间为0.00859594345093
+2011-10-07 22:26:20 查询 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:26:20 获取一条记录 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:26:20 释放结果集
+2011-10-07 22:26:20 完成整个查询任务,所用时间为0.0470588207245
+2011-10-07 22:26:22 查询 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:26:22 获取一条记录 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:26:22 更新 update message set `isAllow` = '1',`isAllow` = '1' where 1=1 and mid='1'
+2011-10-07 22:26:22 查询 update message set `isAllow` = '1',`isAllow` = '1' where 1=1 and mid='1'
+2011-10-07 22:26:22 释放结果集
+2011-10-07 22:26:22 完成整个查询任务,所用时间为0.0308740139008
+2011-10-07 22:26:22 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 22:26:22 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 22:26:22 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 22:26:22 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 22:26:22 释放结果集
+2011-10-07 22:26:22 完成整个查询任务,所用时间为0.0045919418335
+2011-10-07 22:26:24 查询 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:26:24 获取一条记录 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:26:24 释放结果集
+2011-10-07 22:26:24 完成整个查询任务,所用时间为0.0124938488007
+2011-10-07 22:26:27 查询 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:26:27 获取一条记录 SELECT * FROM message WHERE mid='1' LIMIT 1
+2011-10-07 22:26:27 更新 update message set `isAllow` = '0',`isAllow` = '0' where 1=1 and mid='1'
+2011-10-07 22:26:27 查询 update message set `isAllow` = '0',`isAllow` = '0' where 1=1 and mid='1'
+2011-10-07 22:26:27 释放结果集
+2011-10-07 22:26:27 完成整个查询任务,所用时间为0.00382685661316
+2011-10-07 22:26:27 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 22:26:27 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 22:26:27 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 22:26:27 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 22:26:27 释放结果集
+2011-10-07 22:26:27 完成整个查询任务,所用时间为0.00646805763245
+2011-10-07 22:26:45 删除 delete from message where 1=1 and mid='1'
+2011-10-07 22:26:45 查询 delete from message where 1=1 and mid='1'
+2011-10-07 22:26:45 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 22:26:45 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 22:26:45 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 22:26:45 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 22:26:45 释放结果集
+2011-10-07 22:26:45 完成整个查询任务,所用时间为0.0395700931549
+2011-10-07 23:05:22 删除 delete from message where 1=1 and mid='1'
+2011-10-07 23:05:22 查询 delete from message where 1=1 and mid='1'
+2011-10-07 23:05:22 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-07 23:05:22 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-07 23:05:22 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 23:05:22 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-07 23:05:22 释放结果集
+2011-10-07 23:05:22 完成整个查询任务,所用时间为0.0280640125275
+2011-10-07 23:05:23 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-07 23:05:23 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-07 23:05:23 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-07 23:05:23 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-07 23:05:23 释放结果集
+2011-10-07 23:05:23 完成整个查询任务,所用时间为0.00739598274231
