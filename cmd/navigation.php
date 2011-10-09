@@ -11,5 +11,18 @@
 	<li><a href="hunters_list.php" title="招聘管理">招聘管理</a></li>
 	<li><a href="messages_list.php" title="留言管理">留言管理</a></li>
 	<li><a href="customs_list.php" title="自助管理">自助管理</a></li>
+	<li><a href="admin_edit.php" title="账号管理">账号管理</a></li>
 	<li><a href="logout.php" title="安全退出">下班回家</a></li>
+</ul>
+
+<!-- 自助栏目导航 -->
+<ul>
+<?php
+	$navList = $db->get_all("SELECT * FROM category WHERE pid='".CUSTOM."' ORDER BY `order`");
+	foreach ($navList as $one){
+?>
+	<li><a href="customs_list.php" title="类别管理"><?=$one['name']?></a></li>
+<?php
+	}
+?>
 </ul>

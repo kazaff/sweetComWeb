@@ -13,7 +13,7 @@ $_db['dbName']	= 'sweetComWeb';
 //$_db['account']	= 'root';
 //$_db['password']	= 'root';
 //$_db['port']		= '3306';
-//$_db['log']		= 'true';
+$_db['log']		= 'false';
 //$_db['pconnect']	= 'false';
 
 define('Security_Code', '123456');	//安全码，推荐常更换，用于防止篡改提交数据

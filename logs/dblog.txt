@@ -2972,3 +2972,181 @@ Unknown column 'isAllow' in 'field list'
 2011-10-09 15:34:45 获取一条记录 SELECT * FROM comInfo LIMIT 1
 2011-10-09 15:34:45 释放结果集
 2011-10-09 15:34:45 完成整个查询任务,所用时间为0.391101837158
+2011-10-09 15:40:27 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-09 15:40:27 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-09 15:40:27 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 15:40:27 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 15:40:27 释放结果集
+2011-10-09 15:40:27 完成整个查询任务,所用时间为0.00272488594055
+2011-10-09 15:45:15 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-09 15:45:15 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-09 15:45:15 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 15:45:15 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 15:45:15 释放结果集
+2011-10-09 15:45:15 完成整个查询任务,所用时间为0.00279784202576
+2011-10-09 15:47:21 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-09 15:47:21 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-09 15:47:21 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 15:47:21 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 15:47:21 释放结果集
+2011-10-09 15:47:21 完成整个查询任务,所用时间为0.00353097915649
+2011-10-09 15:47:23 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-09 15:47:23 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-09 15:47:23 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 15:47:23 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 15:47:23 释放结果集
+2011-10-09 15:47:23 完成整个查询任务,所用时间为0.00293898582458
+2011-10-09 15:47:25 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 15:47:25 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 15:47:25 释放结果集
+2011-10-09 15:47:25 完成整个查询任务,所用时间为0.00209307670593
+2011-10-09 15:47:27 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:47:27 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:47:27 释放结果集
+2011-10-09 15:47:27 完成整个查询任务,所用时间为0.00154495239258
+2011-10-09 15:47:33 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-09 15:47:33 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-09 15:47:33 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 15:47:33 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 15:47:33 释放结果集
+2011-10-09 15:47:33 完成整个查询任务,所用时间为0.00260186195374
+2011-10-09 15:47:36 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-09 15:47:36 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-09 15:47:36 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 15:47:36 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 15:47:36 释放结果集
+2011-10-09 15:47:36 完成整个查询任务,所用时间为0.00264406204224
+2011-10-09 16:21:53 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-09 16:21:53 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-09 16:21:53 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 16:21:53 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 16:21:53 释放结果集
+2011-10-09 16:21:53 完成整个查询任务,所用时间为0.0481979846954
+2011-10-09 16:25:59 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-09 16:25:59 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-09 16:25:59 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 16:25:59 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 16:25:59 查询 SELECT * FROM category WHERE pid='' ORDER BY `order`
+2011-10-09 16:25:59 获取全部记录 SELECT * FROM category WHERE pid='' ORDER BY `order`
+2011-10-09 16:25:59 释放结果集
+2011-10-09 16:25:59 完成整个查询任务,所用时间为0.00304794311523
+2011-10-09 16:26:38 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-09 16:26:38 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-09 16:26:38 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 16:26:38 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 16:26:38 查询 SELECT * FROM category WHERE pid='{CUSTOM}' ORDER BY `order`
+2011-10-09 16:26:38 获取全部记录 SELECT * FROM category WHERE pid='{CUSTOM}' ORDER BY `order`
+2011-10-09 16:26:38 释放结果集
+2011-10-09 16:26:38 完成整个查询任务,所用时间为0.00491189956665
+2011-10-09 16:26:40 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-09 16:26:40 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-09 16:26:40 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 16:26:40 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 16:26:40 查询 SELECT * FROM category WHERE pid='{CUSTOM}' ORDER BY `order`
+2011-10-09 16:26:40 获取全部记录 SELECT * FROM category WHERE pid='{CUSTOM}' ORDER BY `order`
+2011-10-09 16:26:40 释放结果集
+2011-10-09 16:26:40 完成整个查询任务,所用时间为0.00299000740051
+2011-10-09 16:27:02 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-09 16:27:02 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-09 16:27:02 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 16:27:02 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 16:27:02 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:27:02 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:27:02 释放结果集
+2011-10-09 16:27:02 完成整个查询任务,所用时间为0.00453901290894
+2011-10-09 16:27:10 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 16:27:10 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 16:27:10 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 16:27:10 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 16:27:10 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:27:10 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:27:10 释放结果集
+2011-10-09 16:27:10 完成整个查询任务,所用时间为0.00302410125732
+2011-10-09 16:32:48 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 16:32:48 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 16:32:48 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 16:32:48 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 16:32:48 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:32:48 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:32:48 释放结果集
+2011-10-09 16:32:48 完成整个查询任务,所用时间为0.00446581840515
+2011-10-09 16:47:03 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 16:47:03 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 16:47:03 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 16:47:03 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 16:47:03 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:03 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:03 释放结果集
+2011-10-09 16:47:03 完成整个查询任务,所用时间为0.00320315361023
+2011-10-09 16:47:05 查询 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:47:05 获取一条记录 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:47:05 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:05 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:05 释放结果集
+2011-10-09 16:47:05 完成整个查询任务,所用时间为0.00182104110718
+2011-10-09 16:47:28 查询 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:47:28 获取一条记录 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:47:28 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:28 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:28 释放结果集
+2011-10-09 16:47:28 完成整个查询任务,所用时间为0.00194811820984
+2011-10-09 16:47:35 查询 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:47:35 获取一条记录 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:47:35 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:35 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:35 释放结果集
+2011-10-09 16:47:35 完成整个查询任务,所用时间为0.00178909301758
+2011-10-09 16:47:43 查询 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:47:43 获取一条记录 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:47:43 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:43 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:43 释放结果集
+2011-10-09 16:47:43 完成整个查询任务,所用时间为0.0223219394684
+2011-10-09 16:47:59 查询 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:47:59 获取一条记录 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:47:59 更新 update user set `account` = 'kazaff',`password` = '123123',`name` = 'kz',`account` = 'kazaff',`password` = '123123',`name` = 'kz' where 1=1 and uid='1'
+2011-10-09 16:47:59 查询 update user set `account` = 'kazaff',`password` = '123123',`name` = 'kz',`account` = 'kazaff',`password` = '123123',`name` = 'kz' where 1=1 and uid='1'
+2011-10-09 16:47:59 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:59 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:59 释放结果集
+2011-10-09 16:47:59 完成整个查询任务,所用时间为0.0160119533539
+2011-10-09 16:47:59 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 16:47:59 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 16:47:59 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:59 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:47:59 释放结果集
+2011-10-09 16:47:59 完成整个查询任务,所用时间为0.00204396247864
+2011-10-09 16:48:29 查询 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:48:29 获取一条记录 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:48:29 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:48:29 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:48:29 释放结果集
+2011-10-09 16:48:29 完成整个查询任务,所用时间为0.00192904472351
+2011-10-09 16:48:33 查询 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:48:33 获取一条记录 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:48:33 更新 update user set `account` = 'kazaff',`password` = '123123',`name` = 'kz',`account` = 'kazaff',`password` = '123123',`name` = 'kz' where 1=1 and uid='1'
+2011-10-09 16:48:33 查询 update user set `account` = 'kazaff',`password` = '123123',`name` = 'kz',`account` = 'kazaff',`password` = '123123',`name` = 'kz' where 1=1 and uid='1'
+2011-10-09 16:48:33 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:48:33 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:48:33 释放结果集
+2011-10-09 16:48:33 完成整个查询任务,所用时间为0.00312995910645
+2011-10-09 16:48:33 查询 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:48:33 获取一条记录 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:48:33 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:48:33 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:48:33 释放结果集
+2011-10-09 16:48:33 完成整个查询任务,所用时间为0.00180602073669
+2011-10-09 16:48:42 查询 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:48:42 获取一条记录 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:48:42 更新 update user set `account` = 'kazaff',`password` = '123123',`name` = 'kz',`account` = 'kazaff',`password` = '123123',`name` = 'kz' where 1=1 and uid='1'
+2011-10-09 16:48:42 查询 update user set `account` = 'kazaff',`password` = '123123',`name` = 'kz',`account` = 'kazaff',`password` = '123123',`name` = 'kz' where 1=1 and uid='1'
+2011-10-09 16:48:42 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:48:42 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:48:42 释放结果集
+2011-10-09 16:48:42 完成整个查询任务,所用时间为0.00326418876648
+2011-10-09 16:48:42 查询 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:48:42 获取一条记录 SELECT uid,account,password,name FROM user LIMIT 1
+2011-10-09 16:48:42 查询 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:48:42 获取全部记录 SELECT * FROM category WHERE pid='5' ORDER BY `order`
+2011-10-09 16:48:42 释放结果集
+2011-10-09 16:48:42 完成整个查询任务,所用时间为0.00272297859192
