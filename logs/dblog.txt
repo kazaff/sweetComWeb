@@ -1907,3 +1907,1064 @@ Unknown column 'isAllow' in 'field list'
 2011-10-08 21:36:21 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
 2011-10-08 21:36:21 释放结果集
 2011-10-08 21:36:21 完成整个查询任务,所用时间为0.00465893745422
+2011-10-08 21:37:30 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-08 21:37:30 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-08 21:37:30 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-08 21:37:30 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-08 21:37:30 释放结果集
+2011-10-08 21:37:30 完成整个查询任务,所用时间为0.00851702690125
+2011-10-08 21:37:33 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:37:33 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:37:33 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:37:33 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:37:33 释放结果集
+2011-10-08 21:37:33 完成整个查询任务,所用时间为0.00878190994263
+2011-10-08 21:37:34 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:37:34 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-08 21:37:34 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:37:34 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-08 21:37:34 释放结果集
+2011-10-08 21:37:34 完成整个查询任务,所用时间为0.00577402114868
+2011-10-08 21:37:42 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-08 21:37:42 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-08 21:37:42 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-08 21:37:42 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-08 21:37:42 释放结果集
+2011-10-08 21:37:42 完成整个查询任务,所用时间为0.0192050933838
+2011-10-09 10:44:57 查询 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-09 10:44:57 获取一条记录 select uid,name from user where account='kazaff' and password='123456' and isAllow=1 limit 1
+2011-10-09 10:44:57 释放结果集
+2011-10-09 10:44:57 完成整个查询任务,所用时间为0.039500951767
+2011-10-09 10:45:12 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:12 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:12 释放结果集
+2011-10-09 10:45:12 完成整个查询任务,所用时间为0.00498700141907
+2011-10-09 10:45:32 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:32 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:32 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:32 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:32 释放结果集
+2011-10-09 10:45:32 完成整个查询任务,所用时间为0.00526595115662
+2011-10-09 10:45:33 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:33 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:33 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:33 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:33 释放结果集
+2011-10-09 10:45:33 完成整个查询任务,所用时间为0.00208401679993
+2011-10-09 10:45:39 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:39 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:39 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:39 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:39 释放结果集
+2011-10-09 10:45:39 完成整个查询任务,所用时间为0.00194883346558
+2011-10-09 10:45:51 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:51 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:51 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:51 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:51 释放结果集
+2011-10-09 10:45:51 完成整个查询任务,所用时间为0.0019428730011
+2011-10-09 10:45:56 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:56 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:56 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:56 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:56 释放结果集
+2011-10-09 10:45:56 完成整个查询任务,所用时间为0.00193285942078
+2011-10-09 10:45:59 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:59 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:45:59 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:59 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:45:59 释放结果集
+2011-10-09 10:45:59 完成整个查询任务,所用时间为0.00192785263062
+2011-10-09 10:46:00 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:46:00 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:46:00 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:00 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:00 释放结果集
+2011-10-09 10:46:00 完成整个查询任务,所用时间为0.00215077400208
+2011-10-09 10:46:00 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='14'
+2011-10-09 10:46:00 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='14'
+2011-10-09 10:46:00 删除 delete from category where 1=1 and cid='14'
+2011-10-09 10:46:00 查询 delete from category where 1=1 and cid='14'
+2011-10-09 10:46:00 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:00 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:00 释放结果集
+2011-10-09 10:46:00 完成整个查询任务,所用时间为0.00234580039978
+2011-10-09 10:46:01 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:46:01 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='12'
+2011-10-09 10:46:01 删除 delete from category where 1=1 and cid='12'
+2011-10-09 10:46:01 查询 delete from category where 1=1 and cid='12'
+2011-10-09 10:46:01 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:01 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:01 释放结果集
+2011-10-09 10:46:01 完成整个查询任务,所用时间为0.00214195251465
+2011-10-09 10:46:02 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='13'
+2011-10-09 10:46:02 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='13'
+2011-10-09 10:46:02 删除 delete from category where 1=1 and cid='13'
+2011-10-09 10:46:02 查询 delete from category where 1=1 and cid='13'
+2011-10-09 10:46:02 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:02 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:02 释放结果集
+2011-10-09 10:46:02 完成整个查询任务,所用时间为0.00215291976929
+2011-10-09 10:46:03 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='15'
+2011-10-09 10:46:03 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='15'
+2011-10-09 10:46:03 删除 delete from category where 1=1 and cid='15'
+2011-10-09 10:46:03 查询 delete from category where 1=1 and cid='15'
+2011-10-09 10:46:03 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:03 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:03 释放结果集
+2011-10-09 10:46:03 完成整个查询任务,所用时间为0.00209879875183
+2011-10-09 10:46:04 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='16'
+2011-10-09 10:46:04 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='16'
+2011-10-09 10:46:04 删除 delete from category where 1=1 and cid='16'
+2011-10-09 10:46:04 查询 delete from category where 1=1 and cid='16'
+2011-10-09 10:46:04 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:04 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:04 释放结果集
+2011-10-09 10:46:04 完成整个查询任务,所用时间为0.0023729801178
+2011-10-09 10:46:04 查询 SELECT COUNT(cid) AS num FROM category WHERE pid='17'
+2011-10-09 10:46:04 获取一条记录 SELECT COUNT(cid) AS num FROM category WHERE pid='17'
+2011-10-09 10:46:04 删除 delete from category where 1=1 and cid='17'
+2011-10-09 10:46:04 查询 delete from category where 1=1 and cid='17'
+2011-10-09 10:46:04 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:04 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:04 释放结果集
+2011-10-09 10:46:04 完成整个查询任务,所用时间为0.002032995224
+2011-10-09 10:46:23 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:23 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:23 释放结果集
+2011-10-09 10:46:23 完成整个查询任务,所用时间为0.00483798980713
+2011-10-09 10:46:34 查询 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-09 10:46:34 获取一条记录 SELECT cid,path FROM category WHERE cid='1' LIMIT 1
+2011-10-09 10:46:34 插入 insert into category(`pid`,`path`,`name`) values('1','0,1,','国际')
+2011-10-09 10:46:34 查询 insert into category(`pid`,`path`,`name`) values('1','0,1,','国际')
+2011-10-09 10:46:34 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:34 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:34 释放结果集
+2011-10-09 10:46:34 完成整个查询任务,所用时间为0.00230097770691
+2011-10-09 10:46:42 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:42 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 10:46:42 释放结果集
+2011-10-09 10:46:42 完成整个查询任务,所用时间为0.00163006782532
+2011-10-09 10:46:45 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-09 10:46:45 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-09 10:46:45 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 10:46:45 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 10:46:45 释放结果集
+2011-10-09 10:46:45 完成整个查询任务,所用时间为0.0199770927429
+2011-10-09 10:46:48 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:46:48 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:46:48 释放结果集
+2011-10-09 10:46:48 完成整个查询任务,所用时间为0.00168299674988
+2011-10-09 10:49:01 查询 INSERT INTO news VALUES(NULL,'0','我靠','kz','','','<span style=\"color:#FF9900;\">asdfasdf</span><span style=\"background-color:#E56600;\"></span><br />','alskdfj','sldkfjsalkdf','','2011-10-09 10:49:01')
+2011-10-09 10:49:01 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:01 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:01 释放结果集
+2011-10-09 10:49:01 完成整个查询任务,所用时间为0.00250291824341
+2011-10-09 10:49:01 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-09 10:49:01 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-09 10:49:01 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 10:49:01 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 10:49:01 释放结果集
+2011-10-09 10:49:01 完成整个查询任务,所用时间为0.0028510093689
+2011-10-09 10:49:02 查询 SELECT * FROM news WHERE nid='1' LIMIT 1
+2011-10-09 10:49:02 获取一条记录 SELECT * FROM news WHERE nid='1' LIMIT 1
+2011-10-09 10:49:02 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:02 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:02 释放结果集
+2011-10-09 10:49:02 完成整个查询任务,所用时间为0.00183486938477
+2011-10-09 10:49:08 查询 SELECT * FROM news WHERE nid='1' LIMIT 1
+2011-10-09 10:49:08 获取一条记录 SELECT * FROM news WHERE nid='1' LIMIT 1
+2011-10-09 10:49:08 更新 update news set `title` = '我靠',`author` = 'kz',`img` = '',`file` = '',`content` = '<span style=\"color:#FF9900;\">asdfasdf</span><span style=\"background-color:#E56600;\"></span><img src=\"http://maps.googleapis.com/maps/api/staticmap?center=31.230393%2C121.473704&amp;zoom=11&amp;size=558x360&amp;maptype=roadmap&amp;markers=31.230393%2C121.473704&amp;language=zh_CN&amp;sensor=false\" alt=\"\" /><br />',`keyword` = 'alskdfj',`description` = 'sldkfjsalkdf',`order` = '0',`updateTime` = '2011-10-09 10:49:08',`title` = '我靠',`author` = 'kz',`img` = '',`file` = '',`content` = '<span style=\"color:#FF9900;\">asdfasdf</span><span style=\"background-color:#E56600;\"></span><img src=\"http://maps.googleapis.com/maps/api/staticmap?center=31.230393%2C121.473704&amp;zoom=11&amp;size=558x360&amp;maptype=roadmap&amp;markers=31.230393%2C121.473704&amp;language=zh_CN&amp;sensor=false\" alt=\"\" /><br />',`keyword` = 'alskdfj',`description` = 'sldkfjsalkdf',`order` = '0',`updateTime` = '2011-10-09 10:49:08' where 1=1 and nid='1'
+2011-10-09 10:49:08 查询 update news set `title` = '我靠',`author` = 'kz',`img` = '',`file` = '',`content` = '<span style=\"color:#FF9900;\">asdfasdf</span><span style=\"background-color:#E56600;\"></span><img src=\"http://maps.googleapis.com/maps/api/staticmap?center=31.230393%2C121.473704&amp;zoom=11&amp;size=558x360&amp;maptype=roadmap&amp;markers=31.230393%2C121.473704&amp;language=zh_CN&amp;sensor=false\" alt=\"\" /><br />',`keyword` = 'alskdfj',`description` = 'sldkfjsalkdf',`order` = '0',`updateTime` = '2011-10-09 10:49:08',`title` = '我靠',`author` = 'kz',`img` = '',`file` = '',`content` = '<span style=\"color:#FF9900;\">asdfasdf</span><span style=\"background-color:#E56600;\"></span><img src=\"http://maps.googleapis.com/maps/api/staticmap?center=31.230393%2C121.473704&amp;zoom=11&amp;size=558x360&amp;maptype=roadmap&amp;markers=31.230393%2C121.473704&amp;language=zh_CN&amp;sensor=false\" alt=\"\" /><br />',`keyword` = 'alskdfj',`description` = 'sldkfjsalkdf',`order` = '0',`updateTime` = '2011-10-09 10:49:08' where 1=1 and nid='1'
+2011-10-09 10:49:08 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:08 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:08 释放结果集
+2011-10-09 10:49:08 完成整个查询任务,所用时间为0.00340294837952
+2011-10-09 10:49:08 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-09 10:49:08 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-09 10:49:08 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 10:49:08 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 10:49:08 释放结果集
+2011-10-09 10:49:08 完成整个查询任务,所用时间为0.00266695022583
+2011-10-09 10:49:09 查询 SELECT * FROM news WHERE nid='1' LIMIT 1
+2011-10-09 10:49:09 获取一条记录 SELECT * FROM news WHERE nid='1' LIMIT 1
+2011-10-09 10:49:09 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:09 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:09 释放结果集
+2011-10-09 10:49:09 完成整个查询任务,所用时间为0.0585980415344
+2011-10-09 10:49:22 查询 SELECT * FROM news WHERE nid='1' LIMIT 1
+2011-10-09 10:49:22 获取一条记录 SELECT * FROM news WHERE nid='1' LIMIT 1
+2011-10-09 10:49:22 更新 update news set `title` = '我靠',`author` = 'kz',`img` = '20111009/kaXhHCmI3wDQw-20111009104922.jpg',`file` = '',`content` = '<span style=\"color:#FF9900;\">asdfasdf</span><span style=\"background-color:#E56600;\"></span><img src=\"http://maps.googleapis.com/maps/api/staticmap?center=31.230393%2C121.473704&amp;zoom=11&amp;size=558x360&amp;maptype=roadmap&amp;markers=31.230393%2C121.473704&amp;language=zh_CN&amp;sensor=false\" alt=\"\" /><br />',`keyword` = 'alskdfj',`description` = 'sldkfjsalkdf',`order` = '0',`updateTime` = '2011-10-09 10:49:22',`title` = '我靠',`author` = 'kz',`img` = '20111009/kaXhHCmI3wDQw-20111009104922.jpg',`file` = '',`content` = '<span style=\"color:#FF9900;\">asdfasdf</span><span style=\"background-color:#E56600;\"></span><img src=\"http://maps.googleapis.com/maps/api/staticmap?center=31.230393%2C121.473704&amp;zoom=11&amp;size=558x360&amp;maptype=roadmap&amp;markers=31.230393%2C121.473704&amp;language=zh_CN&amp;sensor=false\" alt=\"\" /><br />',`keyword` = 'alskdfj',`description` = 'sldkfjsalkdf',`order` = '0',`updateTime` = '2011-10-09 10:49:22' where 1=1 and nid='1'
+2011-10-09 10:49:22 查询 update news set `title` = '我靠',`author` = 'kz',`img` = '20111009/kaXhHCmI3wDQw-20111009104922.jpg',`file` = '',`content` = '<span style=\"color:#FF9900;\">asdfasdf</span><span style=\"background-color:#E56600;\"></span><img src=\"http://maps.googleapis.com/maps/api/staticmap?center=31.230393%2C121.473704&amp;zoom=11&amp;size=558x360&amp;maptype=roadmap&amp;markers=31.230393%2C121.473704&amp;language=zh_CN&amp;sensor=false\" alt=\"\" /><br />',`keyword` = 'alskdfj',`description` = 'sldkfjsalkdf',`order` = '0',`updateTime` = '2011-10-09 10:49:22',`title` = '我靠',`author` = 'kz',`img` = '20111009/kaXhHCmI3wDQw-20111009104922.jpg',`file` = '',`content` = '<span style=\"color:#FF9900;\">asdfasdf</span><span style=\"background-color:#E56600;\"></span><img src=\"http://maps.googleapis.com/maps/api/staticmap?center=31.230393%2C121.473704&amp;zoom=11&amp;size=558x360&amp;maptype=roadmap&amp;markers=31.230393%2C121.473704&amp;language=zh_CN&amp;sensor=false\" alt=\"\" /><br />',`keyword` = 'alskdfj',`description` = 'sldkfjsalkdf',`order` = '0',`updateTime` = '2011-10-09 10:49:22' where 1=1 and nid='1'
+2011-10-09 10:49:22 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:22 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:22 释放结果集
+2011-10-09 10:49:22 完成整个查询任务,所用时间为0.10080909729
+2011-10-09 10:49:22 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-09 10:49:22 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-09 10:49:22 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 10:49:22 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 10:49:22 释放结果集
+2011-10-09 10:49:22 完成整个查询任务,所用时间为0.00386595726013
+2011-10-09 10:49:27 查询 SELECT * FROM news WHERE nid='1' LIMIT 1
+2011-10-09 10:49:27 获取一条记录 SELECT * FROM news WHERE nid='1' LIMIT 1
+2011-10-09 10:49:27 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:27 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 10:49:27 释放结果集
+2011-10-09 10:49:27 完成整个查询任务,所用时间为0.0018298625946
+2011-10-09 10:49:38 查询 SELECT COUNT(nid) AS total FROM news
+2011-10-09 10:49:38 获取一条记录 SELECT COUNT(nid) AS total FROM news
+2011-10-09 10:49:38 查询 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 10:49:38 获取全部记录 SELECT n.nid,n.title,n.img,n.author,n.updateTime,n.`order`,c.name AS className FROM news AS n LEFT JOIN category c ON n.cid=c.cid LIMIT 0,20
+2011-10-09 10:49:38 释放结果集
+2011-10-09 10:49:38 完成整个查询任务,所用时间为0.00259113311768
+2011-10-09 10:49:39 查询 SELECT COUNT(pid) AS total FROM product
+2011-10-09 10:49:39 获取一条记录 SELECT COUNT(pid) AS total FROM product
+2011-10-09 10:49:39 查询 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 10:49:39 获取全部记录 SELECT p.pid,p.name,p.img,p.updateTime,p.`order`,c.name AS className FROM product AS p LEFT JOIN category c ON p.cid=c.cid LIMIT 0,20
+2011-10-09 10:49:39 释放结果集
+2011-10-09 10:49:39 完成整个查询任务,所用时间为0.00267481803894
+2011-10-09 10:49:40 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-09 10:49:40 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,2,%' ORDER BY abspath
+2011-10-09 10:49:40 释放结果集
+2011-10-09 10:49:40 完成整个查询任务,所用时间为0.00194716453552
+2011-10-09 10:52:17 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-09 10:52:17 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-09 10:52:17 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-09 10:52:17 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-09 10:52:17 释放结果集
+2011-10-09 10:52:17 完成整个查询任务,所用时间为0.00292205810547
+2011-10-09 10:52:20 查询 SELECT COUNT(hid) AS total FROM honor
+2011-10-09 10:52:20 获取一条记录 SELECT COUNT(hid) AS total FROM honor
+2011-10-09 10:52:20 查询 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-09 10:52:20 获取全部记录 SELECT h.hid,h.name,h.img,h.updateTime,h.`order`,c.name AS className FROM honor AS h LEFT JOIN category c ON h.cid=c.cid LIMIT 0,20
+2011-10-09 10:52:20 释放结果集
+2011-10-09 10:52:20 完成整个查询任务,所用时间为0.00250196456909
+2011-10-09 10:52:20 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-09 10:52:20 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,3,%' ORDER BY abspath
+2011-10-09 10:52:20 释放结果集
+2011-10-09 10:52:20 完成整个查询任务,所用时间为0.00152492523193
+2011-10-09 10:52:47 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-09 10:52:47 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-09 10:52:47 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-09 10:52:47 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-09 10:52:47 释放结果集
+2011-10-09 10:52:47 完成整个查询任务,所用时间为0.00272011756897
+2011-10-09 10:52:58 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:52:58 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:52:58 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:52:58 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:52:58 释放结果集
+2011-10-09 10:52:58 完成整个查询任务,所用时间为0.00244808197021
+2011-10-09 10:52:59 释放结果集
+2011-10-09 10:52:59 完成整个查询任务,所用时间为0.00117802619934
+2011-10-09 10:53:11 释放结果集
+2011-10-09 10:53:11 完成整个查询任务,所用时间为0.00118613243103
+2011-10-09 10:53:33 查询 INSERT INTO hunter VALUES(NULL,'sfj','2011-10-09','2011-10-20','10','asf<br />')
+2011-10-09 10:53:33 释放结果集
+2011-10-09 10:53:33 完成整个查询任务,所用时间为0.00212216377258
+2011-10-09 10:53:33 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:53:33 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:53:33 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:53:33 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:53:33 释放结果集
+2011-10-09 10:53:33 完成整个查询任务,所用时间为0.00254487991333
+2011-10-09 10:53:39 查询 SELECT * FROM hunter WHERE hid='1' LIMIT 1
+2011-10-09 10:53:39 获取一条记录 SELECT * FROM hunter WHERE hid='1' LIMIT 1
+2011-10-09 10:53:39 释放结果集
+2011-10-09 10:53:39 完成整个查询任务,所用时间为0.00154805183411
+2011-10-09 10:53:41 查询 SELECT * FROM hunter WHERE hid='1' LIMIT 1
+2011-10-09 10:53:41 获取一条记录 SELECT * FROM hunter WHERE hid='1' LIMIT 1
+2011-10-09 10:53:41 更新 update hunter set `office` = 'sfj',`num` = '10',`beginTime` = '2011-10-09 00:00:00',`endTime` = '2011-10-20 00:00:00',`content` = 'asf<br />',`office` = 'sfj',`num` = '10',`beginTime` = '2011-10-09 00:00:00',`endTime` = '2011-10-20 00:00:00',`content` = 'asf<br />' where 1=1 and hid='1'
+2011-10-09 10:53:41 查询 update hunter set `office` = 'sfj',`num` = '10',`beginTime` = '2011-10-09 00:00:00',`endTime` = '2011-10-20 00:00:00',`content` = 'asf<br />',`office` = 'sfj',`num` = '10',`beginTime` = '2011-10-09 00:00:00',`endTime` = '2011-10-20 00:00:00',`content` = 'asf<br />' where 1=1 and hid='1'
+2011-10-09 10:53:41 释放结果集
+2011-10-09 10:53:41 完成整个查询任务,所用时间为0.00274205207825
+2011-10-09 10:53:41 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:53:41 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:53:41 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:53:41 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:53:41 释放结果集
+2011-10-09 10:53:41 完成整个查询任务,所用时间为0.00302600860596
+2011-10-09 10:53:46 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='1'
+2011-10-09 10:53:46 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='1'
+2011-10-09 10:53:46 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='1' LIMIT 0,20
+2011-10-09 10:53:46 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='1' LIMIT 0,20
+2011-10-09 10:53:46 释放结果集
+2011-10-09 10:53:46 完成整个查询任务,所用时间为0.00265097618103
+2011-10-09 10:53:49 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:53:49 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:53:49 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:53:49 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:53:49 释放结果集
+2011-10-09 10:53:49 完成整个查询任务,所用时间为0.00299787521362
+2011-10-09 10:57:25 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 10:57:25 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 10:57:25 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 10:57:25 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 10:57:25 释放结果集
+2011-10-09 10:57:25 完成整个查询任务,所用时间为0.0303349494934
+2011-10-09 10:57:27 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:57:27 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:57:27 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:57:27 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:57:27 释放结果集
+2011-10-09 10:57:27 完成整个查询任务,所用时间为0.0025200843811
+2011-10-09 10:57:29 查询 SELECT * FROM hunter WHERE hid='1' LIMIT 1
+2011-10-09 10:57:29 获取一条记录 SELECT * FROM hunter WHERE hid='1' LIMIT 1
+2011-10-09 10:57:29 释放结果集
+2011-10-09 10:57:29 完成整个查询任务,所用时间为0.00151705741882
+2011-10-09 10:57:31 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:57:31 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:57:31 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:57:31 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:57:31 释放结果集
+2011-10-09 10:57:31 完成整个查询任务,所用时间为0.00245094299316
+2011-10-09 10:57:31 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='1'
+2011-10-09 10:57:31 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='1'
+2011-10-09 10:57:31 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='1' LIMIT 0,20
+2011-10-09 10:57:31 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='1' LIMIT 0,20
+2011-10-09 10:57:31 释放结果集
+2011-10-09 10:57:31 完成整个查询任务,所用时间为0.0025429725647
+2011-10-09 10:57:35 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:57:35 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:57:35 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:57:35 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:57:35 释放结果集
+2011-10-09 10:57:35 完成整个查询任务,所用时间为0.00252604484558
+2011-10-09 10:57:36 查询 SELECT COUNT(rid) AS total FROM resume WHERE hid='1'
+2011-10-09 10:57:36 获取一条记录 SELECT COUNT(rid) AS total FROM resume WHERE hid='1'
+2011-10-09 10:57:36 查询 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='1' LIMIT 0,20
+2011-10-09 10:57:36 获取全部记录 SELECT rid,name,age,sex,phone,updateTime FROM resume WHERE hid='1' LIMIT 0,20
+2011-10-09 10:57:36 释放结果集
+2011-10-09 10:57:36 完成整个查询任务,所用时间为0.00254511833191
+2011-10-09 10:57:38 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:57:38 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:57:38 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:57:38 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:57:38 释放结果集
+2011-10-09 10:57:38 完成整个查询任务,所用时间为0.00259685516357
+2011-10-09 10:57:50 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-09 10:57:50 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-09 10:57:50 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-09 10:57:50 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-09 10:57:50 释放结果集
+2011-10-09 10:57:50 完成整个查询任务,所用时间为0.00245785713196
+2011-10-09 10:57:54 查询 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:57:54 获取一条记录 SELECT COUNT(hid) AS total FROM hunter
+2011-10-09 10:57:54 查询 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:57:54 获取全部记录 SELECT hid,office,beginTime,endTime,num FROM hunter LIMIT 0,20
+2011-10-09 10:57:54 释放结果集
+2011-10-09 10:57:54 完成整个查询任务,所用时间为0.00301289558411
+2011-10-09 10:58:02 查询 SELECT COUNT(mid) AS total FROM message
+2011-10-09 10:58:02 获取一条记录 SELECT COUNT(mid) AS total FROM message
+2011-10-09 10:58:02 查询 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-09 10:58:02 获取全部记录 SELECT mid,name,phone,company,updateTime,isAllow FROM message LIMIT 0,20
+2011-10-09 10:58:02 释放结果集
+2011-10-09 10:58:02 完成整个查询任务,所用时间为0.00247406959534
+2011-10-09 10:58:36 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 10:58:36 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 10:58:36 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 10:58:36 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 10:58:36 释放结果集
+2011-10-09 10:58:36 完成整个查询任务,所用时间为0.00262403488159
+2011-10-09 11:01:32 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:01:32 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:01:32 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:01:32 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:01:32 释放结果集
+2011-10-09 11:01:32 完成整个查询任务,所用时间为0.00257587432861
+2011-10-09 11:01:33 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:01:33 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:01:33 释放结果集
+2011-10-09 11:01:33 完成整个查询任务,所用时间为0.00150513648987
+2011-10-09 11:01:36 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:01:36 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:01:36 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:01:36 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:01:36 释放结果集
+2011-10-09 11:01:36 完成整个查询任务,所用时间为0.00248098373413
+2011-10-09 11:01:37 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:01:37 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:01:37 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:01:37 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:01:37 释放结果集
+2011-10-09 11:01:37 完成整个查询任务,所用时间为0.0026388168335
+2011-10-09 11:01:40 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:01:40 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:01:40 释放结果集
+2011-10-09 11:01:40 完成整个查询任务,所用时间为0.00160789489746
+2011-10-09 11:01:43 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:01:43 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:01:43 释放结果集
+2011-10-09 11:01:43 完成整个查询任务,所用时间为0.00189995765686
+2011-10-09 11:01:51 查询 SELECT cid,path FROM category WHERE cid='5' LIMIT 1
+2011-10-09 11:01:51 获取一条记录 SELECT cid,path FROM category WHERE cid='5' LIMIT 1
+2011-10-09 11:01:51 插入 insert into category(`pid`,`path`,`name`) values('5','0,5,','企业文化')
+2011-10-09 11:01:51 查询 insert into category(`pid`,`path`,`name`) values('5','0,5,','企业文化')
+2011-10-09 11:01:51 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:01:51 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:01:51 释放结果集
+2011-10-09 11:01:51 完成整个查询任务,所用时间为0.00225806236267
+2011-10-09 11:01:53 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:01:53 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:01:53 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:01:53 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:01:53 释放结果集
+2011-10-09 11:01:53 完成整个查询任务,所用时间为0.00308012962341
+2011-10-09 11:01:54 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:01:54 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:01:54 释放结果集
+2011-10-09 11:01:54 完成整个查询任务,所用时间为0.0016610622406
+2011-10-09 11:02:08 查询 INSERT INTO custom VALUES(NULL,'19','test','kz','','','&nbsp;&nbsp;&nbsp; asdf<br />','','','','2011-10-09 11:02:08')
+2011-10-09 11:02:08 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:02:08 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:02:08 释放结果集
+2011-10-09 11:02:08 完成整个查询任务,所用时间为0.00265598297119
+2011-10-09 11:02:08 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:02:08 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:02:08 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:02:08 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:02:08 释放结果集
+2011-10-09 11:02:08 完成整个查询任务,所用时间为0.00268197059631
+2011-10-09 11:02:15 查询 SELECT * FROM custom WHERE id='1' LIMIT 1
+2011-10-09 11:02:15 获取一条记录 SELECT * FROM custom WHERE id='1' LIMIT 1
+2011-10-09 11:02:15 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:02:15 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:02:15 释放结果集
+2011-10-09 11:02:15 完成整个查询任务,所用时间为0.00190401077271
+2011-10-09 11:02:22 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:02:22 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:02:22 释放结果集
+2011-10-09 11:02:22 完成整个查询任务,所用时间为0.00195813179016
+2011-10-09 11:02:38 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:02:38 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:02:38 释放结果集
+2011-10-09 11:02:38 完成整个查询任务,所用时间为0.0017249584198
+2011-10-09 11:02:46 查询 SELECT cid,path FROM category WHERE cid='5' LIMIT 1
+2011-10-09 11:02:46 获取一条记录 SELECT cid,path FROM category WHERE cid='5' LIMIT 1
+2011-10-09 11:02:46 插入 insert into category(`pid`,`path`,`name`) values('5','0,5,','lkjiu')
+2011-10-09 11:02:46 查询 insert into category(`pid`,`path`,`name`) values('5','0,5,','lkjiu')
+2011-10-09 11:02:46 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:02:46 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:02:46 释放结果集
+2011-10-09 11:02:46 完成整个查询任务,所用时间为0.00210499763489
+2011-10-09 11:02:49 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:02:49 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:02:49 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:02:49 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:02:49 释放结果集
+2011-10-09 11:02:49 完成整个查询任务,所用时间为0.00271892547607
+2011-10-09 11:02:53 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:02:53 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:02:53 释放结果集
+2011-10-09 11:02:53 完成整个查询任务,所用时间为0.00157904624939
+2011-10-09 11:03:04 查询 INSERT INTO custom VALUES(NULL,'20','kkujghjk','','','','jhgfdghjkl;<br />','','','','2011-10-09 11:03:04')
+2011-10-09 11:03:04 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:03:04 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:03:04 释放结果集
+2011-10-09 11:03:04 完成整个查询任务,所用时间为0.00202798843384
+2011-10-09 11:03:04 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:03:04 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:03:04 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:03:04 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:03:04 释放结果集
+2011-10-09 11:03:04 完成整个查询任务,所用时间为0.00271010398865
+2011-10-09 11:03:12 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:03:12 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:03:12 释放结果集
+2011-10-09 11:03:12 完成整个查询任务,所用时间为0.00155997276306
+2011-10-09 11:03:27 查询 INSERT INTO custom VALUES(NULL,'20','hgfdfghkl','','','','hgfhjkl;\'<br />','','','','2011-10-09 11:03:27')
+2011-10-09 11:03:27 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:03:27 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:03:27 释放结果集
+2011-10-09 11:03:27 完成整个查询任务,所用时间为0.00202798843384
+2011-10-09 11:03:27 查询 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:03:27 获取一条记录 SELECT COUNT(id) AS total FROM custom
+2011-10-09 11:03:27 查询 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:03:27 获取全部记录 SELECT t.id,t.title,t.img,t.author,t.updateTime,t.`order`,c.name AS className FROM custom AS t LEFT JOIN category c ON t.cid=c.cid LIMIT 0,20
+2011-10-09 11:03:27 释放结果集
+2011-10-09 11:03:27 完成整个查询任务,所用时间为0.00264191627502
+2011-10-09 11:04:15 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:04:15 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,5,%' ORDER BY abspath
+2011-10-09 11:04:15 释放结果集
+2011-10-09 11:04:15 完成整个查询任务,所用时间为0.00634098052979
+2011-10-09 11:05:53 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:05:53 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category ORDER BY abspath,`order`
+2011-10-09 11:05:53 释放结果集
+2011-10-09 11:05:53 完成整个查询任务,所用时间为0.00463914871216
+2011-10-09 11:09:27 查询 SELECT name,`order` FROM category WHERE cid='18' LIMIT 1
+2011-10-09 11:09:27 获取一条记录 SELECT name,`order` FROM category WHERE cid='18' LIMIT 1
+2011-10-09 11:09:27 释放结果集
+2011-10-09 11:09:27 完成整个查询任务,所用时间为0.00154304504395
+2011-10-09 13:03:20 查询 SELECT name,`order` FROM category WHERE cid='18' LIMIT 1
+2011-10-09 13:03:20 获取一条记录 SELECT name,`order` FROM category WHERE cid='18' LIMIT 1
+2011-10-09 13:03:20 释放结果集
+2011-10-09 13:03:20 完成整个查询任务,所用时间为0.00205302238464
+2011-10-09 13:03:21 查询 SELECT * FROM news WHERE nid='' LIMIT 1
+2011-10-09 13:03:21 获取一条记录 SELECT * FROM news WHERE nid='' LIMIT 1
+2011-10-09 13:03:21 查询 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 13:03:21 获取全部记录 SELECT *,CONCAT(path,'',cid) AS abspath FROM category WHERE path LIKE '0,1,%' ORDER BY abspath
+2011-10-09 13:03:21 释放结果集
+2011-10-09 13:03:21 完成整个查询任务,所用时间为0.00186681747437
+2011-10-09 13:12:13 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:12:13 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:12:13 释放结果集
+2011-10-09 13:12:13 完成整个查询任务,所用时间为0.0143361091614
+2011-10-09 13:13:18 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:13:18 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:13:18 释放结果集
+2011-10-09 13:13:18 完成整个查询任务,所用时间为0.00667214393616
+2011-10-09 13:14:53 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:14:53 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:14:53 释放结果集
+2011-10-09 13:14:53 完成整个查询任务,所用时间为0.0312559604645
+2011-10-09 13:14:58 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:14:58 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:14:58 释放结果集
+2011-10-09 13:14:58 完成整个查询任务,所用时间为0.00162315368652
+2011-10-09 13:15:17 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:15:17 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:15:17 释放结果集
+2011-10-09 13:15:17 完成整个查询任务,所用时间为0.00161409378052
+2011-10-09 13:15:26 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:15:26 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:15:26 释放结果集
+2011-10-09 13:15:26 完成整个查询任务,所用时间为0.00168514251709
+2011-10-09 13:15:36 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:15:36 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:15:36 释放结果集
+2011-10-09 13:15:36 完成整个查询任务,所用时间为0.00204014778137
+2011-10-09 13:16:09 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:16:09 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:16:09 释放结果集
+2011-10-09 13:16:09 完成整个查询任务,所用时间为0.00155401229858
+2011-10-09 13:16:12 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:16:12 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:16:12 释放结果集
+2011-10-09 13:16:12 完成整个查询任务,所用时间为0.00201511383057
+2011-10-09 13:17:37 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:17:37 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:17:37 释放结果集
+2011-10-09 13:17:37 完成整个查询任务,所用时间为0.00157809257507
+2011-10-09 13:21:09 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:21:09 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:21:09 释放结果集
+2011-10-09 13:21:09 完成整个查询任务,所用时间为0.00194478034973
+2011-10-09 13:22:08 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:22:08 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:22:08 释放结果集
+2011-10-09 13:22:08 完成整个查询任务,所用时间为0.00181603431702
+2011-10-09 13:22:16 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:22:16 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:22:16 释放结果集
+2011-10-09 13:22:16 完成整个查询任务,所用时间为0.00206112861633
+2011-10-09 13:22:54 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:22:54 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:22:54 释放结果集
+2011-10-09 13:22:54 完成整个查询任务,所用时间为0.00164985656738
+2011-10-09 13:23:57 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:23:57 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:23:57 释放结果集
+2011-10-09 13:23:57 完成整个查询任务,所用时间为0.0023090839386
+2011-10-09 13:24:17 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:24:17 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:24:17 释放结果集
+2011-10-09 13:24:17 完成整个查询任务,所用时间为0.00202488899231
+2011-10-09 13:24:20 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:24:20 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:24:20 释放结果集
+2011-10-09 13:24:20 完成整个查询任务,所用时间为0.00211596488953
+2011-10-09 13:24:38 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:24:38 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:24:38 释放结果集
+2011-10-09 13:24:38 完成整个查询任务,所用时间为0.00158619880676
+2011-10-09 13:24:48 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:24:48 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:24:48 释放结果集
+2011-10-09 13:24:48 完成整个查询任务,所用时间为0.00204515457153
+2011-10-09 13:24:52 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:24:52 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:24:52 释放结果集
+2011-10-09 13:24:52 完成整个查询任务,所用时间为0.00175189971924
+2011-10-09 13:25:00 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:25:00 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:25:00 释放结果集
+2011-10-09 13:25:00 完成整个查询任务,所用时间为0.00222396850586
+2011-10-09 13:25:12 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:25:12 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:25:12 释放结果集
+2011-10-09 13:25:12 完成整个查询任务,所用时间为0.00188398361206
+2011-10-09 13:25:24 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:25:24 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:25:24 释放结果集
+2011-10-09 13:25:24 完成整个查询任务,所用时间为0.00187110900879
+2011-10-09 13:26:06 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:26:06 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:26:06 释放结果集
+2011-10-09 13:26:06 完成整个查询任务,所用时间为0.0015389919281
+2011-10-09 13:33:25 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:33:25 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:33:25 释放结果集
+2011-10-09 13:33:25 完成整个查询任务,所用时间为0.00217390060425
+2011-10-09 13:36:28 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:36:28 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:36:28 释放结果集
+2011-10-09 13:36:28 完成整个查询任务,所用时间为0.0360100269318
+2011-10-09 13:39:15 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:39:15 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:39:15 释放结果集
+2011-10-09 13:39:15 完成整个查询任务,所用时间为0.0222959518433
+2011-10-09 13:39:38 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:39:38 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:39:38 释放结果集
+2011-10-09 13:39:38 完成整个查询任务,所用时间为0.00186896324158
+2011-10-09 13:39:54 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:39:54 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:39:54 释放结果集
+2011-10-09 13:39:54 完成整个查询任务,所用时间为0.00160717964172
+2011-10-09 13:40:10 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:40:10 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:40:10 释放结果集
+2011-10-09 13:40:10 完成整个查询任务,所用时间为0.00159001350403
+2011-10-09 13:40:59 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:40:59 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:40:59 释放结果集
+2011-10-09 13:40:59 完成整个查询任务,所用时间为0.00305199623108
+2011-10-09 13:41:36 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:41:36 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:41:36 释放结果集
+2011-10-09 13:41:36 完成整个查询任务,所用时间为0.00174808502197
+2011-10-09 13:42:21 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:42:21 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:42:21 释放结果集
+2011-10-09 13:42:21 完成整个查询任务,所用时间为0.00252604484558
+2011-10-09 13:44:49 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:44:49 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:44:49 释放结果集
+2011-10-09 13:44:49 完成整个查询任务,所用时间为0.00701808929443
+2011-10-09 13:45:10 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:45:10 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:45:10 释放结果集
+2011-10-09 13:45:10 完成整个查询任务,所用时间为0.00233006477356
+2011-10-09 13:45:31 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:45:31 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:45:31 释放结果集
+2011-10-09 13:45:31 完成整个查询任务,所用时间为0.00215792655945
+2011-10-09 13:45:40 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:45:40 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:45:40 释放结果集
+2011-10-09 13:45:40 完成整个查询任务,所用时间为0.00249791145325
+2011-10-09 13:45:51 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:45:51 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:45:51 释放结果集
+2011-10-09 13:45:51 完成整个查询任务,所用时间为0.00243306159973
+2011-10-09 13:53:20 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:53:20 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:53:20 释放结果集
+2011-10-09 13:53:20 完成整个查询任务,所用时间为0.0359280109406
+2011-10-09 13:54:44 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:54:44 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:54:44 释放结果集
+2011-10-09 13:54:44 完成整个查询任务,所用时间为0.00158882141113
+2011-10-09 13:55:51 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:55:51 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:55:51 释放结果集
+2011-10-09 13:55:51 完成整个查询任务,所用时间为0.00258493423462
+2011-10-09 13:58:00 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:58:00 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:58:00 释放结果集
+2011-10-09 13:58:00 完成整个查询任务,所用时间为0.0402100086212
+2011-10-09 13:58:44 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:58:44 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:58:44 释放结果集
+2011-10-09 13:58:44 完成整个查询任务,所用时间为0.00504899024963
+2011-10-09 13:59:08 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:59:08 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:59:08 释放结果集
+2011-10-09 13:59:08 完成整个查询任务,所用时间为0.0049090385437
+2011-10-09 13:59:53 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:59:53 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 13:59:53 释放结果集
+2011-10-09 13:59:53 完成整个查询任务,所用时间为0.00172114372253
+2011-10-09 14:00:21 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:00:21 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:00:21 释放结果集
+2011-10-09 14:00:21 完成整个查询任务,所用时间为0.00196981430054
+2011-10-09 14:01:23 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:01:23 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:01:23 释放结果集
+2011-10-09 14:01:23 完成整个查询任务,所用时间为0.00200200080872
+2011-10-09 14:01:51 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:01:51 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:01:51 释放结果集
+2011-10-09 14:01:51 完成整个查询任务,所用时间为0.00182819366455
+2011-10-09 14:02:02 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:02:02 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:02:02 释放结果集
+2011-10-09 14:02:02 完成整个查询任务,所用时间为0.00197815895081
+2011-10-09 14:02:18 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:02:18 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:02:18 释放结果集
+2011-10-09 14:02:18 完成整个查询任务,所用时间为0.00211811065674
+2011-10-09 14:03:01 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:03:01 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:03:01 释放结果集
+2011-10-09 14:03:01 完成整个查询任务,所用时间为0.00219392776489
+2011-10-09 14:03:38 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:03:38 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:03:38 释放结果集
+2011-10-09 14:03:38 完成整个查询任务,所用时间为0.00220012664795
+2011-10-09 14:04:06 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:04:06 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:04:06 释放结果集
+2011-10-09 14:04:06 完成整个查询任务,所用时间为0.00163698196411
+2011-10-09 14:04:18 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:04:18 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:04:18 释放结果集
+2011-10-09 14:04:18 完成整个查询任务,所用时间为0.00207686424255
+2011-10-09 14:05:17 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:05:17 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:05:17 释放结果集
+2011-10-09 14:05:17 完成整个查询任务,所用时间为0.00168299674988
+2011-10-09 14:06:25 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:06:25 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:06:25 释放结果集
+2011-10-09 14:06:25 完成整个查询任务,所用时间为0.00178408622742
+2011-10-09 14:06:41 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:06:41 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:06:41 释放结果集
+2011-10-09 14:06:41 完成整个查询任务,所用时间为0.0019679069519
+2011-10-09 14:07:13 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:07:13 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:07:13 释放结果集
+2011-10-09 14:07:13 完成整个查询任务,所用时间为0.00194787979126
+2011-10-09 14:08:02 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:08:02 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:08:02 释放结果集
+2011-10-09 14:08:02 完成整个查询任务,所用时间为0.00173401832581
+2011-10-09 14:08:19 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:08:19 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:08:19 释放结果集
+2011-10-09 14:08:19 完成整个查询任务,所用时间为0.00218486785889
+2011-10-09 14:08:42 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:08:42 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:08:42 释放结果集
+2011-10-09 14:08:42 完成整个查询任务,所用时间为0.00229096412659
+2011-10-09 14:09:11 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:09:11 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:09:11 释放结果集
+2011-10-09 14:09:11 完成整个查询任务,所用时间为0.00258898735046
+2011-10-09 14:09:41 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:09:41 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:09:41 释放结果集
+2011-10-09 14:09:41 完成整个查询任务,所用时间为0.00198602676392
+2011-10-09 14:10:09 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:10:09 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:10:09 释放结果集
+2011-10-09 14:10:09 完成整个查询任务,所用时间为0.00168204307556
+2011-10-09 14:10:30 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:10:30 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:10:30 释放结果集
+2011-10-09 14:10:30 完成整个查询任务,所用时间为0.00175786018372
+2011-10-09 14:11:40 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:11:40 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:11:40 释放结果集
+2011-10-09 14:11:40 完成整个查询任务,所用时间为0.00212597846985
+2011-10-09 14:17:16 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:17:16 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:17:16 释放结果集
+2011-10-09 14:17:16 完成整个查询任务,所用时间为0.00204706192017
+2011-10-09 14:19:51 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:19:51 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:19:51 释放结果集
+2011-10-09 14:19:51 完成整个查询任务,所用时间为0.00202298164368
+2011-10-09 14:20:17 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:20:17 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:20:17 释放结果集
+2011-10-09 14:20:17 完成整个查询任务,所用时间为0.00188398361206
+2011-10-09 14:20:56 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:20:56 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:20:56 释放结果集
+2011-10-09 14:20:56 完成整个查询任务,所用时间为0.00203895568848
+2011-10-09 14:21:09 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:21:09 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:21:09 释放结果集
+2011-10-09 14:21:09 完成整个查询任务,所用时间为0.0023500919342
+2011-10-09 14:21:36 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:21:36 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:21:36 释放结果集
+2011-10-09 14:21:36 完成整个查询任务,所用时间为0.00212121009827
+2011-10-09 14:21:58 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:21:58 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:21:58 释放结果集
+2011-10-09 14:21:58 完成整个查询任务,所用时间为0.00227308273315
+2011-10-09 14:22:08 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:22:08 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:22:08 释放结果集
+2011-10-09 14:22:08 完成整个查询任务,所用时间为0.00222396850586
+2011-10-09 14:22:38 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:22:38 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:22:38 释放结果集
+2011-10-09 14:22:38 完成整个查询任务,所用时间为0.00163698196411
+2011-10-09 14:22:54 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:22:54 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:22:54 释放结果集
+2011-10-09 14:22:54 完成整个查询任务,所用时间为0.00925898551941
+2011-10-09 14:23:41 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:23:41 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:23:41 释放结果集
+2011-10-09 14:23:41 完成整个查询任务,所用时间为0.00188994407654
+2011-10-09 14:25:22 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:25:22 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:25:22 释放结果集
+2011-10-09 14:25:22 完成整个查询任务,所用时间为0.00165891647339
+2011-10-09 14:26:08 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:26:08 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:26:08 释放结果集
+2011-10-09 14:26:08 完成整个查询任务,所用时间为0.00194811820984
+2011-10-09 14:26:39 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:26:39 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:26:39 释放结果集
+2011-10-09 14:26:39 完成整个查询任务,所用时间为0.00185680389404
+2011-10-09 14:27:16 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:27:16 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:27:16 释放结果集
+2011-10-09 14:27:16 完成整个查询任务,所用时间为0.00193214416504
+2011-10-09 14:30:51 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:30:51 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:30:51 释放结果集
+2011-10-09 14:30:51 完成整个查询任务,所用时间为0.0336248874664
+2011-10-09 14:31:02 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:31:02 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:31:02 释放结果集
+2011-10-09 14:31:02 完成整个查询任务,所用时间为0.00209188461304
+2011-10-09 14:31:53 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:31:53 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:31:53 释放结果集
+2011-10-09 14:31:53 完成整个查询任务,所用时间为0.00161504745483
+2011-10-09 14:31:56 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:31:56 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:31:56 释放结果集
+2011-10-09 14:31:56 完成整个查询任务,所用时间为0.00199794769287
+2011-10-09 14:32:09 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:32:09 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:32:09 释放结果集
+2011-10-09 14:32:09 完成整个查询任务,所用时间为0.00256395339966
+2011-10-09 14:34:37 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:34:37 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:34:37 释放结果集
+2011-10-09 14:34:37 完成整个查询任务,所用时间为0.00192999839783
+2011-10-09 14:34:58 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:34:58 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:34:58 释放结果集
+2011-10-09 14:34:58 完成整个查询任务,所用时间为0.00225281715393
+2011-10-09 14:35:13 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:35:13 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:35:13 释放结果集
+2011-10-09 14:35:13 完成整个查询任务,所用时间为0.00662302970886
+2011-10-09 14:35:21 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:35:21 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:35:21 释放结果集
+2011-10-09 14:35:21 完成整个查询任务,所用时间为0.00207591056824
+2011-10-09 14:35:28 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:35:28 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:35:28 释放结果集
+2011-10-09 14:35:28 完成整个查询任务,所用时间为0.00154614448547
+2011-10-09 14:40:47 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:40:47 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:40:47 释放结果集
+2011-10-09 14:40:47 完成整个查询任务,所用时间为0.0349020957947
+2011-10-09 14:42:04 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:42:04 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:42:04 释放结果集
+2011-10-09 14:42:04 完成整个查询任务,所用时间为0.00156688690186
+2011-10-09 14:42:12 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:42:12 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:42:12 释放结果集
+2011-10-09 14:42:12 完成整个查询任务,所用时间为0.00195288658142
+2011-10-09 14:42:26 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:42:26 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:42:26 释放结果集
+2011-10-09 14:42:26 完成整个查询任务,所用时间为0.00213599205017
+2011-10-09 14:43:00 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:43:00 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:43:00 释放结果集
+2011-10-09 14:43:00 完成整个查询任务,所用时间为0.00223398208618
+2011-10-09 14:43:30 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:43:30 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:43:30 释放结果集
+2011-10-09 14:43:30 完成整个查询任务,所用时间为0.00158405303955
+2011-10-09 14:44:14 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:44:14 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:44:14 释放结果集
+2011-10-09 14:44:14 完成整个查询任务,所用时间为0.00201487541199
+2011-10-09 14:44:35 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:44:35 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:44:35 释放结果集
+2011-10-09 14:44:35 完成整个查询任务,所用时间为0.00202417373657
+2011-10-09 14:53:22 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:53:22 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:53:22 释放结果集
+2011-10-09 14:53:22 完成整个查询任务,所用时间为0.00211000442505
+2011-10-09 14:54:36 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:54:36 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:54:36 释放结果集
+2011-10-09 14:54:36 完成整个查询任务,所用时间为0.00190901756287
+2011-10-09 14:56:09 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:56:09 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:56:09 释放结果集
+2011-10-09 14:56:09 完成整个查询任务,所用时间为0.00197386741638
+2011-10-09 14:57:55 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:57:55 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 14:57:55 释放结果集
+2011-10-09 14:57:55 完成整个查询任务,所用时间为0.00209903717041
+2011-10-09 15:00:04 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:00:04 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:00:04 释放结果集
+2011-10-09 15:00:04 完成整个查询任务,所用时间为0.00189900398254
+2011-10-09 15:00:13 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:00:13 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:00:13 释放结果集
+2011-10-09 15:00:13 完成整个查询任务,所用时间为0.00213503837585
+2011-10-09 15:03:47 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:03:47 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:03:47 释放结果集
+2011-10-09 15:03:47 完成整个查询任务,所用时间为0.033164024353
+2011-10-09 15:04:15 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:04:15 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:04:15 释放结果集
+2011-10-09 15:04:15 完成整个查询任务,所用时间为0.00205111503601
+2011-10-09 15:05:33 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:05:33 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:05:33 释放结果集
+2011-10-09 15:05:33 完成整个查询任务,所用时间为0.00319695472717
+2011-10-09 15:05:52 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:05:52 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:05:52 释放结果集
+2011-10-09 15:05:52 完成整个查询任务,所用时间为0.00229096412659
+2011-10-09 15:07:31 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:07:31 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:07:31 释放结果集
+2011-10-09 15:07:31 完成整个查询任务,所用时间为0.00255608558655
+2011-10-09 15:07:39 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:07:39 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:07:39 释放结果集
+2011-10-09 15:07:39 完成整个查询任务,所用时间为0.00233101844788
+2011-10-09 15:09:23 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:09:23 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:09:23 释放结果集
+2011-10-09 15:09:23 完成整个查询任务,所用时间为0.00191593170166
+2011-10-09 15:09:42 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:09:42 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:09:42 释放结果集
+2011-10-09 15:09:42 完成整个查询任务,所用时间为0.00195002555847
+2011-10-09 15:13:48 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:13:48 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:13:48 释放结果集
+2011-10-09 15:13:48 完成整个查询任务,所用时间为0.0461311340332
+2011-10-09 15:13:54 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:13:54 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:13:54 释放结果集
+2011-10-09 15:13:54 完成整个查询任务,所用时间为0.00254082679749
+2011-10-09 15:14:18 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:14:18 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:14:18 释放结果集
+2011-10-09 15:14:18 完成整个查询任务,所用时间为0.00167012214661
+2011-10-09 15:15:14 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:15:14 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:15:14 释放结果集
+2011-10-09 15:15:14 完成整个查询任务,所用时间为0.00230193138123
+2011-10-09 15:22:03 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:22:03 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:22:03 释放结果集
+2011-10-09 15:22:03 完成整个查询任务,所用时间为0.0281291007996
+2011-10-09 15:22:48 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:22:48 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:22:48 释放结果集
+2011-10-09 15:22:48 完成整个查询任务,所用时间为0.00192594528198
+2011-10-09 15:24:33 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:33 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:33 释放结果集
+2011-10-09 15:24:33 完成整个查询任务,所用时间为0.0019748210907
+2011-10-09 15:24:37 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:37 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:37 释放结果集
+2011-10-09 15:24:37 完成整个查询任务,所用时间为0.00150990486145
+2011-10-09 15:24:45 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:45 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:45 更新 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.321564,36.115998',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.321564,36.115998' where 1=1 and cid='1'
+2011-10-09 15:24:45 查询 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.321564,36.115998',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.321564,36.115998' where 1=1 and cid='1'
+2011-10-09 15:24:45 释放结果集
+2011-10-09 15:24:45 完成整个查询任务,所用时间为0.0259428024292
+2011-10-09 15:24:45 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:45 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:45 释放结果集
+2011-10-09 15:24:45 完成整个查询任务,所用时间为0.00188899040222
+2011-10-09 15:24:59 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:59 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:59 更新 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.361592,36.105909',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.361592,36.105909' where 1=1 and cid='1'
+2011-10-09 15:24:59 查询 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.361592,36.105909',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.361592,36.105909' where 1=1 and cid='1'
+2011-10-09 15:24:59 释放结果集
+2011-10-09 15:24:59 完成整个查询任务,所用时间为0.00225901603699
+2011-10-09 15:24:59 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:59 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:24:59 释放结果集
+2011-10-09 15:24:59 完成整个查询任务,所用时间为0.00149297714233
+2011-10-09 15:30:21 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:21 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:21 释放结果集
+2011-10-09 15:30:21 完成整个查询任务,所用时间为0.00305795669556
+2011-10-09 15:30:35 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:35 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:35 更新 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.368778,36.152492',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.368778,36.152492' where 1=1 and cid='1'
+2011-10-09 15:30:35 查询 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.368778,36.152492',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.368778,36.152492' where 1=1 and cid='1'
+2011-10-09 15:30:35 释放结果集
+2011-10-09 15:30:35 完成整个查询任务,所用时间为0.00285005569458
+2011-10-09 15:30:35 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:35 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:35 释放结果集
+2011-10-09 15:30:35 完成整个查询任务,所用时间为0.00182390213013
+2011-10-09 15:30:43 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:43 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:43 更新 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.396015,36.126901',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.396015,36.126901' where 1=1 and cid='1'
+2011-10-09 15:30:43 查询 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.396015,36.126901',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.396015,36.126901' where 1=1 and cid='1'
+2011-10-09 15:30:43 释放结果集
+2011-10-09 15:30:43 完成整个查询任务,所用时间为0.00283813476562
+2011-10-09 15:30:43 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:43 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:43 释放结果集
+2011-10-09 15:30:43 完成整个查询任务,所用时间为0.00170493125916
+2011-10-09 15:30:54 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:54 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:54 更新 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.377546,36.12556',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.377546,36.12556' where 1=1 and cid='1'
+2011-10-09 15:30:54 查询 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.377546,36.12556',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.377546,36.12556' where 1=1 and cid='1'
+2011-10-09 15:30:54 释放结果集
+2011-10-09 15:30:54 完成整个查询任务,所用时间为0.00219893455505
+2011-10-09 15:30:54 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:54 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:30:54 释放结果集
+2011-10-09 15:30:54 完成整个查询任务,所用时间为0.00172400474548
+2011-10-09 15:31:32 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:31:32 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:31:32 释放结果集
+2011-10-09 15:31:32 完成整个查询任务,所用时间为0.00302696228027
+2011-10-09 15:31:57 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:31:57 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:31:57 更新 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.374231,36.110997',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.374231,36.110997' where 1=1 and cid='1'
+2011-10-09 15:31:57 查询 update comInfo set `name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.374231,36.110997',`name` = '智道传媒有限公司',`img` = '',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.374231,36.110997' where 1=1 and cid='1'
+2011-10-09 15:31:57 释放结果集
+2011-10-09 15:31:57 完成整个查询任务,所用时间为0.00291419029236
+2011-10-09 15:31:57 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:31:57 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:31:57 释放结果集
+2011-10-09 15:31:57 完成整个查询任务,所用时间为0.00171685218811
+2011-10-09 15:32:35 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:32:35 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:32:35 更新 update comInfo set `name` = '智道传媒有限公司',`img` = 'kaXhHCmI3wDQw-20111009153235.jpg',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.374231,36.110997',`name` = '智道传媒有限公司',`img` = 'kaXhHCmI3wDQw-20111009153235.jpg',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.374231,36.110997' where 1=1 and cid='1'
+2011-10-09 15:32:35 查询 update comInfo set `name` = '智道传媒有限公司',`img` = 'kaXhHCmI3wDQw-20111009153235.jpg',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.374231,36.110997',`name` = '智道传媒有限公司',`img` = 'kaXhHCmI3wDQw-20111009153235.jpg',`content` = '必须的',`keyword` = '网站建设',`description` = '选择智道，选择专业',`email` = 'zhidao_mail@163.com',`phone` = '0372-5566801',`fax` = '0372-5055766',`address` = '电脑城斜对面',`contactWho` = '申经理，孙经理',`xy` = '114.374231,36.110997' where 1=1 and cid='1'
+2011-10-09 15:32:35 释放结果集
+2011-10-09 15:32:35 完成整个查询任务,所用时间为0.0586321353912
+2011-10-09 15:32:35 查询 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:32:35 获取一条记录 SELECT * FROM comInfo LIMIT 1
+2011-10-09 15:32:35 释放结果集
+2011-10-09 15:32:35 完成整个查询任务,所用时间为0.00159096717834
